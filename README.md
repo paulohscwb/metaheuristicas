@@ -97,7 +97,7 @@
 			   <input type="radio" id="006a" name="sl" checked>
 			   <label for="006a"></label>
 			   <img src="parte1/10_01_06a.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = 1) da última apresentação de padrões para calcular o erro. Apenas o último padrão está classificado corretamente: logo, o erro quantitativo nesta primeira iteração é de 75%.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = 1) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo nesta primeira iteração é de 25%.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="007" name="sl" checked>
@@ -139,11 +139,54 @@
 			   <input type="radio" id="012a" name="sl" checked>
 			   <label for="012a"></label>
 			   <img src="parte1/10_01_12a.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = -2) da última apresentação de padrões para calcular o erro. Apenas o último padrão está classificado corretamente: logo, o erro quantitativo nesta primeira iteração é de 75%.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = -2) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo da segunda iteração é de 25%.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte1/10_01_02.png" class="fundo" style="visibility:hidden"/>
-  </details></div>
+		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <details class="sub"><summary>&#x1f4c3; Resolução: 3&ordf; ~ 9&ordf; iterações</summary>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas das 7 próximas iterações deste exercício da Rede Neural Perceptron.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="013" name="sl" checked>
+			   <label for="013"></label>
+			   <img src="parte1/10_01_13.png"/>
+			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, -2). Como y &ne; d, então os pesos são atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="014" name="sl" checked>
+			   <label for="014"></label>
+			   <img src="parte1/10_01_13.png"/>
+			   <figcaption>No final da terceira iteração, temos os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação. Note que temos 2 padrões classificados corretamente e os outros 2 na região de indefinição.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="015" name="sl" checked>
+			   <label for="015"></label>
+			   <img src="parte1/10_01_15.png"/>
+			   <figcaption>Fazendo os cálculos da mesma forma mostrada nas duas primeiras iterações, temos as classificações da quarta e da quinta iteração. Nestes casos, 3 padrões estão classificados corretamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="016" name="sl" checked>
+			   <label for="016"></label>
+			   <img src="parte1/10_01_17.png"/>
+			   <figcaption>Fazendo os cálculos da mesma forma mostrada nas duas primeiras iterações, temos as classificações da sexta e da sétima iteração. Nestes casos, 3 padrões estão classificados corretamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="017" name="sl" checked>
+			   <label for="017"></label>
+			   <img src="parte1/10_01_19.png"/>
+			   <figcaption>Fazendo os cálculos da mesma forma mostrada nas duas primeiras iterações, temos as classificações da oitava e da nona iteração. Os padrões ficam separados corretamente com a combinação de pesos da nona iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="018" name="sl" checked>
+			   <label for="018"></label>
+			   <img src="parte1/10_01_20.png"/>
+			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 2, w<sub>2</sub> = 3, &theta; = -4) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  </div>
   <img src="parte1/apostila_2020_1_19_0010a.png"/>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
