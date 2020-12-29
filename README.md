@@ -66,7 +66,7 @@
 		   <li>
 			   <input type="radio" id="002" name="sl" checked>
 			   <label for="002"></label>
-			   <img src="parte1/10_01_02.png"/>
+			   <img src="parte1/10_01_01.png"/>
 			   <figcaption>Os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; definem as equações das retas usadas para a classificação. O parâmetro &delta; cria uma região de indefinição para a classificação.</figcaption>
 		   </li>
 		   <li>
@@ -78,7 +78,7 @@
 		   <li>
 			   <input type="radio" id="004" name="sl" checked>
 			   <label for="004"></label>
-			   <img src="parte1/10_01_04.png"/>
+			   <img src="parte1/10_01_03.png"/>
 			   <figcaption>Note que as equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
@@ -90,7 +90,7 @@
 		   <li>
 			   <input type="radio" id="006" name="sl" checked>
 			   <label for="006"></label>
-			   <img src="parte1/10_01_06.png"/>
+			   <img src="parte1/10_01_05.png"/>
 			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como y = d, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da primeira iteração.</figcaption>
 		   </li>
 		   <li>
@@ -108,7 +108,7 @@
 		   <li>
 			   <input type="radio" id="008" name="sl" checked>
 			   <label for="008"></label>
-			   <img src="parte1/10_01_08.png"/>
+			   <img src="parte1/10_01_07.png"/>
 			   <figcaption>Note que as equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
