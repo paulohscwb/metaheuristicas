@@ -31,8 +31,6 @@ a[alt]:hover::after {
   box-shadow:0 0 1px #ff4500, 0 0 1px #ff4500 inset;
 }
 
-img{image-rendering: auto;}
-
 .topo::after {
     content: "";
     display: block;
@@ -41,7 +39,7 @@ img{image-rendering: auto;}
     width: 18px;
     height: 18px;
 	float: right;
-    margin: 9px 2px 0 6px;
+    margin: 8px 2px 0 6px;
 }
 
 .topop {
@@ -49,23 +47,17 @@ img{image-rendering: auto;}
 	line-height: 34px;
 }
 
-.atv{font-size:16px; color: crimson; font-weight:bold;}
-
 figcaption {
+  top: 0px;
+  background: white;
+  color: rgb(21,153,87);
   padding: 5px 1px 5px 1px;
   font-size: 14px;
-  color: rgb(21,153,87);
-  margin: 0 0 5px 0;
-  display:block;
-}
-
-li > figcaption {
-  top: 0px;
-  background: white; /*rgb(227,243,235);*/
   position: relative;
   height:auto;
-  box-shadow: 1px -1px 1px rgb(227,243,235);
+  box-shadow: 0 -1px 1px rgb(227,243,235);
   margin-bottom: 5px;
+  display:block;
 }
 summary {
   font-size: 18px;
@@ -75,7 +67,6 @@ summary {
   margin-bottom:8px;
   text-shadow: 1px 1px 1px rgb(227,243,235);
 }
-
 details {
   border: 1px solid #a2dec0;
   border-bottom: none;
@@ -84,29 +75,28 @@ details {
   width:100%;
 }
 
-.combo {
-	display:block;
-	box-shadow: 0px 1px 1px 0px rgba(21,153,87,0.2);
-	margin: 0 -3px 30px -3px;
-	width:100.7%;
-}
-
-details p {color: rgb(21,153,87);}
-
 .sub {
   border: none;
   padding: 3px;
   position:relative;
-  width:100%;
+  width:100.6%; 
+  box-shadow: 0px 1px 1px rgba(21,153,87,0.2); 
+  border-radius:0;
+  margin-left:-3px;
+  margin-bottom:10px;
 }
 
 .sub summary{
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 5px;
+  padding: 0 0 5px 4px;
   margin-left:0px;
+  border-radius:0;
   text-shadow: 1px 1px 1px rgb(227,243,235);
 }
+
+.sub p {color: rgb(21,153,87);}
 
 h4 {
   font-size: 15px;
@@ -137,9 +127,16 @@ h5 {
   font-size: 15px;
 }
 hr {
-  border: 1px solid rgb(21,153,87);
-  width: 98%;
-  margin: 5px 0 5px 0;
+  color: #a2dec0;
+  width: 95%;
+  margin: 5px;
+}
+h3::after {
+  content: '';
+  display: block;
+  background: rgb(21,153,87);
+  width: 61%;
+  height: 1px;
 }
 
 * { margin: 0; padding: 0; }
@@ -158,7 +155,7 @@ hr {
      position: relative;
  }
 
-.slider li {
+ .slider li {
      list-style: none;
      position: absolute;
 	 width: 100%;
@@ -167,17 +164,16 @@ hr {
 .slider input {
 	position: fixed;
 	opacity: 0;
-	pointer-events: none;
 }
 
 .slider label {
      background-color: #DCDCDC;
      top: -30px;
      cursor: pointer;
-	 display: block;
+     display: block;
      height: 27px;
      position: absolute;
-     width: min(50px, calc(100%/var(--mw)));
+     width: min(45px, calc(100%/var(--mw)));
      z-index: 10;
      border-radius: 5px;
      text-align:center;
@@ -189,7 +185,7 @@ hr {
 	 transition: .5s;
  }
 
-:root {--m: 13.25; --mw: 16.7;}
+:root {--m: 14; --mw: 16.7;}
 
 .slider li:nth-child(1) label {left: 0%;}
 
@@ -219,6 +215,10 @@ hr {
  
 .slider li:nth-child(14) label {left: calc(13*100% / var(--m));}
 
+.slider li:nth-child(15) label {left: calc(14*100% / var(--m));}
+
+.slider li:nth-child(16) label {left: calc(15*100% / var(--m));}
+
 .slider {
 	counter-reset: contador;
 }
@@ -231,7 +231,7 @@ hr {
  .slider img {
 	 margin-top:10px;
      opacity: 0;
-     visibility: hidden;
+     /*visibility: hidden;*/
      transition: all .5s;
 	 overflow:hidden;
 	 min-width:100%;
@@ -240,7 +240,7 @@ hr {
  .slider li input:checked ~ img  {
 	 opacity:1;
      transition: all .5s;
-     visibility: visible;
+     /*visibility: visible;*/
      z-index: 10;
  }
 
@@ -254,21 +254,15 @@ hr {
  .slider li input:checked ~figcaption {
      opacity: 1;
 	 transform: translateY(0);
-     transition: all 1s;
+     transition: all 1s ;
      visibility: visible;
      z-index: 10;
  }
 
-.slider li input:checked ~label {
+ .slider li input:checked ~label {
      background-color: #159957;
      color: white;
 	 transition: .5s;
-}
-
- .slider li input:checked ~ .embed-container iframe {
-	 opacity: 1;
-	 visibility: visible;
-     z-index: 10;
  }
 
 .embed-container {
@@ -277,6 +271,7 @@ hr {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  box-shadow: 0 1px 2px rgb(227,243,235);
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -285,10 +280,8 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
+  box-shadow: 0 1px 2px rgb(227,243,235);
 }
-
-.sub .embed-container iframe {visibility: hidden;}
-
 iframe {
   border:none;
   top:7px;
