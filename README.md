@@ -229,7 +229,7 @@
 			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 1, w<sub>2</sub> = 1, &theta; = -1) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte1/10_02_01.png" class="fundo" style="visibility:hidden"/>
   </details>
   </div>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
