@@ -1,37 +1,215 @@
-## Welcome to GitHub Pages
+<link rel="stylesheet" href="imagens/style.css">
+<script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+           tex2jax: {
+             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+             processEscapes: true
+           }
+         });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-You can use the [editor on GitHub](https://github.com/paulohscwb/ia/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h2 id="inicio">Algoritmos, exemplos e aplicações</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>Esta página contém os algoritmos e exemplos de algumas Metaheurísticas. Além disso, são mostradas as aplicações destas técnicas em várias áreas da Pesquisa Operacional.</p>
+<p>A apostila está disponível no link: <a href="#" target="_blank">apostila de Metaheurísticas</a></p>
 
-### Markdown
+<details>
+  <summary id="parte1">Redes Neurais Artificiais</summary>
+  <p>Material da página 1 até a página xx.</p>
+   <img src="parte1/apostila_2020_1_19_0001.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0002.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0003.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0004.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0005.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0006.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0007.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0008.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0009.png"/>
+   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Rede Neural Perceptron:
+<pre><code>0. Inicializar os pesos, o bias e a taxa de aprendizado: <a alt="vetor de pesos">w = 0</a>, <a alt="bias">&theta; = 0</a>, <a alt="taxa de aprendizagem">&alpha; = 1</a> 
+	1. Enquanto o <a alt="critérios de parada mais usados:&#10;número máximo de iterações, erro mínimo alcançado,&#10;ou número máximo de iterações sem modificações nos pesos">critério de parada</a> não for satisfeito, execute os passos 2-6:
+		2. Para cada par de dados de treinamento (x,d), execute os passos 3-5:
+		3. Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub> 
+		4. Se y* &gt; &delta;, então y = 1 
+		   Se -&delta; ≤ y* ≤ &delta;, então y = 0
+		   Se y* &lt; -&delta;, então y = -1 
+		5. Atualize os pesos e a tendência:
+		   Se y ≠ d, faça
+		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
+		   Caso contrário
+		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
+6. Teste a condição de parada.</code></pre></figcaption>
+   </details></div>
+   <img src="parte1/apostila_2020_1_19_0009a.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0010.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução: 1&ordf; e 2&ordf; iterações</summary>
+	<p>Vamos acompanhar os cálculos e as interpretações geométricas deste exercício da Rede Neural Perceptron.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="001" name="sl" checked>
+			   <label for="001"></label>
+			   <img src="parte1/10_01_01.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="002" name="sl" checked>
+			   <label for="002"></label>
+			   <img src="parte1/10_01_02.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="003" name="sl" checked>
+			   <label for="003"></label>
+			   <img src="parte1/10_01_03.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="004" name="sl" checked>
+			   <label for="004"></label>
+			   <img src="parte1/10_01_04.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="005" name="sl" checked>
+			   <label for="005"></label>
+			   <img src="parte1/10_01_05.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="006" name="sl" checked>
+			   <label for="006"></label>
+			   <img src="parte1/10_01_06.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="007" name="sl" checked>
+			   <label for="007"></label>
+			   <img src="parte1/10_01_07.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="008" name="sl" checked>
+			   <label for="008"></label>
+			   <img src="parte1/10_01_08.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="009" name="sl" checked>
+			   <label for="009"></label>
+			   <img src="parte1/10_01_09.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="010" name="sl" checked>
+			   <label for="010"></label>
+			   <img src="parte1/10_01_10.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="011" name="sl" checked>
+			   <label for="011"></label>
+			   <img src="parte1/10_01_11.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="012" name="sl" checked>
+			   <label for="012"></label>
+			   <img src="parte1/10_01_12.png"/>
+			   <figcaption>Exemplo de equação: $\mathsf{\alpha_1 = {\beta_1 \over 2}}$</figcaption>
+		   </li>
+		</ul>
+		<img src="parte1/10_01_02.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
+  <img src="parte1/apostila_2020_1_19_0010a.png"/>
+  <img src="parte1/apostila_2020_1_19_0010b.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0011.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0012.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <img src="parte1/apostila_2020_1_19_0013.png"/>
+  <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0014.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0015.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0016.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0017.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0018.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_1_19_0019.png"/>
+   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+</details>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<details>
+  <summary id="parte2">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+</details>
 
-```markdown
-Syntax highlighted code block
+<details>
+  <summary id="parte3">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
+</details>
 
-# Header 1
-## Header 2
-### Header 3
+<details>
+  <summary id="parte4">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+</details>
 
-- Bulleted
-- List
+<details>
+  <summary id="parte5">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+</details>
 
-1. Numbered
-2. List
+<details style="border-bottom: 1px solid #a2dec0;">
+  <summary id="parte6">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
+</details>
 
-**Bold** and _Italic_ and `Code` text
+<h4>página desenvolvida por:</h4> 
+<p>Paulo Henrique Siqueira</p>  
+<p><b>contato:</b> paulohscwb@gmail.com </p>
 
-[Link](url) and ![Image](src)
-```
+<h4>O desenvolvimento deste material de construções geométricas faz parte do Grupo de Estudos em Expressão Gráfica (GEEGRAF) da Universidade Federal do Paraná (UFPR)</h4>  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Metaheurísticas e Aplicações</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/ia/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>.
 
-### Jekyll Themes
+<h4>Como citar este trabalho:</h4> 
+<p>Siqueira, P.H., "Metaheurísticas e Aplicações". Disponível em: <https://paulohscwb.github.io/ia/>, Janeiro de 2021.</p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/paulohscwb/ia/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<h4>Referências:</h4>
+<ol>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+<ol>
