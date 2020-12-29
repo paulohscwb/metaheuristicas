@@ -120,7 +120,7 @@
 		   <li>
 			   <input type="radio" id="010" name="sl" checked>
 			   <label for="010"></label>
-			   <img src="parte1/10_01_10.png"/>
+			   <img src="parte1/10_01_09.png"/>
 			   <figcaption>Note que as equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
@@ -132,7 +132,7 @@
 		   <li>
 			   <input type="radio" id="012" name="sl" checked>
 			   <label for="012"></label>
-			   <img src="parte1/10_01_12.png"/>
+			   <img src="parte1/10_01_11.png"/>
 			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como y = d, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da segunda iteração.</figcaption>
 		   </li>
 		   <li>
