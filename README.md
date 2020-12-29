@@ -38,17 +38,17 @@
    <figcaption>Algoritmo da Rede Neural Perceptron:
 <pre><code>0. Inicializar os pesos, o bias e a taxa de aprendizado: <a alt="vetor de pesos">w = 0</a>, <a alt="bias">&theta; = 0</a>, <a alt="taxa de aprendizagem">&alpha; = 1</a> 
 	1. Enquanto o <a alt="critérios de parada mais usados:&#10;número máximo de iterações, erro mínimo alcançado,&#10;ou número máximo de iterações sem modificações nos pesos">critério de parada</a> não for satisfeito, execute os passos 2-6:
-		2. Para cada par de dados de treinamento (x,d), execute os passos 3-5:
-		3. Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub> 
-		4. Se y* &gt; &delta;, então y = 1 
+		2. <a alt="cada par de treinamento deve ser apresentado à rede">Para cada par de dados de treinamento (x,d)</a>, execute os passos 3-5:
+		3. <a alt="calculamos o valor da variável y* sem a função de ativação">Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
+		4. <a alt="Neste passo, calculamos a função de ativação em y*">Se y* &gt; &delta;, então y = 1</a> 
 		   Se -&delta; ≤ y* ≤ &delta;, então y = 0
 		   Se y* &lt; -&delta;, então y = -1 
-		5. Atualize os pesos e a tendência:
+		5. <a alt="A atualização dos pesos só é feita quando a rede erra a classificação">Atualize os pesos e a tendência:</a>
 		   Se y ≠ d, faça
 		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
 		   Caso contrário
 		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
-6. Teste a condição de parada.</code></pre></figcaption>
+6. <a alt="Neste passo, podemos calcular o erro quantitativo da rede">Teste a condição de parada.</a></code></pre></figcaption>
    </details></div>
    <img src="parte1/apostila_2020_1_19_0009a.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
@@ -188,6 +188,49 @@
   </details>
   </div>
   <img src="parte1/apostila_2020_1_19_0010a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício da Rede Neural Perceptron. Vamos usar entradas e saídas bipolares.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="019" name="sl" checked>
+			   <label for="019"></label>
+			   <img src="parte1/10_02_01.png"/>
+			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="020" name="sl" checked>
+			   <label for="020"></label>
+			   <img src="parte1/10_02_01.png"/>
+			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos apenas 1 padrão classificado corretamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="021" name="sl" checked>
+			   <label for="021"></label>
+			   <img src="parte1/10_02_03.png"/>
+			   <figcaption>O segundo padrão (1, -1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="022" name="sl" checked>
+			   <label for="022"></label>
+			   <img src="parte1/10_02_03.png"/>
+			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos 2 padrões classificados corretamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="023" name="sl" checked>
+			   <label for="023"></label>
+			   <img src="parte1/10_01_19.png"/>
+			   <figcaption>O terceiro padrão (-1, 1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados. Na apresentação do último padrão, temos que y = d e os valores dos pesos são mantidos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="018" name="sl" checked>
+			   <label for="018"></label>
+			   <img src="parte1/10_01_20.png"/>
+			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 1, w<sub>2</sub> = 1, &theta; = -1) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  </div>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0011.png"/>
