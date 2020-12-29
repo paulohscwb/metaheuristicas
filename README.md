@@ -54,7 +54,6 @@
    <img src="parte1/apostila_2020_1_19_0009a.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <img src="parte1/apostila_2020_1_19_0010.png"/>
-   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução: 1&ordf; e 2&ordf; iterações</summary>
 	<p>Vamos acompanhar os cálculos e as interpretações geométricas das 2 primeiras iterações deste exercício da Rede Neural Perceptron.</p>
 	  <ul class="slider">
