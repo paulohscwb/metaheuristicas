@@ -98,7 +98,7 @@
 			   <input type="radio" id="006a" name="sl" checked>
 			   <label for="006a"></label>
 			   <img src="parte1/10_01_06a.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = 1) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo nesta primeira iteração é de 25%.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = -1) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo nesta primeira iteração é de 25%.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="007" name="sl" checked>
@@ -158,7 +158,7 @@
 			   <input type="radio" id="014" name="sl" checked>
 			   <label for="014"></label>
 			   <img src="parte1/10_01_13.png"/>
-			   <figcaption>No final da terceira iteração, temos os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação. Note que temos 2 padrões classificados corretamente e os outros 2 na região de indefinição.</figcaption>
+			   <figcaption>Os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta;  definem as equações das retas usadas para a classificação. Note que temos 2 padrões classificados corretamente e os outros 2 na região de indefinição.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="015" name="sl" checked>
@@ -219,13 +219,13 @@
 		   <li>
 			   <input type="radio" id="023" name="sl" checked>
 			   <label for="023"></label>
-			   <img src="parte1/10_01_19.png"/>
+			   <img src="parte1/10_02_05.png"/>
 			   <figcaption>O terceiro padrão (-1, 1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados. Na apresentação do último padrão, temos que y = d e os valores dos pesos são mantidos.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="018" name="sl" checked>
-			   <label for="018"></label>
-			   <img src="parte1/10_01_20.png"/>
+			   <input type="radio" id="024" name="sl" checked>
+			   <label for="024"></label>
+			   <img src="parte1/10_02_07.png"/>
 			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 1, w<sub>2</sub> = 1, &theta; = -1) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
