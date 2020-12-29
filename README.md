@@ -49,6 +49,7 @@
 		   Caso contrário
 		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
 6. <a alt="Neste passo, podemos calcular o erro quantitativo da rede">Teste a condição de parada.</a>
+
 </code></pre></figcaption>
    </details></div>
    <img src="parte1/apostila_2020_1_19_0009a.png"/>
