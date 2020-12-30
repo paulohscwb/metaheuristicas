@@ -16,7 +16,7 @@
 
 <details>
   <summary id="parte1">Redes Neurais Artificiais - Perceptron e Adaline</summary>
-  <p>Material da página 1 até a página xx.</p>
+  <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <img src="parte1/apostila_2020_1_19_0002.png"/>
@@ -342,8 +342,8 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 </details>
 
 <details>
-  <summary id="parte2">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
+  <summary id="parte2">Redes Neurais Artificiais - Multi Layer Perceptron (MLP)</summary>
+  <p>Material da página 19 até a página xxx.</p>
   
   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
@@ -369,11 +369,39 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
 </details>
 
-<details style="border-bottom: 1px solid #a2dec0;">
+<details>
   <summary id="parte6">Título</summary>
   <p>Material da página xx até a página xxx.</p>
   
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
+</details>
+
+<details>
+  <summary id="parte7">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+</details>
+
+<details>
+  <summary id="parte8">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
+</details>
+
+<details>
+  <summary id="parte9">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+</details>
+
+<details style="border-bottom: 1px solid #a2dec0;">
+  <summary id="parte10">Título</summary>
+  <p>Material da página xx até a página xxx.</p>
+  
+  <p class="topop"><a href="#parte10" class="topo">voltar ao topo</a></p>
 </details>
 
 <h4>página desenvolvida por:</h4> 
