@@ -343,9 +343,51 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 
 <details>
   <summary id="parte2">Redes Neurais Artificiais - Multi Layer Perceptron (MLP)</summary>
-  <p>Material da página 19 até a página xxx.</p>
-  
-  <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <p>Material da página 19 até a página 40.</p>
+  <img src="parte1/apostila_2020_1_19_0019.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0020.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0021.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0022.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0023.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0024.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0025.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0026.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0027.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0028.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0029.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0030.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0031.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0032.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0033.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0034.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p> 
+  <img src="parte1/apostila_2020_20_40_0035.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0036.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0037.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0038.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0039.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
+  <img src="parte1/apostila_2020_20_40_0040.png"/>
+   <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
 
 <details>
