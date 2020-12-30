@@ -428,6 +428,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 	e teste o <a alt="erro mínimo ou número máximo de iterações">critério de parada.</a>
  
 </code></pre></figcaption>
+  </details></div>
   <img src="parte2/apostila_2020_20_40_0027a.png"/>
   <img src="parte2/apostila_2020_20_40_0027b.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
