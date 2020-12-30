@@ -257,6 +257,7 @@
 </code></pre></figcaption>
    </details></div>
    <img src="parte1/apostila_2020_1_19_0012a.png"/>
+   <figcaption>Para separar os dados em mais classes, podemos inserir mais neurônios na Rede Neural</figcaption>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <img src="parte1/apostila_2020_1_19_0013.png"/>
   <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
