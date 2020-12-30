@@ -359,7 +359,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte2/apostila_2020_20_40_0022.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
    <figcaption><p align="center">As derivadas das funções y<sub>k</sub> = tanh(y<sub>k</sub>*) e z<sub>j</sub> = tanh(z<sub>j</sub>*) com parâmetro &beta; = 1 são:
-   y'<sub>k</sub> = tanh(y<sub>k</sub>*) = (1 - y<sub>k</sub><sup>2</sup>) e z'<sub>j</sub> = tanh(z<sub>j</sub>*) = (1 - z<sub>j</sub><sup>2</sup>). 
+   <br>y'<sub>k</sub> = tanh(y<sub>k</sub>*) = (1 - y<sub>k</sub><sup>2</sup>) e z'<sub>j</sub> = tanh(z<sub>j</sub>*) = (1 - z<sub>j</sub><sup>2</sup>). 
    <br>Logo, a atualização de pesos v será <b>&#9651;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> - y<sub>k</sub>)(1 - y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub></b>.</p></figcaption>
    </details></div>
   <img src="parte2/apostila_2020_20_40_0022a.png"/>
