@@ -344,7 +344,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 <details>
   <summary id="parte2">Redes Neurais Artificiais - Multi Layer Perceptron (MLP)</summary>
   <p>Material da página 19 até a página 40.</p>
-  <img src="parte1/apostila_2020_1_19_0019.png"/>
+  <img src="parte2/apostila_2020_1_19_0019.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0020.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
