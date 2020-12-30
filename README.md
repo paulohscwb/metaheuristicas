@@ -375,7 +375,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
    <figcaption>Algoritmo 1 de Rede Neural MLP: 1 camada escondida, funções de ativação sigmoidais, m saídas
 <pre><code>0. Inicialize os <a alt="pesos w e bias &theta; com valores aleatórios">pesos das conexões e do bias com valores aleatórios</a>; 
 inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute os passos de 1 a 3:
-	1. <a alt="calculamos as saídas z da camada escondida de cada padrão de entrada&#10;depois, com os valores z encontramos os valores de cada saída y<sub>k</sub>">Calcule as entradas na camada escondida</a>, e a saída da rede:
+	1. <a alt="calculamos as saídas z da camada escondida de cada padrão de entrada&#10;depois, com os valores z encontramos os valores de cada saída yk">Calcule as entradas na camada escondida</a>, e a saída da rede:
 	   z<sub>j</sub>* = &sum;<sub>i</sub>v<sub>ij</sub>x<sub>i</sub> + &theta;a<sub>j</sub>  &rArr;  z<sub>j</sub> = 1/(1 + e<sup>-z<sub>j</sub>*</sup>), onde j = 1, ..., p, i = 1, ..., n
 	   y<sub>k</sub>* = &sum;<sub>j</sub>w<sub>jk</sub>z<sub>j</sub> + &theta;b<sub>k</sub>  &rArr;  y<sub>k</sub> = 1/(1 + e<sup>-y<sub>k</sub>*</sup>), onde k = 1, 2, ..., m 
 	2. <a alt="as correções da camada de saída são feitas antes&#10;os valores encontrados são repassados para a camada escondida (backpropagation)">Calcule as correções das conexões da camada de saída:</a>
@@ -395,7 +395,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 <pre><code>0. Inicialize os <a alt="pesos w e bias &theta; com valores aleatórios">pesos das conexões e do bias com valores aleatórios</a>; 
 inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute os passos de 1 a 3:
 	1. <a alt="calculamos as saídas z da camada escondida de cada padrão de entrada&#10;depois, com os valores z encontramos os valores da saída y">Calcule as entradas na camada escondida</a>, e a saída da rede:
-	   z<sub>j</sub>* = &sum;<sub>i</sub>v<sub>ij</sub>x<sub>i</sub> + &theta;a<sub>j</sub>  &rArr;  z<sub>j</sub> = 1/(1 + e<sup>-zj*</sup>), onde j = 1, ..., p, i = 1, ..., n
+	   z<sub>j</sub>* = &sum;<sub>i</sub>v<sub>ij</sub>x<sub>i</sub> + &theta;a<sub>j</sub>  &rArr;  z<sub>j</sub> = 1/(1 + e<sup>-z<sub>j</sub>*</sup>), onde j = 1, ..., p, i = 1, ..., n
 	   y = &sum;<sub>j</sub>w<sub>j</sub>z<sub>j</sub> + &theta;b  &rArr;  y = 1/(1 + e<sup>-y*</sup>), onde k = 1, 2, ..., m 
 	2. <a alt="as correções da camada de saída são feitas antes&#10;os valores encontrados são repassados para a camada escondida (backpropagation)">Calcule as correções das conexões da camada de saída:</a>
 	   &#9651;w<sub>j</sub> = &alpha;y(1 – y)(d – y)z<sub>j</sub>  &rArr;  w<sub>j</sub> = w<sub>j</sub> + &#9651;w<sub>j</sub> 
@@ -411,6 +411,25 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <img src="parte2/apostila_2020_20_40_0026b.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0027.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo 1 de Rede Neural MLP: 1 camada escondida, funções de ativação tanh, m saídas
+<pre><code>0. Inicialize os <a alt="pesos w e bias &theta; com valores aleatórios">pesos das conexões e do bias com valores aleatórios</a>; 
+inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute os passos de 1 a 3:
+	1. <a alt="calculamos as saídas z da camada escondida de cada padrão de entrada&#10;depois, com os valores z encontramos os valores de cada saída yk">Calcule as entradas na camada escondida</a>, e a saída da rede:
+	   z<sub>j</sub>* = &sum;<sub>i</sub>v<sub>ij</sub>x<sub>i</sub> + &theta;a<sub>j</sub>  &rArr;  z<sub>j</sub> = tanh(z<sub>j</sub>*), onde j = 1, ..., p, i = 1, ..., n
+	   y<sub>k</sub>* = &sum;<sub>j</sub>w<sub>jk</sub>z<sub>j</sub> + &theta;b<sub>k</sub>  &rArr;  y<sub>k</sub> = tanh(y<sub>k</sub>*), onde k = 1, 2, ..., m 
+	2. <a alt="as correções da camada de saída são feitas antes&#10;note que usamos a derivada da função tanh em todas as correções">Calcule as correções das conexões da camada de saída:</a>
+	   &#9651;w<sub>jk</sub> = &alpha;(1 – y<sub>k</sub><sup>2</sup>)(d<sub>k</sub> – y<sub>k</sub>)z<sub>j</sub>  &rArr;  w<sub>jk</sub> = w<sub>jk</sub> + &#9651;w<sub>jk</sub> 
+	   &#9651;&theta;b<sub>k</sub> = &alpha;(1 – y<sub>k</sub><sup>2</sup>)(d<sub>k</sub> – y<sub>k</sub>)  &rArr;  &theta;b<sub>k</sub> = &theta;b<sub>k</sub> + &#9651;&theta;b<sub>k</sub> 
+	3. <a alt="as correções da camada escondida são feitas por último&#10;note que usamos as derivadas da função tanh">Calcule as correções das conexões da camada escondida:</a>
+	   &#9651;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> – y<sub>k</sub>)(1 – y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub>  &rArr;  v<sub>ij</sub> = v<sub>ij</sub> + &#9651;v<sub>ij</sub> 
+	   &#9651;&theta;a<sub>j</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> – y<sub>k</sub>)(1 – y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)  &rArr;  &theta;a<sub>j</sub> = &theta;a<sub>j</sub> + &#9651;&theta;a<sub>j</sub> 
+	4. <a alt="atualização linear: &alpha; = 0,95.&alpha; ou &alpha; = 0,9.&alpha;">Atualize a taxa de aprendizagem</a>, verifique os erros para todos os padrões de entrada, 
+	e teste o <a alt="erro mínimo ou número máximo de iterações">critério de parada.</a>
+ 
+</code></pre></figcaption>
+  <img src="parte2/apostila_2020_20_40_0027a.png"/>
+  <img src="parte2/apostila_2020_20_40_0027b.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0028.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
