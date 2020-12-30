@@ -349,14 +349,18 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte2/apostila_2020_20_40_0020.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0021.png"/>
-  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Neste caso, o parâmetro &beta; da função sigmoidal é igual a 1.
-   <br>A derivada da função y = tanh(y<sub>k</sub>*) com parâmetro &beta; = 1 é y' = (1 - y<sub>k</sub><sup>2</sup>). 
-   <br>Logo, a atualização de pesos w será &#9651;w<sub>jk</sub> = &alpha;(1 - y<sub>k</sub><sup>2</sup>).(d<sub>k</sub> - y<sub>k</sub>).z<sub>j</sub>.</figcaption>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+   <figcaption align="center">Neste caso, o parâmetro &beta; da função sigmoidal é igual a 1.
+   <br>A derivada da função y<sub>k</sub> = tanh(y<sub>k</sub>*) com parâmetro &beta; = 1 é y'<sub>k</sub> = (1 - y<sub>k</sub><sup>2</sup>). 
+   <br>Logo, a atualização de pesos w será &#9651;w<sub>jk</sub> = &alpha;(1 - y<sub>k</sub><sup>2</sup>)(d<sub>k</sub> - y<sub>k</sub>)z<sub>j</sub>.</figcaption>
    </details></div>
   <img src="parte2/apostila_2020_20_40_0021a.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0022.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+   <figcaption align="center">As derivadas das funções y<sub>k</sub> = tanh(y<sub>k</sub>*) e z<sub>j</sub> = tanh(z<sub>j</sub>*) com parâmetro &beta; = 1 são y'<sub>k</sub> = tanh(y<sub>k</sub>*) = (1 - y<sub>k</sub><sup>2</sup>) e z'<sub>j</sub> = tanh(z<sub>j</sub>*) = (1 - z<sub>j</sub><sup>2</sup>). 
+   <br>Logo, a atualização de pesos v será &#9651;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> - y<sub>k</sub>)(1 - y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub>.</figcaption>
+   </details></div>
   <img src="parte2/apostila_2020_20_40_0022a.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0023.png"/>
