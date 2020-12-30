@@ -272,8 +272,8 @@
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Adaline:
 <pre><code>0. Inicializar os pesos <a alt="pesos com valores aleatórios">(w = rnd)</a>, a tendência <a alt="bias nulo">(&theta; = 0)</a>
-e a taxa de aprendizagem <a alt="taxa de aprendizagem com valor entre 0 e 1">0 &lt; &alpha; &lt; 1</a> (convergência fica muito lenta quando a taxa é muito próxima de zero; 
-e a convergência não é garantida para valores muito próximos de 1).
+e a taxa de aprendizagem <a alt="taxa de aprendizagem com valor entre 0 e 1">0 &lt; &alpha; &lt; 1</a> (convergência fica muito lenta quando a taxa é muito 
+próxima de zero; e a convergência não é garantida para valores muito próximos de 1).
 	1. Enquanto o critério de parada não for satisfeito, execute os passos 2-5:
 		2. Para cada par de dados para treinamento (x,d), execute os passos 3-4:
 			3. Faça <a alt="primeiro calculamos o valor de y*">y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
@@ -282,7 +282,8 @@ e a convergência não é garantida para valores muito próximos de 1).
 			    &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;(d – y*)
 			    <a alt="função de ativação do tipo limiar">se y* ≥ 0, y = 1; caso contrário, y = 0 (ou y = -1 para bipolar)</a>
 		5. <a alt="podem ser as mesmas condições usadas no Perceptron">Teste a condição de parada.</a> 
-	6. Se a maior alteração de pesos não ultrapassa um limite mínimo de tolerância, pare; caso contrário, continue. 
+	6. Se a maior alteração de pesos não ultrapassa um limite mínimo de tolerância, pare; 
+	caso contrário, continue. 
 </code></pre></figcaption>
    </details></div>
   <img src="parte1/apostila_2020_1_19_0018a.png"/>
