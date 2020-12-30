@@ -323,7 +323,7 @@ e a convergência não é garantida para valores muito próximos de 1).
 			   <input type="radio" id="030" name="sl">
 			   <label for="030"></label>
 			   <img src="parte1/18_01_06.png"/>
-			   <figcaption>Usando a equação do erro, similar à usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sub>)/2 = (1 - 1)<sup>2</sub> + (1 - 1)<sup>2</sub> + (1 - 1)<sup>2</sub> + (-1 - (-1))<sup>2</sub> = 0. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
+			   <figcaption>Usando a equação do erro, similar à usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (-1 - (-1))<sup>2</sup> = 0. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/18_01_01.png" class="fundo" style="visibility:hidden"/>
