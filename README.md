@@ -275,13 +275,13 @@
 e a taxa de aprendizagem <a alt="taxa de aprendizagem com valor entre 0 e 1">0 &lt; &alpha; &lt; 1</a> (convergência fica muito lenta quando a taxa é muito próxima de zero; 
 e a convergência não é garantida para valores muito próximos de 1).
 	1. Enquanto o critério de parada não for satisfeito, execute os passos 2-5:
-		2.	Para cada par de dados para treinamento (x,d), execute os passos 3-4:
-			3.	Faça <a alt="primeiro calculamos o valor de y*">y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
-			4.	<a alt="os pesos e o bias são sempre atualizados">Atualize os pesos e a tendência:</a>
+		2. Para cada par de dados para treinamento (x,d), execute os passos 3-4:
+			3. Faça <a alt="primeiro calculamos o valor de y*">y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
+			4. <a alt="os pesos e o bias são sempre atualizados">Atualize os pesos e a tendência:</a>
 			    w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;(d – y*)x<sub>i</sub>  
 			    &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;(d – y*)
 			    <a alt="função de ativação do tipo limiar">se y* ≥ 0, y = 1; caso contrário, y = 0 (ou y = -1 para bipolar)</a>
-		5.	<a alt="podem ser as mesmas condições usadas no Perceptron">Teste a condição de parada.</a> 
+		5. <a alt="podem ser as mesmas condições usadas no Perceptron">Teste a condição de parada.</a> 
 	6. Se a maior alteração de pesos não ultrapassa um limite mínimo de tolerância, pare; caso contrário, continue. 
 </code></pre></figcaption>
    </details></div>
