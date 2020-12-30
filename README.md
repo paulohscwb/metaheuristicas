@@ -266,6 +266,7 @@
   <img src="parte1/apostila_2020_1_19_0015.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0016.png"/>
+  <figcaption>Vamos utilizar a Regra Delta para deduzir as formas de atualizações dos pesos em algumas Redes Neurais. O princípio é sempre de buscar a minimização do erro de classificação de cada Rede Neural Artificial.</figcaption>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0017.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
