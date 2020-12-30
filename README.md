@@ -300,7 +300,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="026" name="sl">
 			   <label for="026"></label>
 			   <img src="parte1/18_01_02.png"/>
-			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Por exemplo, &delta;w<sub>1</sub> = &alpha;(d - y*).x<sub>1</sub> = 0,5.(1 - 0,8).1 = 0,5.0,2 = 0,1. Logo, w<sub>1</sub> = w<sub>1</sub> + &delta;w<sub>1</sub> = 0,3 + 0,1 = 0,4.</figcaption>
+			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Por exemplo, &#9651;w<sub>1</sub> = &alpha;(d - y*).x<sub>1</sub> = 0,5.(1 - 0,8).1 = 0,5.0,2 = 0,1. Logo, w<sub>1</sub> = w<sub>1</sub> + &#9651;w<sub>1</sub> = 0,3 + 0,1 = 0,4.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="026a" name="sl">
