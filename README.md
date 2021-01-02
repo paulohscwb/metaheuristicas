@@ -294,37 +294,31 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="025" name="sl">
 			   <label for="025"></label>
 			   <img src="parte1/18_01_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha;.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural Adaline fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha;.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="026" name="sl">
 			   <label for="026"></label>
 			   <img src="parte1/18_01_02.png"/>
-			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Por exemplo, &#9651;w<sub>1</sub> = &alpha;(d - y*).x<sub>1</sub> = 0,5.(1 - 0,8).1 = 0,5.0,2 = 0,1. Logo, w<sub>1</sub> = w<sub>1</sub> + &#9651;w<sub>1</sub> = 0,3 + 0,1 = 0,4.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="026a" name="sl">
-			   <label for="026a"></label>
-			   <img src="parte1/18_01_02.png"/>
-			   <figcaption>Os cálculos dos demais pesos são feitos analogamente. Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem a equação da reta usada para a classificação, temos 2 padrões classificados corretamente.</figcaption>
+			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Note que o termo &#9651;&theta; é comum na atualização dos pesos w<sub>1</sub> e w<sub>2</sub>; logo, podemos aplicar uma simplificação para estes cálculos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="027" name="sl">
 			   <label for="027"></label>
 			   <img src="parte1/18_01_03.png"/>
-			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. A reta com os coeficientes dos pesos classifica 2 padrões corretamente.</figcaption>
+			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="028" name="sl">
 			   <label for="028"></label>
 			   <img src="parte1/18_01_04.png"/>
-			   <figcaption>O padrão (-1, 1) é apresentado à rede, com a atualização automática dos pesos. A reta com os coeficientes dos pesos classifica 3 padrões corretamente.</figcaption>
+			   <figcaption>O padrão (-1, 1) é apresentado à rede, com a atualização automática dos pesos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="029" name="sl">
 			   <label for="029"></label>
 			   <img src="parte1/18_01_05.png"/>
-			   <figcaption>O padrão (-1, -1) é apresentado à rede, com a atualização automática dos pesos. A reta com os coeficientes dos pesos classifica todos os padrões corretamente.</figcaption>
+			   <figcaption>O padrão (-1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a reta com os coeficientes dos pesos classifica todos os padrões corretamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="030" name="sl">
@@ -430,6 +424,96 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </code></pre></figcaption>
   </details></div>
   <img src="parte2/apostila_2020_20_40_0027a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício da Rede Neural Multi Layer Perceptron (MLP). Vamos usar saídas binárias para classificar os padrões de entrada em dois conjuntos: A e B.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="031" name="sl">
+			   <label for="031"></label>
+			   <img src="parte2/27_01_01.png"/>
+			   <figcaption>A arquitetura da Rede Neural deste primeiro exercício fica análoga à arquitetura que usamos nos exemplos Perceptron e Adaline. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha; = 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="032" name="sl">
+			   <label for="032"></label>
+			   <img src="parte2/27_01_02.png"/>
+			   <figcaption>O primeiro padrão (0, 2) é apresentado à rede. Calculamos a saída y* e aplicamos a função de ativação sigmóide (pois a saída está no intervalo [0,1]). Note que podemos simplificar a atualização dos pesos, pois o termo &#9651;&theta; é comum nas atualizações dos pesos w<sub>1</sub>, w<sub>2</sub>. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="033" name="sl">
+			   <label for="033"></label>
+			   <img src="parte2/27_01_03.png"/>
+			   <figcaption>O padrão (1, 2) é apresentado à rede, com a atualização automática dos pesos. Aplicando a simplificação de atualização dos pesos, podemos calcular as atualizações para usarmos na próxima apresentação de padrão de entrada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="034" name="sl">
+			   <label for="034"></label>
+			   <img src="parte2/27_01_04.png"/>
+			   <figcaption>O padrão (1, 3) é apresentado à rede, com a atualização automática dos pesos. Este é o último padrão de entrada do conjunto com d = 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="035" name="sl">
+			   <label for="035"></label>
+			   <img src="parte2/27_01_05.png"/>
+			   <figcaption>O padrão (2, 1) é apresentado à rede, com a atualização automática dos pesos. Este é o primeiro padrão de entrada do conjunto com d = 0.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="036" name="sl">
+			   <label for="036"></label>
+			   <img src="parte2/27_01_06.png"/>
+			   <figcaption>O padrão (1, 0) é apresentado à rede, com a atualização automática dos pesos. Este é o último padrão de entrada nesta rede, finalizando a primeira iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="037" name="sl">
+			   <label for="037"></label>
+			   <img src="parte2/27_01_07.png"/>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,937. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="038" name="sl">
+			   <label for="038"></label>
+			   <img src="parte2/27_01_08.png"/>
+			   <figcaption>Na segunda iteração, precisamos atualizar a taxa de aprendizagem: &alpha; = &alpha;.0,95. O primeiro padrão (0, 2) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="039" name="sl">
+			   <label for="039"></label>
+			   <img src="parte2/27_01_09.png"/>
+			   <figcaption>O padrão (1, 2) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="040" name="sl">
+			   <label for="040"></label>
+			   <img src="parte2/27_01_10.png"/>
+			   <figcaption>O padrão (1, 3) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="041" name="sl">
+			   <label for="041"></label>
+			   <img src="parte2/27_01_11.png"/>
+			   <figcaption>O padrão (1, 0) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="042" name="sl">
+			   <label for="042"></label>
+			   <img src="parte2/27_01_12.png"/>
+			   <figcaption>O padrão (2, 1) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="043" name="sl">
+			   <label for="043"></label>
+			   <img src="parte2/27_01_13.png"/>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,859.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="044" name="sl">
+			   <label for="044"></label>
+			   <img src="parte2/27_01_14.png"/>
+			   <figcaption>Ao final da 10&ordf; iteração, temos esta combinação de pesos. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,222, que representa uma grande redução quando comparada com as duas primeiras iterações.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte2/27_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte2/apostila_2020_20_40_0027b.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0028.png"/>
