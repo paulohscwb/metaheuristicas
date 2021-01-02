@@ -589,6 +589,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0028.png"/>
+  <img src="parte2/apostila_2020_20_40_0028a.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0029.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
