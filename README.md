@@ -550,7 +550,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   </li>
 		   <li>
 			   <input type="radio" id="050" name="sl">
-			   <label for="050></label>
+			   <label for="050"></label>
 			   <img src="parte2/27_02_04.png"/>
 			   <figcaption>O padrão (1, 3) é apresentado à rede, com a atualização automática dos pesos. Este é o último padrão de entrada do conjunto com d = 1.</figcaption>
 		   </li>
