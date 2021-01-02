@@ -467,7 +467,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="037" name="sl">
 			   <label for="037"></label>
 			   <img src="parte2/27_01_07.png"/>
-			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,937. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,937. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="038" name="sl">
@@ -503,13 +503,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="043" name="sl">
 			   <label for="043"></label>
 			   <img src="parte2/27_01_13.png"/>
-			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,859.</figcaption>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,859.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="044" name="sl">
 			   <label for="044"></label>
 			   <img src="parte2/27_01_14.png"/>
-			   <figcaption>Ao final da 10&ordf; iteração, temos esta combinação de pesos. Usando a equação do erro, usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,222, que representa uma grande redução quando comparada com as duas primeiras iterações.</figcaption>
+			   <figcaption>Ao final da 10&ordf; iteração, temos esta combinação de pesos. O erro nesta iteração é E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,222, que representa uma grande redução quando comparada com as duas primeiras iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte2/27_01_01.png" class="fundo" style="visibility:hidden"/>
