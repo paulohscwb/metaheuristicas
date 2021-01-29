@@ -688,38 +688,38 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0041.png"/>
+  <img src="parte3/apostila_2020_40_52_0041.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0042.png"/>
+  <img src="parte3/apostila_2020_40_52_0042.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0043.png"/>
+  <img src="parte3/apostila_2020_40_52_0043.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0044.png"/>
-  <img src="parte3/apostila_2020_20_40_0044a.png"/>
+  <img src="parte3/apostila_2020_40_52_0044.png"/>
+  <img src="parte3/apostila_2020_40_52_0044a.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0045.png"/>
+  <img src="parte3/apostila_2020_40_52_0045.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0046.png"/>
+  <img src="parte3/apostila_2020_40_52_0046.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0047.png"/>
+  <img src="parte3/apostila_2020_40_52_0047.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0048.png"/>
-  <img src="parte3/apostila_2020_20_40_0048a.png"/>
-  <img src="parte3/apostila_2020_20_40_0048b.png"/>
-  <img src="parte3/apostila_2020_20_40_0048c.png"/>
+  <img src="parte3/apostila_2020_40_52_0048.png"/>
+  <img src="parte3/apostila_2020_40_52_0048a.png"/>
+  <img src="parte3/apostila_2020_40_52_0048b.png"/>
+  <img src="parte3/apostila_2020_40_52_0048c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0049.png"/>
+  <img src="parte3/apostila_2020_40_52_0049.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0050.png"/>
-  <img src="parte3/apostila_2020_20_40_0050a.png"/>
-  <img src="parte3/apostila_2020_20_40_0050b.png"/>
-  <img src="parte3/apostila_2020_20_40_0050c.png"/>
+  <img src="parte3/apostila_2020_40_52_0050.png"/>
+  <img src="parte3/apostila_2020_40_52_0050a.png"/>
+  <img src="parte3/apostila_2020_40_52_0050b.png"/>
+  <img src="parte3/apostila_2020_40_52_0050c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0051.png"/>
+  <img src="parte3/apostila_2020_40_52_0051.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
-  <img src="parte3/apostila_2020_20_40_0052.png"/>
-  <img src="parte3/apostila_2020_20_40_0052a.png"/>
-  <img src="parte3/apostila_2020_20_40_0052b.png"/>
+  <img src="parte3/apostila_2020_40_52_0052.png"/>
+  <img src="parte3/apostila_2020_40_52_0052a.png"/>
+  <img src="parte3/apostila_2020_40_52_0052b.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
 
