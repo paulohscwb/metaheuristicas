@@ -755,10 +755,10 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural de bases radiais (RBF):
 <pre><code>0. Considere uma base de dados (x<sub>i</sub>, d<sub>i</sub>), i = 1, 2,..., p, onde x<sub>i</sub> é um exemplo da base de dados 
-e d é o vetor de saídas desejadas correspondentes.
+   e d é o vetor de saídas desejadas correspondentes.
 1. Defina o número <a alt="centros das bases radiais">q de neurônios ocultos (bases radiais)</a>, em geral escolhe-se q &le; n. 
    Selecione aleatoriamente q exemplos do conjunto de dados, e faça a seguinte atribuição:
-u<sub>j</sub> = x<sub>j</sub>, j = 1, 2,..., q.
+   u<sub>j</sub> = x<sub>j</sub>, j = 1, 2,..., q.
 2. Especifique <a alt="raios das bases radiais">o(s) valor(es) do(s) raio(s) da função de base radial</a>, &sigma;<sub>j</sub>. 
    Cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
 3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
@@ -769,7 +769,7 @@ u<sub>j</sub> = x<sub>j</sub>, j = 1, 2,..., q.
 6. Após a apresentação de todos os exemplos, <a alt="vetor de pesos">calcule os pesos da saída:</a>
    w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
 <a alt="dedução do cálculo para o vetor de pesos">Temos essa expressão de w, pois:</a>
-Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-1</sup>(G<sup>T</sup>G)w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d  &rArr;  w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.
+   Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-1</sup>(G<sup>T</sup>G)w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d  &rArr;  w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.
 7. <a alt="saída da rede">Calcule a saída de cada exemplo:</a> y<sub>k</sub> = &sum;<sub>j=1</sub><sup>q+1</sup>w<sub>jk</sub>&phiv;<sub>j</sub>. Calcule o erro de classificação.
 
 </code></pre></figcaption>
@@ -821,7 +821,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,219.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte3/48_01_03.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/48_01_00.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
@@ -973,7 +973,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <figcaption>Ao final da 1&ordf; iteração, o vetor de pesos (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.66, 2.99, 1). Todos os padrões são classificados corretamente, e o treinamento da rede pode ser finalizado.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte3/50_01_01.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/50_02_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00050c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
