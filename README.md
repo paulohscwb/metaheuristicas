@@ -849,7 +849,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <input type="radio" id="082" name="sl">
 			   <label for="082"></label>
 			   <img src="parte3/48_02_04.png"/>
-			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
+			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a quarta coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="083" name="sl">
@@ -873,6 +873,43 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 		<img src="parte3/48_02_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048c.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função o "OU EXCLUSIVO" com a rede neural Radial Basis Function (RBF). Vamos utilizar 2 centros.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="086" name="sl">
+			   <label for="086"></label>
+			   <img src="parte3/48_03_01.png"/>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (1, 1) e (-1, 1), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado nas duas primeiras linha da matriz G: g<sub>1</sub> e g<sub>2</sub>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="087" name="sl">
+			   <label for="087"></label>
+			   <img src="parte3/48_03_02.png"/>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (-1, -1) e (1, -1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>3</sub> e g<sub>4</sub>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="088" name="sl">
+			   <label for="088"></label>
+			   <img src="parte3/48_03_03.png"/>
+			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="089" name="sl">
+			   <label for="089"></label>
+			   <img src="parte3/48_03_04.png"/>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="090" name="sl">
+			   <label for="090"></label>
+			   <img src="parte3/48_03_05.png"/>
+			   <figcaption>Temos que o erro é igual a ZERO para este problema de classificação usando a RBF de 2 centros.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte3/48_03_03.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
+  <img src="parte3/apostila_2020_40_52_00048d.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00049.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
