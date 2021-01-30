@@ -699,17 +699,17 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		  <li>
 			   <input type="radio" id="066" name="sl">
 			   <label for="066"></label>
-			   <img src="parte3/43_01_01.png"/>
+			   <img src="parte3/43_01_00.png"/>
 			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), temos o problema de Programação Quadrática apresentado. Os valores de &alpha;<sub>i</sub> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="067" name="sl">
 			   <label for="067"></label>
-			   <img src="parte3/43_01_02.png"/>
+			   <img src="parte3/43_01_01.png"/>
 			   <figcaption>Substituindo os valores de x na função de decisão, encontramos a função de 2&ordm; grau. A parábola faz a separação dos dados nas classes 1 e 2.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte3/43_01_02.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/43_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00044.png"/>
