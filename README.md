@@ -980,6 +980,20 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte3/apostila_2020_40_52_00051.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00052.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Rede Heteroassociativa:
+<pre><code>0. <a alt="pesos iniciam nulos">Inicialize os pesos w<sub>ij</sub> = 0</a>, onde i = 1, 2, ..., n, j = 1, 2, ..., m.
+	1. Para cada par de treinamento (x,d),</a> faça os passos 2-4:
+	2. <a alt="calculamos a saída y*">y<sub>j</sub>* = &sum;<sub>i</sub>x<sub>i</sub>w<sub>ij</sub>
+	3. <a alt="calculamos a saída y">Se y<sub>j</sub>* &gt; 0</a>, y<sub>j</sub> = 1
+	   Se y<sub>j</sub>* = 0, y<sub>j</sub> = 0
+	   Se y<sub>j</sub>* &lt; 0, y<sub>j</sub> = -1
+	4. <a alt="atualização de pesos parecida com a do Perceptron">w<sub>ij</sub><sup>atual</sup></a> = w<sub>ij</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub> 
+5. <a alt="calculamos a saída y*">Faça y* = w<sub>i</sub>x<sub>i</sub> + &theta;,</a> onde i = 1, 2, ..., n
+4. <a alt="teste de convergência similar ao que usamos no Perceptron e MLP">Reduza &alpha; e teste a convergência.</a> Se necessário, repita os passos de 1-4.
+
+</code></pre></figcaption>
+   </details></div>
   <img src="parte3/apostila_2020_40_52_00052a.png"/>
   <img src="parte3/apostila_2020_40_52_00052b.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
