@@ -759,7 +759,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 2. Especifique <a alt="raios das bases radiais">o(s) valor(es) do(s) raio(s) da função de base radial</a>, &sigma;<sub>j</sub>; cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
 3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
 	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida: 
-	&phi;<sub>j</sub> = $\mathsf{e^{-{1 \over {2 \sigma_j^2}}‖x_i-u_j ‖^2}}$ 
+	&Phi;<sub>j</sub> = $\mathsf{e ^ { -{1 \over {2 \sigma_j ^ 2}}‖x_i - u_j‖ ^ 2}}$ 
 	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
 	G<sub>i,j</sub> = &phi;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, calcule os pesos da saída:
