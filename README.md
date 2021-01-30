@@ -752,6 +752,22 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte3/apostila_2020_40_52_00047.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00048.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Rede Neural Perceptron com bolso:
+<pre><code>0. Considere uma base de dados (x<sub>i</sub>, d<sub>i</sub>), i = 1, 2,..., p, onde x<sub>i</sub> é um exemplo da base de dados e d é o vetor de saídas desejadas correspondentes.
+1. Defina o número <a alt="centros das bases radiais">q de neurônios ocultos (bases radiais)</a>, em geral escolhe-se q &le; n. Selecione aleatoriamente q exemplos do conjunto de dados, e faça a seguinte atribuição: u<sub>j</sub> = x<sub>j</sub>, j = 1, 2,..., q.
+2. Especifique <a alt="raios das bases radiais">o(s) valor(es) do(s) raio(s) da função de base radial</a>, &sigma;<sub>j</sub>; cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
+3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
+	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida: 
+	&phi;<sub>j</sub> = $\mathsf{e^{-{1 \over {2 \sigma_j^2}}‖x_i-u_j ‖^2}}$ 
+	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
+	G<sub>i,j</sub> = &phi;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
+6. Após a apresentação de todos os exemplos, calcule os pesos da saída:
+w = (G<sup>T<sup>G)<sup>-1</sup>G<sup>T</sup>d
+7. Calcule a saída de cada exemplo: y<sub>k</sub> = $\mathsf{ \sum{j=1}^{q+1}w_{jk}\varphi_j}$. Calcule o erro de classificação.
+
+</code></pre></figcaption>
+   </details></div>
   <img src="parte3/apostila_2020_40_52_00048a.png"/>
   <img src="parte3/apostila_2020_40_52_00048b.png"/>
   <img src="parte3/apostila_2020_40_52_00048c.png"/>
