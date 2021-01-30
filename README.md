@@ -693,8 +693,56 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte3/apostila_2020_40_52_00042.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00043.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de Support Vector Machine (SVM). A rede deve separar os dados de entrada em duas classes.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="066" name="sl">
+			   <label for="066"></label>
+			   <img src="parte3/43_01_01.png"/>
+			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), temos o problema de Programação Quadrática apresentado. Os valores de &alpha;<sub>i</sub> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="067" name="sl">
+			   <label for="067"></label>
+			   <img src="parte3/43_01_02.png"/>
+			   <figcaption>Substituindo os valores de x na função de decisão, encontramos a função de 2&ordm; grau. A parábola faz a separação dos dados nas classes 1 e 2.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte6/43_01_02.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00044.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de Support Vector Machine (SVM). A rede deve separar os dados de entrada em duas classes.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="068" name="sl">
+			   <label for="068"></label>
+			   <img src="parte3/44_01_00.png"/>
+			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), precisamos desenvolvê-la para inserir os dados de entrada das variáveis x<sub>1</sub> e x<sub>2</sub>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="069" name="sl">
+			   <label for="069"></label>
+			   <img src="parte3/44_01_01.png"/>
+			   <figcaption>Substituindo os valores de x<sub>1</sub> e x<sub>2</sub> na função de decisão, encontramos os vetores de decisão.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="070" name="sl">
+			   <label for="070"></label>
+			   <img src="parte3/44_01_02.png"/>
+			   <figcaption>Resolvendo o problema de programação quadrática, todas as variáveis de decisão ficam com os respectivos valores $\mathsf{\alpha_i = {1 \over 8}}$, ou seja, todas as variáveis representam vetores suportes. Substituindo estes valores, temos o vetor w.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="071" name="sl">
+			   <label for="071"></label>
+			   <img src="parte3/44_01_03.png"/>
+			   <figcaption>A função decisão fica representada por f(x) = &minus;x<sub>1</sub>x<sub>2</sub>. Todos os dados de entrada ficam classificados corretamente com a SVM apresentada.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte6/44_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte3/apostila_2020_40_52_00044a.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00045.png"/>
