@@ -763,7 +763,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
 	G<sub>i,j</sub> = &phi;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, calcule os pesos da saída:
-w = (G<sup>T<sup>G)<sup>-1</sup>G<sup>T</sup>d
+w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
 7. Calcule a saída de cada exemplo: y<sub>k</sub> = $\mathsf{ \sum{j=1}^{q+1}w_{jk}\varphi_j}$. Calcule o erro de classificação.
 
 </code></pre></figcaption>
