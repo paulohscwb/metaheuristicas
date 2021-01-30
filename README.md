@@ -776,7 +776,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
    </details></div>
   <img src="parte3/apostila_2020_40_52_00048a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural Radial Basis Function (RBF). A rede deve separar os dados de entrada em duas classes.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural Radial Basis Function (RBF). A rede deve separar os dados de entrada em duas classes usando 2 centros.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="072" name="sl">
@@ -812,7 +812,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <input type="radio" id="077" name="sl">
 			   <label for="077"></label>
 			   <img src="parte3/48_01_05.png"/>
-			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois primeiros padrões de entrada.</figcaption>
+			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="078" name="sl">
@@ -825,52 +825,52 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural Radial Basis Function (RBF). A rede deve separar os dados de entrada em duas classes.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural Radial Basis Function (RBF). A rede deve separar os dados de entrada em duas classes com 3 centros.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="072" name="sl">
-			   <label for="072"></label>
-			   <img src="parte3/48_01_00.png"/>
+			   <input type="radio" id="079" name="sl">
+			   <label for="079"></label>
+			   <img src="parte3/48_02_01.png"/>
 			   <figcaption>Vamos começar com a apresentação do padrão de entrada (x<sub>1</sub>, x<sub>2</sub>) = (0, 2), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz G: g<sub>1</sub>.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="073" name="sl">
-			   <label for="073"></label>
-			   <img src="parte3/48_01_01.png"/>
+			   <input type="radio" id="080" name="sl">
+			   <label for="080"></label>
+			   <img src="parte3/48_02_02.png"/>
 			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 2) e (1, 3). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>2</sub> e g<sub>3</sub>.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="074" name="sl">
-			   <label for="074"></label>
-			   <img src="parte3/48_01_02.png"/>
+			   <input type="radio" id="081" name="sl">
+			   <label for="081"></label>
+			   <img src="parte3/48_02_03.png"/>
 			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 0) e (2, 1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>4</sub> e g<sub>5</sub>.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="075" name="sl">
-			   <label for="075"></label>
-			   <img src="parte3/48_01_03.png"/>
+			   <input type="radio" id="082" name="sl">
+			   <label for="082"></label>
+			   <img src="parte3/48_02_04.png"/>
 			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="076" name="sl">
-			   <label for="076"></label>
-			   <img src="parte3/48_01_04.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
+			   <input type="radio" id="083" name="sl">
+			   <label for="083"></label>
+			   <img src="parte3/48_02_05.png"/>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + w<sub>3</sub>&phiv;<sub>3</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="077" name="sl">
-			   <label for="077"></label>
-			   <img src="parte3/48_01_05.png"/>
-			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois primeiros padrões de entrada.</figcaption>
+			   <input type="radio" id="084" name="sl">
+			   <label for="084"></label>
+			   <img src="parte3/48_02_06.png"/>
+			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois padrões de entrada.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="078" name="sl">
-			   <label for="078"></label>
-			   <img src="parte3/48_01_06.png"/>
-			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,219.</figcaption>
+			   <input type="radio" id="085" name="sl">
+			   <label for="085"></label>
+			   <img src="parte3/48_02_07.png"/>
+			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,0057.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte6/48_01_03.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte6/48_02_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
