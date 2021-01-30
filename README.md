@@ -757,17 +757,17 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 <pre><code>0. Considere uma base de dados (x<sub>i</sub>, d<sub>i</sub>), i = 1, 2,..., p, onde x<sub>i</sub> é um exemplo da base de dados 
 e d é o vetor de saídas desejadas correspondentes.
 1. Defina o número <a alt="centros das bases radiais">q de neurônios ocultos (bases radiais)</a>, em geral escolhe-se q &le; n. 
-Selecione aleatoriamente q exemplos do conjunto de dados, e faça a seguinte atribuição:
+   Selecione aleatoriamente q exemplos do conjunto de dados, e faça a seguinte atribuição:
 u<sub>j</sub> = x<sub>j</sub>, j = 1, 2,..., q.
 2. Especifique <a alt="raios das bases radiais">o(s) valor(es) do(s) raio(s) da função de base radial</a>, &sigma;<sub>j</sub>. 
-Cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
+   Cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
 3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
 	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida:
-	&phiv;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
+	   &phiv;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
 	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
-	G<sub>i,j</sub> = &phiv;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
+	   G<sub>i,j</sub> = &phiv;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, <a alt="vetor de pesos">calcule os pesos da saída:</a>
-w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
+   w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
 <a alt="dedução do cálculo para o vetor de pesos">Temos essa expressão de w, pois:</a>
 Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-1</sup>(G<sup>T</sup>G)w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d  &rArr;  w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.
 7. <a alt="saída da rede">Calcule a saída de cada exemplo:</a> y<sub>k</sub> = &sum;<sub>j=1</sub><sup>q+1</sup>w<sub>jk</sub>&phiv;<sub>j</sub>. Calcule o erro de classificação.
@@ -874,7 +874,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048c.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função o "OU EXCLUSIVO" com a rede neural Radial Basis Function (RBF). Vamos utilizar 2 centros.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função "OU EXCLUSIVO" com a rede neural Radial Basis Function (RBF). Vamos utilizar 2 centros.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="086" name="sl">
@@ -918,15 +918,63 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
    <figcaption>Algoritmo da Rede Neural de Hebb:
 <pre><code>0. <a alt="pesos iniciam nulos">Inicialize os pesos w<sub>i</sub> = 0</a>, onde i = 1, 2, ..., n
 	1. <a alt="atualização de pesos parecida com a do Perceptron">Para cada par de treinamento (x,d),</a> faça:
-	2. 	w<sub>i</sub><sup>atual</sup> = <sub>i</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub> 
-		&theta;<sub>i</sub><sup>atual</sup> = &theta;<sub>i</sub><sup>anterior</sup> + &alpha;d<sub>i</sub> 
+	2. w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub> 
+	   &theta;<sub>i</sub><sup>atual</sup> = &theta;<sub>i</sub><sup>anterior</sup> + &alpha;d<sub>i</sub> 
 	3. <a alt="calculamos a saída y*">Faça y* = w<sub>i</sub>x<sub>i</sub> + &theta;,</a> onde i = 1, 2, ..., n
 4. <a alt="teste de convergência similar ao que usamos no Perceptron e MLP">Teste a convergência.</a> Se necessário, repita os passos 1-3.
 
 </code></pre></figcaption>
    </details></div>
   <img src="parte3/apostila_2020_40_52_00050a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função "OU" com a rede neural de Hebb, com &alpha; = 1.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="091" name="sl">
+			   <label for="091"></label>
+			   <img src="parte3/50_01_01.png"/>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (1, 1) e (1, -1) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (2, 0, 2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="092" name="sl">
+			   <label for="092"></label>
+			   <img src="parte3/50_01_02.png"/>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (-1, 1) e (-1, -1). As atualizações dos pesos produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (2, 2, 2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="093" name="sl">
+			   <label for="093"></label>
+			   <img src="parte3/50_01_03.png"/>
+			   <figcaption>Ao final da 1&ordf; iteração, temos todos os padrões classificados corretamente. Logo, o treinamento pode ser finalizado.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte3/50_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte3/apostila_2020_40_52_00050b.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões  com a rede neural de Hebb, com &alpha; = 1. Precisamos deixar os padrões de entrada no intervalo [-1, 1] para que a rede de Hebb funcione adequadamente.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="094" name="sl">
+			   <label for="094"></label>
+			   <img src="parte3/50_02_01.png"/>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (-1, 0.33) e (-0.33, 0.33) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.33, 0.66, 2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="095" name="sl">
+			   <label for="095"></label>
+			   <img src="parte3/50_02_02.png"/>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (-0.33, 1) e (-0.33, -1). As atualizações dos pesos produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.33, 2.66, 2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="096" name="sl">
+			   <label for="096"></label>
+			   <img src="parte3/50_02_03.png"/>
+			   <figcaption>Ao final da 1&ordf; iteração, o vetor de pesos (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.66, 2.99, 1). Todos os padrões são classificados corretamente, e o treinamento da rede pode ser finalizado.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte3/50_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte3/apostila_2020_40_52_00050c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00051.png"/>
