@@ -765,10 +765,10 @@ Cada neurônio pode ter um raio diferente, para termos maior diversificação da
 	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida:
 	&phiv;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
 	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
-	G<sub>i,j</sub> = &phi;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
+	G<sub>i,j</sub> = &phiv;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, <a alt="vetor de pesos">calcule os pesos da saída:</a>
 w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
-Temos essa expressão de w, pois:
+<a alt="dedução do cálculo para o vetor de pesos">Temos essa expressão de w, pois:
 Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-1</sup>(G<sup>T</sup>G)w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d  &rArr;  w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.
 7. <a alt="saída da rede">Calcule a saída de cada exemplo:</a> y<sub>k</sub> = &sum;<sub>j=1</sub><sup>q+1</sup>w<sub>jk</sub>&phiv;<sub>j</sub>. Calcule o erro de classificação.
 
