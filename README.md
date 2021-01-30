@@ -952,7 +952,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte3/apostila_2020_40_52_00050b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões  com a rede neural de Hebb, com &alpha; = 1. Precisamos deixar os padrões de entrada no intervalo [-1, 1] para que a rede de Hebb funcione adequadamente.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural de Hebb, com &alpha; = 1. Precisamos deixar os padrões de entrada no intervalo [-1, 1] para que a rede de Hebb funcione adequadamente.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="094" name="sl">
@@ -995,6 +995,30 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </code></pre></figcaption>
    </details></div>
   <img src="parte3/apostila_2020_40_52_00052a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural Heteroassociativa, com &alpha; = 1.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="097" name="sl">
+			   <label for="097"></label>
+			   <img src="parte3/52_01_01.png"/>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>) = (1, 0, 0, 0) e (1, 1, 0, 0) para a rede. As atualizações dos pesos são automáticas e produzem a matriz de pesos indicada w<sub>ij</sub>, com i = 1, 2, 3, 4 e j = 1, 2.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="098" name="sl">
+			   <label for="098"></label>
+			   <img src="parte3/52_01_02.png"/>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (0, 0, 0 ,1) e (0, 0, 1, 1). As atualizações dos pesos produzem a matriz de pesos indicada w<sub>ij</sub>, com i = 1, 2, 3, 4 e j = 1, 2.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="099" name="sl">
+			   <label for="099"></label>
+			   <img src="parte3/52_01_03.png"/>
+			   <figcaption>Multiplicando-se a matriz de pesos W pelos vetores dos dados de entrada, temos o reconhecimento destes padrões. O processo de treinamento desta rede pode ser finalizado.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte3/52_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte3/apostila_2020_40_52_00052b.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
