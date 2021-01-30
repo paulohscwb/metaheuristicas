@@ -709,7 +709,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <figcaption>Substituindo os valores de x na função de decisão, encontramos a função de 2&ordm; grau. A parábola faz a separação dos dados nas classes 1 e 2.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte6/43_01_02.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/43_01_02.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00044.png"/>
@@ -741,7 +741,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <figcaption>A função decisão fica representada por f(x) = &minus;x<sub>1</sub>x<sub>2</sub>. Todos os dados de entrada ficam classificados corretamente com a SVM apresentada.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte6/44_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/44_01_00.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00044a.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
@@ -821,7 +821,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,219.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte6/48_01_03.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/48_01_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
@@ -870,7 +870,7 @@ Gw = d  &rArr;  G<sup>T</sup>Gw = G<sup>T</sup>d  &rArr;  (G<sup>T</sup>G)<sup>-
 			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,0057.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte6/48_02_03.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte3/48_02_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
