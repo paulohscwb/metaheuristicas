@@ -762,7 +762,7 @@ Selecione aleatoriamente q exemplos do conjunto de dados, e faça a seguinte atr
 Cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
 3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
 	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida:
-	&#x3C6;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup> 
+	&#x3C6;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
 	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
 	G<sub>i,j</sub> = &phi;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, <a alt="vetor de pesos">calcule os pesos da saída:</a>
