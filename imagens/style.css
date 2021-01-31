@@ -136,8 +136,8 @@ h3::after {
   content: '';
   display: block;
   background: rgb(227,243,235);
-  width: 85%;
-  height: 2px;
+  width: 40%;
+  height: 1px;
 }
 
 * { margin: 0; padding: 0; }
