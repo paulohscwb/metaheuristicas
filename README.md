@@ -685,7 +685,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details>
-  <summary id="parte3">SVM, RBF e Hebb</summary>
+  <summary id="parte3">Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
@@ -1059,7 +1059,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte5">Redes Temporais</summary>
   <p>Material da página 66 até a página 81.</p>
   <img src="parte5/apostila_2020_53_81_00066.png"/>

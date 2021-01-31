@@ -135,9 +135,9 @@ hr {
 h3::after {
   content: '';
   display: block;
-  background: rgb(21,153,87);
-  width: 61%;
-  height: 1px;
+  background: rgb(227,243,235);
+  width: 85%;
+  height: 2px;
 }
 
 * { margin: 0; padding: 0; }
