@@ -14,8 +14,9 @@
 <p>Esta página contém os algoritmos e exemplos de algumas Metaheurísticas. Além disso, são mostradas as aplicações destas técnicas em várias áreas da Pesquisa Operacional.</p>
 <p>A apostila está disponível no link: <a href="#" target="_blank">apostila de Metaheurísticas</a></p>
 
+<h3>Redes Neurais Artificiais</h3>
 <details>
-  <summary id="parte1">Redes Neurais Artificiais - Perceptron e Adaline</summary>
+  <summary id="parte1">Perceptron e Adaline</summary>
   <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
@@ -336,7 +337,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 </details>
 
 <details>
-  <summary id="parte2">Redes Neurais Artificiais - Multi Layer Perceptron (MLP)</summary>
+  <summary id="parte2">Multi Layer Perceptron (MLP)</summary>
   <p>Material da página 19 até a página 40.</p>
   <img src="parte2/apostila_2020_1_19_0019.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
@@ -684,7 +685,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details>
-  <summary id="parte3">Redes Neurais Artificiais - SVM, RBF e Hebb</summary>
+  <summary id="parte3">SVM, RBF e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
@@ -1023,19 +1024,86 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details>
-  <summary id="parte4">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
-  
+  <summary id="parte4">Mapas auto-organizáveis</summary>
+  <p>Material da página 53 até a página 66.</p>
+  <img src="parte4/apostila_2020_53_81_00053.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00054.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00055.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00056.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00057.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00058.png"/>
+  <img src="parte4/apostila_2020_53_81_00058a.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00059.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00060.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00061.png"/>
+  <img src="parte4/apostila_2020_53_81_00061a.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00062.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00063.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00064.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00065.png"/>
+  <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
+  <img src="parte4/apostila_2020_53_81_00066.png"/>
+  <img src="parte4/apostila_2020_53_81_00066a.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
 
 <details>
-  <summary id="parte5">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
-  
+  <summary id="parte5">Redes Temporais</summary>
+  <p>Material da página 66 até a página 81.</p>
+  <img src="parte5/apostila_2020_53_81_00066.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00067.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00068.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00069.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00070.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00071.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00072.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00073.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00074.png"/>
+  <img src="parte5/apostila_2020_53_81_00074a.png"/>
+  <img src="parte5/apostila_2020_53_81_00074b.png"/>
+  <img src="parte5/apostila_2020_53_81_00074c.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00075.png"/>
+  <img src="parte5/apostila_2020_53_81_00075a.png"/>
+  <img src="parte5/apostila_2020_53_81_00075b.png"/>
+  <img src="parte5/apostila_2020_53_81_00075c.png"/>
+  <img src="parte5/apostila_2020_53_81_00075d.png"/>
+  <img src="parte5/apostila_2020_53_81_00075e.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00076.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00077.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00078.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00079.png"/>
+  <img src="parte5/apostila_2020_53_81_00079a.png"/>
+  <img src="parte5/apostila_2020_53_81_00079b.png"/>
+  <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_53_81_00080.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
 </details>
-
+<h3>Outras Metaheurísticas</h3>
 <details>
   <summary id="parte6">Título</summary>
   <p>Material da página xx até a página xxx.</p>
