@@ -1042,8 +1042,8 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    2. <a alt="cálculo das distâncias das entradas para os pesos dos neurônios">Determinar o neurônio i que possui a menor distância (euclidiana) do peso w com o vetor x.</a>
       d<sub>i</sub> = &sum;<sub>j=1</sub><sup>n</sup>(x<sub>j</sub> &minus; w<sub>ij</sub>)<sup>2</sup>
       Este neurônio é denominado “vencedor”.
-   3. <a alt="atualização de pesos e dos neurônios vizinhos">Ajustar os pesos do neurônio vencedor e de todos os neurônios
-   que pertencem a uma vizinhança centrada nele, V<sub>i</sub>.</a>
+   3. <a alt="atualização de pesos e dos neurônios vizinhos">Ajustar os pesos do neurônio vencedor e de todos os neurônios que pertencem a uma vizinhança</a> 
+   centrada nele, V<sub>i</sub>.
       w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;[x<sub>j</sub> &minus; w<sub>ij</sub><sup>anterior</sup>]
       onde i &isin; V<sub>i</sub>.
 5. <a alt="diminua a taxa de aprendizagem e o raio de vizinhança">Ajustar a taxa de aprendizado a e o raio de vizinhança.</a> 
@@ -1053,6 +1053,66 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    </details></div>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00058.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen, com &alpha; = 0,5. Temos um mapa com 4 neurônios em formato quadrado, e os dados com valores no intervalo [-1, 1], que garante a convergência mais rápida da rede.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="100" name="sl">
+			   <label for="100"></label>
+			   <img src="parte4/58_01_01.png"/>
+			   <figcaption>Vamos começar com a apresentação do padrão de entrada A(-0,15; 0,25). Calculamos as distâncias d<sub>i</sub> entre as coordenadas deste padrão e as coordenadas w<sub>ij</sub> dos pesos dos neurônios. O vencedor é o neurônio 2.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="100a" name="sl">
+			   <label for="100a"></label>
+			   <img src="parte4/58_01_01.png"/>
+			   <figcaption>Neste exemplo, vamos usar o treinamento "hard", que só atualiza o neurônio vencedor.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="101" name="sl">
+			   <label for="101"></label>
+			   <img src="parte4/58_01_02.png"/>
+			   <figcaption>Na apresentação do padrão de entrada B(-0,2; -0,2), calculamos as distâncias d<sub>i</sub> entre as coordenadas deste padrão e as coordenadas w<sub>ij</sub> dos pesos dos neurônios. O vencedor é o neurônio 3, que é atualizado.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="102" name="sl">
+			   <label for="102"></label>
+			   <img src="parte4/58_01_03.png"/>
+			   <figcaption>Quando apresentamos o padrão de entrada C(0,2; 0,2), temos que o neurônio vencedor é o 4, que tem seus pesos atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="103" name="sl">
+			   <label for="103"></label>
+			   <img src="parte4/58_01_04.png"/>
+			   <figcaption>Quando apresentamos o padrão de entrada D(0,15; 0,25), temos que o neurônio vencedor é o 4, que tem seus pesos atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="104" name="sl">
+			   <label for="104"></label>
+			   <img src="parte4/58_01_05.png"/>
+			   <figcaption>Quando apresentamos o padrão de entrada E(-0,2; 0,3), temos que o neurônio vencedor é o 2, que tem seus pesos atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="105" name="sl">
+			   <label for="105"></label>
+			   <img src="parte4/58_01_06.png"/>
+			   <figcaption>Quando apresentamos o padrão de entrada F(-0,25; 0,3), temos que o neurônio vencedor é o 2, que tem seus pesos atualizados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="106" name="sl">
+			   <label for="106"></label>
+			   <img src="parte4/58_01_07.png"/>
+			   <figcaption>Quando apresentamos o padrão de entrada G(-0,3; -0,2), temos que o neurônio vencedor é o 3, que tem seus pesos atualizados. Finalizamos a primeira iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="107" name="sl">
+			   <label for="107"></label>
+			   <img src="parte4/58_01_08.png"/>
+			   <figcaption>Na segunda iteração, reduzimos a taxa de aprendizagem &alpha; e apresentamos novamente os padrões de entrada para a rede. O critério de parada é a "convergência" da rede, ou seja, quando os pesos sofrem poucas modificações de uma iteração para outra.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte4/58_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte4/apostila_2020_53_81_00058a.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00059.png"/>
