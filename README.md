@@ -1037,14 +1037,15 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte4/apostila_2020_53_81_00057.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede de Kohonen:
-<pre><code>0. <a alt="pesos iniciam com valores aleatórios">Iniciar os pesos dos n neurônios da rede com valores aleatórios baixos: w<sub>ij</sub> = 0</a>
+<pre><code>0. <a alt="pesos iniciam com valores aleatórios">Iniciar os pesos dos n neurônios da rede com valores aleatórios baixos: w<sub>ij</sub></a>
 1. Apresentar cada entrada x para a rede, e executar os passos 2 e 3:
-	2. <a alt="cálculo das distâncias das entradas para os pesos dos neurônios">Determinar o neurônio i que possui a menor distância (euclidiana) do peso sináptico w com o vetor x.</a>
-	   d<sub>i</sub> = &sum;<sub>j=1</sub><sup>n</sup>(x<sub>j</sub> &minus; w<sub>ij</sub>)<sup>2</sup>
-	   Este neurônio é denominado “vencedor”.
-	3. <a alt="atualização de pesos e dos neurônios vizinhos">Ajustar os pesos do neurônio vencedor e de todos os neurônios que pertencem a uma vizinhança centrada nele, V<sub>i</sub>.</a>
-	   w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;[x<sub>j</sub> &minus; w<sub>ij</sub><sup>anterior</sup>]
-	   onde i &isin; V<sub>i</sub>.
+   2. <a alt="cálculo das distâncias das entradas para os pesos dos neurônios">Determinar o neurônio i que possui a menor distância (euclidiana) do peso sináptico w com o vetor x.</a>
+      d<sub>i</sub> = &sum;<sub>j=1</sub><sup>n</sup>(x<sub>j</sub> &minus; w<sub>ij</sub>)<sup>2</sup>
+      Este neurônio é denominado “vencedor”.
+   3. <a alt="atualização de pesos e dos neurônios vizinhos">Ajustar os pesos do neurônio vencedor e de todos os neurônios 
+   que pertencem a uma vizinhança centrada nele, V<sub>i</sub>.</a>
+      w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;[x<sub>j</sub> &minus; w<sub>ij</sub><sup>anterior</sup>]
+      onde i &isin; V<sub>i</sub>.
 5. <a alt="diminua a taxa de aprendizagem e o raio de vizinhança">Ajustar a taxa de aprendizado a e o raio de vizinhança.</a> 
 <a alt="teste de parada: quando os pesos não se modificarem substancialmente em uma iteração">Se não existirem mais mudanças substanciais no mapa, pare; caso contrário, volte ao passo 1.</a>
 
