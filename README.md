@@ -1586,6 +1586,72 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00075.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função tangente hiperbólica.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="171" name="sl">
+			   <label for="171"></label>
+			   <img src="parte5/75_01_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (0.1, 0.2) para prever 0.6; (0.2, 0.3) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="172" name="sl">
+			   <label for="172"></label>
+			   <img src="parte5/75_01_02.png"/>
+			   <figcaption>Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="173" name="sl">
+			   <label for="173"></label>
+			   <img src="parte5/75_01_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="174" name="sl">
+			   <label for="174"></label>
+			   <img src="parte5/75_01_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="175" name="sl">
+			   <label for="175"></label>
+			   <img src="parte5/75_01_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.4, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="176" name="sl">
+			   <label for="176"></label>
+			   <img src="parte5/75_01_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="177" name="sl">
+			   <label for="177"></label>
+			   <img src="parte5/75_01_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.7) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="178" name="sl">
+			   <label for="178"></label>
+			   <img src="parte5/75_01_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático E = 0,050.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="179" name="sl">
+			   <label for="179"></label>
+			   <img src="parte5/75_01_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a atualização da taxa de aprendizagem, com os cálculos na sequência de apresentação da Série Temporal. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="180" name="sl">
+			   <label for="180"></label>
+			   <img src="parte5/75_01_10.png"/>
+			   <figcaption>No final da 4&ordf; iteração, temos o erro quadrático E = 0,030.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/75_01_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00075a.png"/>
   <img src="parte5/apostila_2020_53_81_00075b.png"/>
   <img src="parte5/apostila_2020_53_81_00075c.png"/>
