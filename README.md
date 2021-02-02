@@ -1043,18 +1043,18 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
       d<sub>i</sub> = &sum;<sub>j=1</sub><sup>n</sup>(x<sub>j</sub> &minus; w<sub>ij</sub>)<sup>2</sup>
       Este neurônio é denominado “vencedor”.
    3. <a alt="atualização de pesos e dos neurônios vizinhos">Ajustar os pesos do neurônio vencedor e de todos os neurônios que pertencem a uma vizinhança</a> 
-   centrada nele, V<sub>i</sub>.
+      centrada nele, V<sub>i</sub>.
       w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;[x<sub>j</sub> &minus; w<sub>ij</sub><sup>anterior</sup>]
       onde i &isin; V<sub>i</sub>.
 5. <a alt="diminua a taxa de aprendizagem e o raio de vizinhança">Ajustar a taxa de aprendizado a e o raio de vizinhança.</a> 
-<a alt="teste de parada: quando os pesos não se modificarem substancialmente em uma iteração">Se não existirem mais mudanças substanciais no mapa, pare; caso contrário, volte ao passo 1.</a>
+   <a alt="teste de parada: quando os pesos têm poucas modificações de uma iteração para outra">Se não existirem mais mudanças substanciais no mapa, pare; caso contrário, volte ao passo 1.</a>
 
 </code></pre></figcaption>
    </details></div>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00058.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen, com &alpha; = 0,5. Temos um mapa com 4 neurônios em formato quadrado, e os dados com valores no intervalo [-1, 1], que garante a convergência mais rápida da rede.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen, com &alpha; = 0,5. Temos um mapa com 4 neurônios em formato quadrado, e os dados com valores no intervalo [-1, 1], o que garante a convergência mais rápida da rede.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="100" name="sl">
@@ -1120,6 +1120,66 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte4/apostila_2020_53_81_00060.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00061.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen para resolver o Problema do Caixeiro Viajante, com &alpha; = 0,5. Temos um mapa com 6 neurônios em formato retangular 2 x 3, e os dados com valores no intervalo [-1, 1], o que garante a convergência mais rápida da rede. O comprimento da rota inicial é igual a 4.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="108" name="sl">
+			   <label for="108"></label>
+			   <img src="parte4/61_01_01.png"/>
+			   <figcaption>Neste caso, vamos usar a vizinhança Gaussiana com a função &Lambda;<sub>ii*</sub> com as distâncias topológicas d<sub>ii*</sub> entre os neurônios: por exemplo, o neurônio 1 tem distância topológica d<sub>12</sub> = 1 ao neurônio 2; já a distância até o neurônio 3 será d<sub>13</sub> = 2.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="109" name="sl">
+			   <label for="109"></label>
+			   <img src="parte4/61_01_01.png"/>
+			   <figcaption>Apresentamos a cidade A(0,1; 0,1) para a rede, e o neurônio vencedor é o 4. Com a vizinhança Gaussiana, usamos a quarta linha e a quarta coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="110" name="sl">
+			   <label for="110"></label>
+			   <img src="parte4/61_01_02.png"/>
+			   <figcaption>O valor da rota com a atualização é de 3,7867. Apresentamos a cidade D(0,8; 0) para a rede, e o neurônio vencedor é o 6. Usamos a sexta linha e a sexta coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="111" name="sl">
+			   <label for="111"></label>
+			   <img src="parte4/61_01_03.png"/>
+			   <figcaption>O valor da rota com a atualização é de 3,5641. Apresentamos a cidade F(0,4; 0,9) para a rede, e o neurônio vencedor é o 2. Usamos a segunda linha e a segunda coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="112" name="sl">
+			   <label for="112"></label>
+			   <img src="parte4/61_01_04.png"/>
+			   <figcaption>O valor da rota com a atualização é de 3,4724. Apresentamos a cidade B(0,2; 0,8) para a rede, e o neurônio vencedor é o 3. Usamos a terceira linha e a terceira coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="113" name="sl">
+			   <label for="113"></label>
+			   <img src="parte4/61_01_05.png"/>
+			   <figcaption>O valor da rota com a atualização é de 3,2547. Apresentamos a cidade C(0,7; 0,7) para a rede, e o neurônio vencedor é o 1. Usamos a primeira linha e a primeira coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="114" name="sl">
+			   <label for="114"></label>
+			   <img src="parte4/61_01_06.png"/>
+			   <figcaption>O valor da rota com a atualização é de 2,9549. Apresentamos a cidade E(0,9; 0,8) para a rede, e o neurônio vencedor é o 1. Usamos a primeira linha e a primeira coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="115" name="sl">
+			   <label for="115"></label>
+			   <img src="parte4/61_01_07.png"/>
+			   <figcaption>O valor da rota com a atualização é de 2,8946. Apresentamos a cidade D(0,8; 0) para a rede, e o neurônio vencedor é o 6. Usamos a sexta linha e a sexta coluna da matriz de distâncias &Lambda;<sub>ii*</sub> para atualizar todos os pesos da rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="116" name="sl">
+			   <label for="116"></label>
+			   <img src="parte4/61_01_07.png"/>
+			   <figcaption><figcaption>O valor da rota com a atualização é de 2,8585. O processo continua até que os pesos sofram poucas alterações. Note que o neurônio 5 não está sendo utilizado adequadamente, e as cidade C e E estão competindo pelo neurônio 1. Sugestão: colocar mais neurônios do que o número de cidades.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte4/61_01_01.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte4/apostila_2020_53_81_00061a.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00062.png"/>
