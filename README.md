@@ -1175,7 +1175,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="116" name="sl">
 			   <label for="116"></label>
 			   <img src="parte4/61_01_07.png"/>
-			   <figcaption><figcaption>O valor da rota com a atualização é de 2,8585. O processo continua até que os pesos sofram poucas alterações. Note que o neurônio 5 não está sendo utilizado adequadamente, e as cidade C e E estão competindo pelo neurônio 1. Sugestão: colocar mais neurônios do que o número de cidades.</figcaption>
+			   <figcaption>O valor da rota com a atualização é de 2,8585. O processo continua até que os pesos sofram poucas alterações. Note que o neurônio 5 não está sendo utilizado adequadamente, e as cidade C e E estão competindo pelo neurônio 1. Sugestão: colocar mais neurônios do que o número de cidades.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte4/61_01_01.png" class="fundo" style="visibility:hidden"/>
