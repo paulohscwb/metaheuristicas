@@ -1385,7 +1385,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte5/apostila_2020_53_81_00074a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função tangente hiperbólica.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="141" name="sl">
@@ -1448,9 +1448,75 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <figcaption>No final da 4&ordf; iteração, temos o erro quadrático E = 0,008.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte5/74_02_01.png" class="fundo" style="visibility:hidden"/>
+		<img src="parte5/74_02_10.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte5/apostila_2020_53_81_00074b.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função sigmoidal.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="151" name="sl">
+			   <label for="151"></label>
+			   <img src="parte5/74_03_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (0.1, 0.2) para prever 0.6; (0.2, 0.3) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="152" name="sl">
+			   <label for="132"></label>
+			   <img src="parte5/74_03_02.png"/>
+			   <figcaption>Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="153" name="sl">
+			   <label for="153"></label>
+			   <img src="parte5/74_03_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="154" name="sl">
+			   <label for="154"></label>
+			   <img src="parte5/74_03_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="155" name="sl">
+			   <label for="155"></label>
+			   <img src="parte5/74_03_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.4, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="156" name="sl">
+			   <label for="156"></label>
+			   <img src="parte5/74_03_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="157" name="sl">
+			   <label for="157"></label>
+			   <img src="parte5/74_03_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.7) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="158" name="sl">
+			   <label for="158"></label>
+			   <img src="parte5/74_03_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático E = 0,050.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="159" name="sl">
+			   <label for="159"></label>
+			   <img src="parte5/74_03_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a atualização da taxa de aprendizagem, com os cálculos na sequência de apresentação da Série Temporal. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="160" name="sl">
+			   <label for="160"></label>
+			   <img src="parte5/74_03_10.png"/>
+			   <figcaption>No final da 4&ordf; iteração, temos o erro quadrático E = 0,035.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/74_03_10.png" class="fundo" style="visibility:hidden"/>
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00074c.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00075.png"/>
