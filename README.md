@@ -1653,6 +1653,72 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/75_01_10.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00075a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (1, 0.9) e (0.6, 0.4).</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="181" name="sl">
+			   <label for="181"></label>
+			   <img src="parte5/75_02_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.75; (0.9, 0.75) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (1, 0.9).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="182" name="sl">
+			   <label for="182"></label>
+			   <img src="parte5/75_02_02.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.9, 0.75) e (0.75, 0,6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="183" name="sl">
+			   <label for="183"></label>
+			   <img src="parte5/75_02_03.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.6, 0.55) e (0.55, 0,6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="184" name="sl">
+			   <label for="184"></label>
+			   <img src="parte5/75_02_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.4) para a rede e podemos calcular os pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="185" name="sl">
+			   <label for="185"></label>
+			   <img src="parte5/75_02_05.png"/>
+			   <figcaption>Utilizando as 6 linhas da matriz G, calculamos os pesos para a Rede RBF.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="186" name="sl">
+			   <label for="186"></label>
+			   <img src="parte5/75_02_06.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (1, 0.9) e (0.9, 0,75) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="187" name="sl">
+			   <label for="187"></label>
+			   <img src="parte5/75_02_07.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.75, 0.6) e (0.6, 0,55) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="188" name="sl">
+			   <label for="188"></label>
+			   <img src="parte5/75_02_08.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.55, 0.6) e (0.6, 0,4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="189" name="sl">
+			   <label for="189"></label>
+			   <img src="parte5/75_02_09.png"/>
+			   <figcaption>Apresentamos os padrões do conjunto de testes: (0.4, 0.3) e (0.3, 0,2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="190" name="sl">
+			   <label for="190"></label>
+			   <img src="parte5/75_02_10.png"/>
+			   <figcaption>Temos o erro quadrático desta rede E = 0,0483.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/75_02_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00075b.png"/>
   <img src="parte5/apostila_2020_53_81_00075c.png"/>
   <img src="parte5/apostila_2020_53_81_00075d.png"/>
