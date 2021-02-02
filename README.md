@@ -1717,7 +1717,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <figcaption>Temos o erro quadrático desta rede E = 0,0483.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte5/75_02_10.png" class="fundo" style="visibility:hidden" />
+		<img src="parte5/75_02_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00075b.png"/>
   <img src="parte5/apostila_2020_53_81_00075c.png"/>
