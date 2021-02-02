@@ -1385,7 +1385,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte5/apostila_2020_53_81_00074a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função tangente hiperbólica.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função sigmoidal.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="141" name="sl">
@@ -1433,7 +1433,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="148" name="sl">
 			   <label for="148"></label>
 			   <img src="parte5/74_02_08.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático E = 0,037.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático E = 0,036.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="149" name="sl">
@@ -1518,6 +1518,72 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/74_03_10.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte5/apostila_2020_53_81_00074c.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com &alpha; = 1, com uma camada escondida com função tangente hiperbólica.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="161" name="sl">
+			   <label for="161"></label>
+			   <img src="parte5/74_04_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="162" name="sl">
+			   <label for="162"></label>
+			   <img src="parte5/74_04_02.png"/>
+			   <figcaption>Apresentamos o primeiro padrão de entrada para a rede: (1, 0.9).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="163" name="sl">
+			   <label for="163"></label>
+			   <img src="parte5/74_04_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.9, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="164" name="sl">
+			   <label for="164"></label>
+			   <img src="parte5/74_04_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="165" name="sl">
+			   <label for="165"></label>
+			   <img src="parte5/74_04_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="166" name="sl">
+			   <label for="166"></label>
+			   <img src="parte5/74_04_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="167" name="sl">
+			   <label for="167"></label>
+			   <img src="parte5/74_04_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.1) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="168" name="sl">
+			   <label for="168"></label>
+			   <img src="parte5/74_04_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático E = 0,037.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="169" name="sl">
+			   <label for="169"></label>
+			   <img src="parte5/74_04_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a atualização da taxa de aprendizagem, com os cálculos na sequência de apresentação da Série Temporal. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="170" name="sl">
+			   <label for="170"></label>
+			   <img src="parte5/74_04_10.png"/>
+			   <figcaption>No final da 4&ordf; iteração, temos o erro quadrático E = 0,008.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/74_04_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00075.png"/>
   <img src="parte5/apostila_2020_53_81_00075a.png"/>
