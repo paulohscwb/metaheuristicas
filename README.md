@@ -1462,7 +1462,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   </li>
 		   <li>
 			   <input type="radio" id="152" name="sl">
-			   <label for="132"></label>
+			   <label for="152"></label>
 			   <img src="parte5/74_03_02.png"/>
 			   <figcaption>Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
 		   </li>
