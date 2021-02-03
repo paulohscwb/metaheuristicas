@@ -1724,7 +1724,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (0.2, 0.3) e (0.5, 0.6).</p>
 	  <ul class="slider">
 		   <li>
-			   <input type="radio" id="181" name="sl">
+			   <input type="radio" id="191" name="sl">
 			   <label for="191"></label>
 			   <img src="parte5/75_03_01.png"/>
 			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (0.1, 0.2) para prever 0.75; (0.2, 0.3) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
