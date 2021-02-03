@@ -1788,7 +1788,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte5/apostila_2020_53_81_00075c.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (0.2, 0.3) e (0.5, 0.6).</p>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (1, 0.9) e (0.55, 0.6).</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="201" name="sl">
@@ -1848,6 +1848,66 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/75_04_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00075d.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (0.1, 0.2) e (0.4, 0.5).</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="211" name="sl">
+			   <label for="211"></label>
+			   <img src="parte5/75_05_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada x para prever 2 passos à frente: (0.1, 0.2) para prever (0.75, 0.6); (0.2, 0.3) para prever (0.6, 0.55); e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="212" name="sl">
+			   <label for="212"></label>
+			   <img src="parte5/75_05_02.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.2, 0.3) e (0.3, 0.4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="213" name="sl">
+			   <label for="213"></label>
+			   <img src="parte5/75_05_03.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.4, 0.5) e (0.5, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="214" name="sl">
+			   <label for="214"></label>
+			   <img src="parte5/75_05_04.png"/>
+			   <figcaption>Utilizando as 6 linhas da matriz G, calculamos os pesos para a Rede RBF.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="215" name="sl">
+			   <label for="215"></label>
+			   <img src="parte5/75_05_05.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.1, 0.2) e (0.2, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="216" name="sl">
+			   <label for="216"></label>
+			   <img src="parte5/75_05_06.png"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.3, 0.4) e (0.4, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="217" name="sl">
+			   <label for="217"></label>
+			   <img src="parte5/75_05_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.6) para a rede, finalizando o conjunto de treinamento.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="218" name="sl">
+			   <label for="218"></label>
+			   <img src="parte5/75_05_08.png"/>
+			   <figcaption>Apresentamos os padrões do conjunto de testes: (0.6, 0.7) e (0.7, 0.8).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="219" name="sl">
+			   <label for="219"></label>
+			   <img src="parte5/75_05_09.png"/>
+			   <figcaption>A rede RBF fica com um erro quadrático E = 0,2271.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/75_05_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00075e.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00076.png"/>
