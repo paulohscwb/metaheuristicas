@@ -2297,12 +2297,15 @@ Fim
   <img src="parte7/apostila_2020_85_97_00089.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00090.png"/>
+  <img src="parte7/apostila_2020_85_97_00090a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00091.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00092.png"/>
+  <img src="parte7/apostila_2020_85_97_00092a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00093.png"/>
+  <img src="parte7/apostila_2020_85_97_00093a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00094.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
@@ -2311,6 +2314,7 @@ Fim
   <img src="parte7/apostila_2020_85_97_00096.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
+  <img src="parte7/apostila_2020_85_97_00097a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
