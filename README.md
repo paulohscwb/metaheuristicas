@@ -2051,7 +2051,74 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/79_02_10.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00079b.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede recorrente de Jordan, com 2 neurônios na camada escondida.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="241" name="sl">
+			   <label for="241"></label>
+			   <img src="parte5/79_03_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="242" name="sl">
+			   <label for="242"></label>
+			   <img src="parte5/79_03_02.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial do neurônio recorrente y(t&minus;1) começa com valor 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="243" name="sl">
+			   <label for="243"></label>
+			   <img src="parte5/79_03_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.9, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="244" name="sl">
+			   <label for="244"></label>
+			   <img src="parte5/79_03_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="245" name="sl">
+			   <label for="245"></label>
+			   <img src="parte5/79_03_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="246" name="sl">
+			   <label for="246"></label>
+			   <img src="parte5/79_03_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="247" name="sl">
+			   <label for="247"></label>
+			   <img src="parte5/79_03_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.1) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="248" name="sl">
+			   <label for="248"></label>
+			   <img src="parte5/79_03_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,017.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="249" name="sl">
+			   <label for="249"></label>
+			   <img src="parte5/79_03_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a apresentação do padrão (1, 0.9) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="250" name="sl">
+			   <label for="250"></label>
+			   <img src="parte5/79_03_10.png"/>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,003.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/79_03_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00079c.png"/>
+  <img src="parte5/apostila_2020_53_81_00079d.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00080.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
