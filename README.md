@@ -1855,7 +1855,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="211" name="sl">
 			   <label for="211"></label>
 			   <img src="parte5/75_05_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada x para prever 2 passos à frente: (0.1, 0.2) para prever (0.75, 0.6); (0.2, 0.3) para prever (0.6, 0.55); e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada t para prever 2 passos à frente: (0.1, 0.2) para prever (0.75, 0.6); (0.2, 0.3) para prever (0.6, 0.55); e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="212" name="sl">
@@ -1917,8 +1917,75 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte5/apostila_2020_53_81_00078.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00079.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede recorrente de Elman, com 2 neurônios na camada escondida.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="221" name="sl">
+			   <label for="221"></label>
+			   <img src="parte5/79_01_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="222" name="sl">
+			   <label for="222"></label>
+			   <img src="parte5/79_01_02.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começam com valor 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="223" name="sl">
+			   <label for="223"></label>
+			   <img src="parte5/79_01_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.9, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="224" name="sl">
+			   <label for="224"></label>
+			   <img src="parte5/79_01_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="225" name="sl">
+			   <label for="225"></label>
+			   <img src="parte5/79_01_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="226" name="sl">
+			   <label for="226"></label>
+			   <img src="parte5/79_01_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="227" name="sl">
+			   <label for="227"></label>
+			   <img src="parte5/79_01_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.1) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="228" name="sl">
+			   <label for="228"></label>
+			   <img src="parte5/79_01_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,137.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="229" name="sl">
+			   <label for="229"></label>
+			   <img src="parte5/79_01_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a apresentação do padrão (1, 0.9) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="229" name="sl">
+			   <label for="229"></label>
+			   <img src="parte5/79_01_10.png"/>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,004.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/79_01_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00079a.png"/>
   <img src="parte5/apostila_2020_53_81_00079b.png"/>
+  <img src="parte5/apostila_2020_53_81_00079c.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00080.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
