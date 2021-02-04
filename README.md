@@ -2285,7 +2285,32 @@ Fim
 
 <details>
   <summary id="parte7">Nuvem de Partículas e Simulated Annealing</summary>
-  <p>Material da página xx até a página xxx.</p>
+  <p>Material da página 85 até a página 97.</p>
+  <img src="parte7/apostila_2020_85_97_00085.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00086.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00087.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00088.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00089.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00090.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00091.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00092.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00093.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00094.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00095.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00096.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte7/apostila_2020_85_97_00097.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
