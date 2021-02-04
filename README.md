@@ -2193,9 +2193,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 <details>
   <summary id="parte6">Busca Tabú</summary>
   <p>Material da página 82 até a página 84.</p>
-  <img src="parte5/apostila_2020_82_84_00082.png"/>
+  <img src="parte6/apostila_2020_82_84_00082.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
-  <img src="parte5/apostila_2020_82_84_00083.png"/>
+  <img src="parte6/apostila_2020_82_84_00083.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Busca Tabú:
 <pre><code>Faça i = 1 e <a alt="criar uma solução qualquer para o problema">crie aleatoriamente uma solução S<sub>i</sub>.</a> 
@@ -2216,10 +2216,10 @@ Fim
 
 </code></pre></figcaption>
    </details></div>
-  <img src="parte5/apostila_2020_82_84_00083a.png"/>
+  <img src="parte6/apostila_2020_82_84_00083a.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
-  <img src="parte5/apostila_2020_82_84_00084.png"/>
-  <img src="parte5/apostila_2020_82_84_00084a.png"/>
+  <img src="parte6/apostila_2020_82_84_00084.png"/>
+  <img src="parte6/apostila_2020_82_84_00084a.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
