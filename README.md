@@ -1930,7 +1930,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="222" name="sl">
 			   <label for="222"></label>
 			   <img src="parte5/79_01_02.png"/>
-			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começam com valor 1.</figcaption>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começa com valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="223" name="sl">
@@ -1975,15 +1975,81 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <figcaption>Iniciamos a 2&ordf; iteração com a apresentação do padrão (1, 0.9) para a rede.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="229" name="sl">
-			   <label for="229"></label>
+			   <input type="radio" id="230" name="sl">
+			   <label for="230"></label>
 			   <img src="parte5/79_01_10.png"/>
 			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,004.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte5/79_01_01.png" class="fundo" style="visibility:hidden" />
+		<img src="parte5/79_01_10.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00079a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede recorrente de Elman, com 2 neurônios na camada escondida.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="231" name="sl">
+			   <label for="231"></label>
+			   <img src="parte5/79_02_01.png"/>
+			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="232" name="sl">
+			   <label for="232"></label>
+			   <img src="parte5/79_02_02.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (1, 2) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começa com valor 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="233" name="sl">
+			   <label for="233"></label>
+			   <img src="parte5/79_02_03.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (2, 3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="234" name="sl">
+			   <label for="234"></label>
+			   <img src="parte5/79_02_04.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (3, 4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="235" name="sl">
+			   <label for="235"></label>
+			   <img src="parte5/79_02_05.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (4, 5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="236" name="sl">
+			   <label for="236"></label>
+			   <img src="parte5/79_02_06.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (5, 6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="237" name="sl">
+			   <label for="237"></label>
+			   <img src="parte5/79_02_07.png"/>
+			   <figcaption>Apresentamos o padrão de entrada (6, 7) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="238" name="sl">
+			   <label for="238"></label>
+			   <img src="parte5/79_02_08.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,198.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="239" name="sl">
+			   <label for="239"></label>
+			   <img src="parte5/79_02_09.png"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a apresentação do padrão (1, 2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="240" name="sl">
+			   <label for="240"></label>
+			   <img src="parte5/79_02_10.png"/>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,026.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/79_02_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00079b.png"/>
   <img src="parte5/apostila_2020_53_81_00079c.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
