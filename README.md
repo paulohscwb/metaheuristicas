@@ -2310,13 +2310,13 @@ Fim
 			   <input type="radio" id="270" name="sl">
 			   <label for="270"></label>
 			   <img src="parte7/90_01_02.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é p<sub>2</sub>, com f(x) = 21,4.</figcaption></figcaption>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é p<sub>2</sub>, com f(x) = 21,4.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="271" name="sl">
 			   <label for="271"></label>
 			   <img src="parte7/90_01_03.png"/>
-			   <figcaption>Na 7&ordf; iteração, a melhor partícula é p<sub>3</sub>, com f(x) = 16,7. Porém, com as atualizações de velocidades, a partícula p<sub>2</sub>, volta a ser a melhor com f(x) = 15,6.</figcaption></figcaption>
+			   <figcaption>Na 7&ordf; iteração, a melhor partícula é p<sub>3</sub>, com f(x) = 16,7. Porém, com as atualizações de velocidades, a partícula p<sub>2</sub>, volta a ser a melhor com f(x) = 15,6.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="272" name="sl">
