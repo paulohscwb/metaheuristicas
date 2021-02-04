@@ -2210,7 +2210,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
            tabu(m<sub>j</sub>) = 3
            i = i + 1
 		Fim
-		<a alt="atualização da lista tabú">Atualize a lista tabu: tabu(m<sub>q</sub>) = tabu(m<sub>q</sub>) – 1, onde tabu(m<sub>q</sub>) > 0.
+		<a alt="atualização da lista tabú">Atualize a lista tabu: tabu(m<sub>q</sub>) = tabu(m<sub>q</sub>) – 1, onde tabu(m<sub>q</sub>) > 0.</a>
     Fim
 Fim
 
