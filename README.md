@@ -2191,16 +2191,44 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 <h3>Outras Metaheurísticas</h3>
 <details>
-  <summary id="parte6">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
+  <summary id="parte6">Busca Tabú</summary>
+  <p>Material da página 82 até a página 84.</p>
   
+  <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
 <details>
-  <summary id="parte7">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
-  
+  <summary id="parte7">Busca Tabú</summary>
+  <p>Material da página 82 até a página 84.</p>
+  <img src="parte5/apostila_2020_82_84_00082.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_82_84_00083.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Busca Tabú:
+<pre><code>Faça i = 1 e <a alt="criar uma solução qualquer para o problema">crie aleatoriamente uma solução S<sub>i</sub>.</a> 
+    <a alt="critério de parada: número de iterações">Enquanto iteração_atual &le; max_iterações, faça:</a>
+	    iteração_atual = iteração_atual + 1.
+        <a alt="modificações na solução atual">Crie uma lista de movimentos M = {m<sub>1</sub>, m<sub>2</sub>, ..., m<sub>k</sub>}.</a>
+        <a alt="calcule a função objetivo para cada mudança de M">Calcule a função objetivo do problema S<sub>i</sub> considerando a aplicação de cada movimento m<sub>j</sub> &isin; M.</a>
+        <a alt="Solução com movimento na lista tabú pode ser aceito eventualmente">Verifique se o critério de aspiração será usado (solução na lista tabu pode ser aceita?).</a>
+        Escolha m<sub>j</sub> &isin; M que produz a melhor solução S<sub>i+1</sub>, tal que tabu(m<sub>j</sub>) = 0.
+        <a alt="a solução é aceita desde que melhore a solução atual">Se f(S<sub>i+1</sub>) &le; f(S<sub>i</sub>), então </a>
+           S<sub>i</sub> = S<sub>i+1</sub>
+           tabu(m<sub>j</sub>) = 3
+           i = i + 1
+		Fim
+		<a alt="atualização da lista tabú">Atualize a lista tabu: tabu(m<sub>q</sub>) = tabu(m<sub>q</sub>) – 1, onde tabu(m<sub>q</sub>) > 0.
+    Fim
+Fim
+
+</code></pre></figcaption>
+   </details></div>
+  <img src="parte5/apostila_2020_82_84_00083a.png"/>
+  <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <img src="parte5/apostila_2020_82_84_00084.png"/>
+  <img src="parte5/apostila_2020_82_84_00084a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
