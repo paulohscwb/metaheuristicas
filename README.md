@@ -2296,7 +2296,7 @@ Fim
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9">Algoritmos Genéticos e Busca Local</summary>
   <p>Material da página xx até a página xxx.</p>
   
