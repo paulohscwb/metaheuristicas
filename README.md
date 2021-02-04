@@ -2284,30 +2284,23 @@ Fim
 </details>
 
 <details>
-  <summary id="parte7">Título</summary>
+  <summary id="parte7">Nuvem de Partículas e Simulated Annealing</summary>
   <p>Material da página xx até a página xxx.</p>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
 <details>
-  <summary id="parte8">Título</summary>
+  <summary id="parte8">ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página xx até a página xxx.</p>
   
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
 <details>
-  <summary id="parte9">Título</summary>
+  <summary id="parte9">Algoritmos Genéticos e Busca Local</summary>
   <p>Material da página xx até a página xxx.</p>
   
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
-</details>
-
-<details style="border-bottom: 1px solid #a2dec0;">
-  <summary id="parte10">Título</summary>
-  <p>Material da página xx até a página xxx.</p>
-  
-  <p class="topop"><a href="#parte10" class="topo">voltar ao topo</a></p>
 </details>
 
 <h4>página desenvolvida por:</h4> 
