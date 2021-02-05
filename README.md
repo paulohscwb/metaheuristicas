@@ -2348,7 +2348,7 @@ Fim
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar rotas do Problema do Caixeiro Viajante. Vamos utilizar 3 partículas que representam soluções do problema.</p>
 	  <ul class="slider">
 		   <li>
-			   <input type="radio" id="275 name="sl">
+			   <input type="radio" id="275" name="sl">
 			   <label for="275"></label>
 			   <img src="parte7/92_01_01.png"/>
 			   <figcaption>As velocidades são aplicadas com as trocas de posições dos vértices, tentando "imitar" as rotas pbest<sub>i</sub> e gbest.</figcaption>
