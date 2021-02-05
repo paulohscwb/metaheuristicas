@@ -2487,6 +2487,42 @@ Até nsucess = 0 ou iteração &ge; M
   </details></div>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação do Simulated Annealing para encontrar soluções para o problema da Mochila. Vamos utilizar a solução inicial S<sub>0</sub> indicada.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="290" name="sl">
+			   <label for="290"></label>
+			   <img src="parte7/97_01_01.png"/>
+			   <figcaption>Na 1&ordf; iteração, encontramos a solução vizinha S<sub>1</sub> com uma troca de objetos em S<sub>0</sub>. Como a f(S<sub>1</sub>) &ge; f(S<sub>0</sub>), então a solução é aceita e podemos atualizar a temperatura para a próxima iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="291" name="sl">
+			   <label for="291"></label>
+			   <img src="parte7/97_01_02.png"/>
+			   <figcaption>Na 2&ordf; iteração, encontramos a solução vizinha S<sub>2</sub> com uma troca de objetos em S<sub>1</sub>. Como f(S<sub>2</sub>) &lt; f(S<sub>1</sub>), então utilizamos a probabilidade P para verificar a aceitação desta solução.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="292" name="sl">
+			   <label for="292"></label>
+			   <img src="parte7/97_01_02a.png"/>
+			   <figcaption>Como P &lt; rnd, a solução não é aceita e podemos encontrar mais uma vizinha de S<sub>1</sub> (o máximo é V = 2). Como f(S<sub>2</sub>) &ge; f(S<sub>1</sub>), então aceitamos a solução e podemos atualizar a temperatura para a próxima iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="293" name="sl">
+			   <label for="293"></label>
+			   <img src="parte7/97_01_03.png"/>
+			   <figcaption>Na 3&ordf; iteração, encontramos a solução vizinha S<sub>3</sub> com uma troca de objetos em S<sub>2</sub>. Como f(S<sub>3</sub>) &lt; f(S<sub>2</sub>), então utilizamos a probabilidade P para verificar a aceitação desta solução.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="294" name="sl">
+			   <label for="294"></label>
+			   <img src="parte7/97_01_03a.png"/>
+			   <figcaption>Como P &gt; rnd, a solução é aceita e podemos  podemos atualizar a temperatura para a próxima iteração. O processo continua até atingir um número máximo de iterações.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte7/97_01_02.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte7/apostila_2020_85_97_00097a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
