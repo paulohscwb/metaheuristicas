@@ -2417,7 +2417,7 @@ Fim
 			   <figcaption>A técnica prossegue até que as soluções fiquem todas iguais à gbest. Depois disso, podemos criar 2 novas partículas, mantendo-se a partícula gbest para não perdermos boas soluções. Esta técnica de "espalhar" as partículas pode ser feita algumas vezes, até alcançarmos um número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte7/93_01_01.png" class="fundo" style="visibility:hidden" />
+		<img src="parte7/93_01_02.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte7/apostila_2020_85_97_00093a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
