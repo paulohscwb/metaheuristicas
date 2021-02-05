@@ -239,19 +239,19 @@
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Perceptron com bolso:
 <pre><code>0. Inicializar os pesos, o bias e a taxa de aprendizado: w = 0, <a alt="vetor de pesos do bolso">w<sup>bolso</sup> = 0</a>, &theta; = 0, &alpha; = 1 
-	1. Enquanto o critério de parada</a> não for satisfeito, execute os passos 2-7:
-		2. Para cada par de dados de treinamento (x,d), execute os passos 3-5:
-		3. Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub>
-		4. Se y* &gt; &delta;, então y = 1
-		   Se -&delta; ≤ y* ≤ &delta;, então y = 0
-		   Se y* &lt; -&delta;, então y = -1 
-		5. Atualize os pesos e a tendência:
-		   Se y ≠ d, faça
-		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
-		   Caso contrário
-		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
-		6. <a alt="guardamos no bolso a melhor combinação de pesos&#10;esta tática é muito usada nas Metaheurísticas para não perder bons pesos">Se w classifica corretamente mais exemplos do que w<sup>bolso</sup>:</a>  
-		     w<sup>bolso</sup> = w; grave o número de exemplos corretos 
+    1. Enquanto o critério de parada</a> não for satisfeito, execute os passos 2-7:
+        2. Para cada par de dados de treinamento (x,d), execute os passos 3-5:
+        3. Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub>
+        4. Se y* &gt; &delta;, então y = 1
+           Se -&delta; ≤ y* ≤ &delta;, então y = 0
+           Se y* &lt; -&delta;, então y = -1 
+        5. Atualize os pesos e a tendência:
+           Se y ≠ d, faça
+             w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
+           Caso contrário
+             w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
+        6. <a alt="guardamos no bolso a melhor combinação de pesos&#10;esta tática é muito usada nas Metaheurísticas para não perder bons pesos">Se w classifica corretamente mais exemplos do que w<sup>bolso</sup>:</a>  
+             w<sup>bolso</sup> = w; grave o número de exemplos corretos 
 6. Teste a condição de parada.
 </code></pre></figcaption>
    </details></div>
@@ -275,15 +275,15 @@
 <pre><code>0. Inicializar os pesos <a alt="pesos com valores aleatórios">(w = rnd)</a>, a tendência <a alt="bias nulo">(&theta; = 0)</a>
 e a taxa de aprendizagem <a alt="taxa de aprendizagem com valor entre 0 e 1">0 &lt; &alpha; &lt; 1</a> (convergência fica muito lenta quando a taxa é muito 
 próxima de zero; e a convergência não é garantida para valores muito próximos de 1).
-	1. Enquanto o critério de parada não for satisfeito, execute os passos 2-5:
-		2. Para cada par de dados para treinamento (x,d), execute os passos 3-4:
-			3. Faça <a alt="primeiro calculamos o valor de y*">y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
-			4. <a alt="os pesos e o bias são sempre atualizados">Atualize os pesos e a tendência:</a>
-			    w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;(d – y*)x<sub>i</sub>  
-			    &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;(d – y*)
-			    <a alt="função de ativação do tipo limiar">se y* ≥ 0, y = 1; caso contrário, y = 0 (ou y = -1 para bipolar)</a>
-		5. <a alt="podem ser as mesmas condições usadas no Perceptron">Teste a condição de parada.</a> 
-	6. Se a maior alteração de pesos não ultrapassa um limite mínimo de tolerância, pare; 
+    1. Enquanto o critério de parada não for satisfeito, execute os passos 2-5:
+        2. Para cada par de dados para treinamento (x,d), execute os passos 3-4:
+            3. Faça <a alt="primeiro calculamos o valor de y*">y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
+            4. <a alt="os pesos e o bias são sempre atualizados">Atualize os pesos e a tendência:</a>
+                w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;(d – y*)x<sub>i</sub>  
+                &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;(d – y*)
+                <a alt="função de ativação do tipo limiar">se y* ≥ 0, y = 1; caso contrário, y = 0 (ou y = -1 para bipolar)</a>
+        5. <a alt="podem ser as mesmas condições usadas no Perceptron">Teste a condição de parada.</a> 
+    6. Se a maior alteração de pesos não ultrapassa um limite mínimo de tolerância, pare; 
 	caso contrário, continue. 
 </code></pre></figcaption>
    </details></div>
