@@ -2426,6 +2426,7 @@ Fim
   <img src="parte7/apostila_2020_85_97_00095.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00096.png"/>
+  <img src="parte7/apostila_2020_85_97_00096a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
   <img src="parte7/apostila_2020_85_97_00097a.png"/>
