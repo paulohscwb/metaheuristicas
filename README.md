@@ -2383,6 +2383,42 @@ Fim
   <img src="parte7/apostila_2020_85_97_00092a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00093.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar uma solução para o problema da Mochila. Vamos utilizar 3 partículas que representam soluções do problema.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="280" name="sl">
+			   <label for="280"></label>
+			   <img src="parte7/93_01_01.png"/>
+			   <figcaption>Começamos calculando os valores da função objetivo de cada partícula. As velocidades são aplicadas com as trocas de valores dos objetos (0 ou 1), tentando "imitar" as soluções pbest<sub>i</sub> e gbest.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="281" name="sl">
+			   <label for="281"></label>
+			   <img src="parte7/93_01_02.png"/>
+			   <figcaption>Com os parâmetros indicados, temos a 1&ordf; iteração da técnica. A melhor partícula é p<sub>3</sub>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com a gbest.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="282" name="sl">
+			   <label for="282"></label>
+			   <img src="parte7/93_01_03.png"/>
+			   <figcaption>Na 2&ordf; iteração, a melhor partícula é p<sub>1</sub>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com pbest e gbest.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="283" name="sl">
+			   <label for="283"></label>
+			   <img src="parte7/93_01_04.png"/>
+			   <figcaption>Na 3&ordf; iteração, a melhor partícula é p<sub>1</sub>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com pbest e gbest.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="284" name="sl">
+			   <label for="284"></label>
+			   <img src="parte7/93_01_04.png"/>
+			   <figcaption>A técnica prossegue até que as soluções fiquem todas iguais à gbest. Depois disso, podemos criar 2 novas partículas, mantendo-se a partícula gbest para não perdermos boas soluções. Esta técnica de "espalhar" as partículas pode ser feita algumas vezes, até alcançarmos um número máximo de iterações.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte7/93_01_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte7/apostila_2020_85_97_00093a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00094.png"/>
