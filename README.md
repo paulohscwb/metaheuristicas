@@ -763,10 +763,10 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 2. Especifique <a alt="raios das bases radiais">o(s) valor(es) do(s) raio(s) da função de base radial</a>, &sigma;<sub>j</sub>. 
    Cada neurônio pode ter um raio diferente, para termos maior diversificação da RBF.
 3. Para cada exemplo da base de dados x<sub>i</sub>, onde i = 1, 2, ..., p, execute os passos 4 e 5:
-	4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida:
-	   &phiv;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
-	5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
-	   G<sub>i,j</sub> = &phiv;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
+    4. Calcule <a alt="função gaussiana de cada neurônio">a ativação de cada neurônio j</a> da camada escondida:
+       &phiv;<sub>j</sub> = e<sup>-1/(2&sigma;<sup>2</sup>)‖x<sub>i</sub>&minus;u<sub>j</sub>‖<sup>2</sup></sup> 
+    5. <a alt="matriz G das ativações dos neurônios">Atribua os valores das ativações dos neurônios</a> na matriz G:
+       G<sub>i,j</sub> = &phiv;<sub>j</sub>, e G<sub>i,q+1</sub> = &theta;
 6. Após a apresentação de todos os exemplos, <a alt="vetor de pesos">calcule os pesos da saída:</a>
    w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d
 <a alt="dedução do cálculo para o vetor de pesos">Temos essa expressão de w, pois:</a>
@@ -918,10 +918,10 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural de Hebb:
 <pre><code>0. <a alt="pesos iniciam nulos">Inicialize os pesos w<sub>i</sub> = 0</a>, onde i = 1, 2, ..., n
-	1. <a alt="atualização de pesos parecida com a do Perceptron">Para cada par de treinamento (x,d),</a> faça:
-	2. w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub> 
-	   &theta;<sub>i</sub><sup>atual</sup> = &theta;<sub>i</sub><sup>anterior</sup> + &alpha;d<sub>i</sub> 
-	3. <a alt="calculamos a saída y*">Faça y* = w<sub>i</sub>x<sub>i</sub> + &theta;,</a> onde i = 1, 2, ..., n
+    1. <a alt="atualização de pesos parecida com a do Perceptron">Para cada par de treinamento (x,d),</a> faça:
+    2. w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub> 
+       &theta;<sub>i</sub><sup>atual</sup> = &theta;<sub>i</sub><sup>anterior</sup> + &alpha;d<sub>i</sub> 
+    3. <a alt="calculamos a saída y*">Faça y* = w<sub>i</sub>x<sub>i</sub> + &theta;,</a> onde i = 1, 2, ..., n
 4. <a alt="teste de convergência similar ao que usamos no Perceptron e MLP">Teste a convergência.</a> Se necessário, repita os passos 1-3.
 
 </code></pre></figcaption>
@@ -984,12 +984,12 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Heteroassociativa:
 <pre><code>0. <a alt="pesos iniciam nulos">Inicialize os pesos w<sub>ij</sub> = 0</a>, onde i = 1, 2, ..., n, j = 1, 2, ..., m.
-	1. Para cada par de treinamento (x,d),</a> faça os passos 2-4:
-	2. <a alt="calculamos a saída y*">y<sub>j</sub>* = &sum;<sub>i</sub>x<sub>i</sub>w<sub>ij</sub></a>
-	3. <a alt="calculamos a saída y">Se y<sub>j</sub>* &gt; 0</a>, y<sub>j</sub> = 1
-	   Se y<sub>j</sub>* = 0, y<sub>j</sub> = 0
-	   Se y<sub>j</sub>* &lt; 0, y<sub>j</sub> = -1
-	4. <a alt="atualização de pesos parecida com a do Perceptron">w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub></a> 
+    1. Para cada par de treinamento (x,d),</a> faça os passos 2-4:
+    2. <a alt="calculamos a saída y*">y<sub>j</sub>* = &sum;<sub>i</sub>x<sub>i</sub>w<sub>ij</sub></a>
+    3. <a alt="calculamos a saída y">Se y<sub>j</sub>* &gt; 0</a>, y<sub>j</sub> = 1
+       Se y<sub>j</sub>* = 0, y<sub>j</sub> = 0
+       Se y<sub>j</sub>* &lt; 0, y<sub>j</sub> = -1
+    4. <a alt="atualização de pesos parecida com a do Perceptron">w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;x<sub>i</sub>d<sub>i</sub></a> 
 5. <a alt="teste de convergência similar ao que usamos no Perceptron e MLP">Reduza &alpha; e teste a convergência.</a> Se necessário, repita os passos de 1-4.
 
 </code></pre></figcaption>
