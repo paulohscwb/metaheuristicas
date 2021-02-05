@@ -38,17 +38,17 @@
    <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Perceptron:
 <pre><code>0. Inicializar os pesos, o bias e a taxa de aprendizado: <a alt="vetor de pesos">w = 0</a>, <a alt="bias">&theta; = 0</a>, <a alt="taxa de aprendizagem">&alpha; = 1</a> 
-	1. Enquanto o <a alt="critérios de parada mais usados:&#10;número máximo de iterações, erro mínimo alcançado,&#10;ou número máximo de iterações sem modificações nos pesos">critério de parada</a> não for satisfeito, execute os passos 2-6:
-		2. <a alt="cada par de treinamento deve ser apresentado à rede">Para cada par de dados de treinamento (x,d)</a>, execute os passos 3-5:
-		3. <a alt="calculamos o valor da variável y* sem a função de ativação">Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
-		4. <a alt="Neste passo, calculamos a função de ativação em y*">Se y* &gt; &delta;, então y = 1</a> 
-		   Se -&delta; ≤ y* ≤ &delta;, então y = 0
-		   Se y* &lt; -&delta;, então y = -1 
-		5. <a alt="A atualização dos pesos só é feita quando a rede erra a classificação">Atualize os pesos e a tendência:</a>
-		   Se y ≠ d, faça
-		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
-		   Caso contrário
-		     w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
+    1. Enquanto o <a alt="critérios de parada mais usados:&#10;número máximo de iterações, erro mínimo alcançado,&#10;ou número máximo de iterações sem modificações nos pesos">critério de parada</a> não for satisfeito, execute os passos 2-6:
+        2. <a alt="cada par de treinamento deve ser apresentado à rede">Para cada par de dados de treinamento (x,d)</a>, execute os passos 3-5:
+        3. <a alt="calculamos o valor da variável y* sem a função de ativação">Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub></a> 
+        4. <a alt="Neste passo, calculamos a função de ativação em y*">Se y* &gt; &delta;, então y = 1</a> 
+            Se -&delta; ≤ y* ≤ &delta;, então y = 0
+            Se y* &lt; -&delta;, então y = -1 
+        5. <a alt="A atualização dos pesos só é feita quando a rede erra a classificação">Atualize os pesos e a tendência:</a>
+            Se y ≠ d, faça
+               w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
+            Caso contrário
+               w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
 6. <a alt="Neste passo, podemos calcular o erro quantitativo da rede">Teste a condição de parada.</a>
 
 </code></pre></figcaption>
@@ -2426,6 +2426,28 @@ Fim
   <img src="parte7/apostila_2020_85_97_00095.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00096.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo do Simulated Annealing:
+<pre><code>Inicialização: <a alt="parâmetros da técnica">S<sub>0</sub> (solução inicial), M (máximo de iterações), V (máximo de vizinhos),</a> 
+L (máximo de sucessos), S = S<sub>0</sub>, T = T<sub>0</sub>, iteração = 1 
+Repita
+    i = 1 (número de soluções vizinhas encontradas), nsucess = 0
+    Repita
+        <a alt="solução vizinha, com poucas modificações da solução Si">Crie uma solução S<sub>i+1</sub>, vizinha de S<sub>i</sub></a>
+        Calcule a função objetivo para S<sub>i+1</sub>
+        <a alt="probabilidade de aceitar soluções piores do que Si">Calcule a probabilidade P de aceitação de nova solução: P = e<sup>-&Delta;E/T</sup></a>
+        <a alt="critério de escolha da próxima solução">Se &Delta;E = f(S<sub>i+1</sub>) - f(S<sub>i</sub>) &le; 0 ou P &gt; rnd, então</a>
+            S = S<sub>i+1</sub> (melhor solução)
+            nsucess = nsucess + 1
+        fim
+        i = i + 1 (tentativas)
+    <a alt="exploramos a vizinhança da solução Si antes passar para a próxima iteração">Até nsucess &ge; L ou i &gt; V</a>
+    <a alt="redução de temperatura para a próxima iteração">T = &alpha;T</a> 
+    iteração = iteração + 1
+Até nsucess = 0 ou iteração &ge; M
+
+</code></pre></figcaption>
+   </details></div>
   <img src="parte7/apostila_2020_85_97_00096a.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
