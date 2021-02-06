@@ -2543,7 +2543,6 @@ Repita
     Caso contrário, se f(x') &lt; f(x), então
         x = x' (aceita a melhor solução)
     Fim
-Enquanto o critério de parada não for satisfeito
 <a alt="critério de parada: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
 
 </code></pre></figcaption>
