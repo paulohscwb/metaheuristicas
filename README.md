@@ -2549,15 +2549,15 @@ Até nsucess = 0 ou iteração &ge; M
     <a alt="critério de parada: número máximo de iterações">Para t = 1 até o número máximo de iterações</a>
         Para k = 1 até m (nº de formigas)
             Enquanto a formiga k não construir a viagem S<sub>k</sub>
-                <a alt="regra de probabilidade que analisa uma escolha de arcos baseada em vizinhanças">Selecione a próxima cidade pela regra da probabilidade:</a>
-                p<sub>ij</sub><sup>k</sup> = &tau;<sub>ij</sub><sup>&alpha;</sup>&eta;<sub>ij</sub><sup>&beta;</sup> / &sum;<sub>l &isin; N<sub>j</sub><sup>k</sup></sub> &tau;<sub>il</sub><sup>&alpha;</sup>&eta;<sub>jl</sub><sup>&beta;</sup>, quando j &isin; N<sub>j</sub><sup>k</sup>. 
+                <a alt="regra de probabilidade de escolha de arcos baseada em vizinhanças">Selecione a próxima cidade pela regra da probabilidade:</a>
+                p<sub>ij</sub><sup>k</sup> = &tau;<sub>ij</sub><sup>&alpha;</sup>&eta;<sub>ij</sub><sup>&beta;</sup> / &sum;<sub>l&isin;N<sub>j</sub><sup>k</sup></sub> &tau;<sub>il</sub><sup>&alpha;</sup>&eta;<sub>jl</sub><sup>&beta;</sup>, quando j &isin; N<sub>j</sub><sup>k</sup>. 
             Fim
             <a alt="cálculo da rota de cada formiga k">Calcule a distância L<sub>k</sub> da viagem S<sub>k</sub></a>
             <a alt="armazene a melhor rota encontrada">Se L<sub>k</sub> &lt; L* então</a>
                 S* = S<sub>k</sub>, L* = L<sub>k</sub>
             Fim
         Fim
-        <a alt="usamos as contribuições de cada formiga que usa o arco (i, j)">Atualize os feromônios: &tau;<sub>ij</sub> = (1-&rho;)&tau;<sub>ij</sub> + &sum;<sub>k=1</sub><sup>m</sup>&Delta;&tau;<sub>ij</sub><sup>k</sup>, onde:</a>
+        <a alt="usamos as contribuições de cada formiga que usa o arco (i,j)">Atualize os feromônios: &tau;<sub>ij</sub> = (1-&rho;)&tau;<sub>ij</sub> + &sum;<sub>k=1</sub><sup>m</sup>&Delta;&tau;<sub>ij</sub><sup>k</sup>, onde:</a>
         &Delta;&tau;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub> quando a aresta (i, j) pertence S<sub>k</sub>, onde Q é uma constante.
         &Delta;&tau;<sub>ij</sub><sup>k</sup> = 0 em caso contrário. 
     Fim
