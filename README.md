@@ -2553,13 +2553,13 @@ Até nsucess = 0 ou iteração &ge; M
 			   <input type="radio" id="295" name="sl">
 			   <label for="295"></label>
 			   <img src="parte8/104_01_01.png"/>
-			   <figcaption>Os valores de &zeta; são calculados utilizando o valor máximo v<sub>i</sub>, pois temos um problema de maximização. A formiga 1 começa carregando o objeto 1, e fazemos os cálculos de forma similar ao PCV.</figcaption>
+			   <figcaption>Os valores de &eta; são calculados utilizando o valor máximo v<sub>i</sub>, pois temos um problema de maximização. A formiga 1 começa carregando o objeto 1, e fazemos os cálculos de forma similar ao PCV.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="295a" name="sl">
 			   <label for="295a"></label>
 			   <img src="parte8/104_01_01a.png"/>
-			   <figcaption>A vizinhança N contém os objetos ainda não carregados pela formiga, e a probabilidade utiliza apenas um índice de feromônio &tau; e atratividade &eta;. Nesta situação, a formiga consegue colocar os objetos 2, 3, 5 e 6 na mochila, com custo L<sub>1</sub> = 11.</figcaption>
+			   <figcaption>A vizinhança N contém os objetos ainda não carregados pela formiga, e a probabilidade utiliza apenas um índice de feromônio &tau; e atratividade &eta;. Podemos verificar sempre a capacidade da mochila antes de fazer os cálculos de probabilidades. Nesta situação, a formiga consegue colocar os objetos 2, 3, 5 e 6 na mochila, com custo L<sub>1</sub> = 11. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="296" name="sl">
@@ -2598,8 +2598,8 @@ Até nsucess = 0 ou iteração &ge; M
 			   <figcaption>A melhor solução encontrada foi com custo L* = 11. As "contribuições" de feromônios são feitas com base nos objetos que cada formiga carregou. Como o problema é de maximização, podemos utilizar o valor de &gamma; para atribuir maiores feromônios às soluções com custos maiores.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="301" name="sl">
-			   <label for="301"></label>
+			   <input type="radio" id="301a" name="sl">
+			   <label for="301a"></label>
 			   <img src="parte8/104_01_07a.png"/>
 			   <figcaption>Por exemplo, o objeto 2 foi carregado pelas formigas 1, 2, 3, 4 e 5: logo, o feromônio &tau;<sub>2</sub> terá as contribuições &Delta;<sub>2</sub> de cada formiga. O valor &rho; é da taxa de evaporação do feromônio.</figcaption>
 		   </li>
