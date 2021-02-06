@@ -2531,9 +2531,39 @@ Até nsucess = 0 ou iteração &ge; M
   <summary id="parte8">ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Colônia de Formigas:
+<pre><code><a alt="começamos com uma solução qualquer">x<sub>0</sub> = Solução_Inicial</a>
+<a alt="técnica de melhoria aplicada na solução inicial">x = busca_local(x<sub>0</sub>) aplica uma melhoria na solução inicial</a>
+Repita
+    <a alt="perturbação na solução: trocas de alguns arcos">x' = perturbação(x, histórico) encontra uma nova solução, guiada por um histórico de trocas</a>
+    <a alt="técnica de melhoria em x'">x'' = busca_local(x') aplica uma melhoria na solução x'</a>
+    <a alt="armazenamos a melhor solução">Se f(x'') &lt; f(x), então</a> 
+        x = x'' (aceita a melhor solução)
+    Caso contrário, se f(x') &lt; f(x), então
+        x = x' (aceita a melhor solução)
+    Fim
+Enquanto o critério de parada não for satisfeito
+<a alt="critério de parada: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+
+</code></pre></figcaption>
+   </details></div>
   <img src="parte8/apostila_2020_98_106_00098a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00099.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Colônia de Formigas:
+<pre><code><a alt="começamos com uma solução M">Melhor_solução = M, função de avaliação: f.</a>
+Repita
+    <a alt="solução gulosa: por exemplo, usar os arcos de menores custos do PCV">X = solução_grasp (criar uma solução aleatória por inserção gulosa de elementos)</a>
+    <a alt="modificações da solução X com trocas de arcos">X = busca_local(X) (aplicar uma busca de vizinhança para melhorar a solução X: trocas de arcos)</a>
+	<a alt="armazenar a melhor solução">Se f(X) &lt; Melhor_solução, então </a>
+		Melhor_solução = X (aceita a melhor solução)
+	Fim
+<a alt="critério de parada: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+ 
+</code></pre></figcaption>
+   </details></div>
   <img src="parte8/apostila_2020_98_106_00099a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00100.png"/>
