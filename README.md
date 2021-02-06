@@ -2543,6 +2543,22 @@ Até nsucess = 0 ou iteração &ge; M
   <img src="parte8/apostila_2020_98_106_00102.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00103.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Algoritmo da Colônia de Formigas:
+<pre><code><a alt="crie uma solução qualquer para o problema">x<sub>0</sub> = Solução_Inicial.</a>
+<a alt="utilize uma técnica para modificar a solução inicial">x = busca_local(x<sub>0</sub>) aplica uma melhoria na solução inicial</a>
+Repita
+    <a alt="busca de uma solução vizinha, como fizemos em SA e BT">x' = vizinho(x) encontra uma nova solução, vizinha de x através de 1 troca de arcos</a>
+    <a alt="melhoria com uma técnica de busca local">x'' = busca_local(x') aplica uma melhoria na solução x'</a>
+    <a alt="substitui a melhor solução encontrada">Se f(x'') &lt; f(x), então</a> 
+        x = x'' (aceita a melhor solução)
+    Caso contrário, se f(x') &lt; f(x), então
+        x = x' (aceita a melhor solução)
+    Fim
+<a alt="critérios de paradas: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+
+</code></pre></figcaption>
+   </details></div>
   <img src="parte8/apostila_2020_98_106_00103a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema do Caixeiro Viajante. Vamos utilizar os parâmetros indicados de &alpha; e &beta;.</p>
@@ -2551,7 +2567,7 @@ Até nsucess = 0 ou iteração &ge; M
 			   <input type="radio" id="303" name="sl">
 			   <label for="303"></label>
 			   <img src="parte8/103_01_01.png"/>
-			   <figcaption>O valor de &eta;<sub>ij<sub> é o inverso do custo c<sub>ij<sub>. Desta forma, os menores custos têm maior atratividade para a técnica. A formiga 1 começa a rota pela cidade 1.</figcaption>
+			   <figcaption>O valor de &eta;<sub>ij</sub> é o inverso do custo c<sub>ij</sub>. Desta forma, os menores custos têm maior atratividade para a técnica. A formiga 1 começa a rota pela cidade 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="304" name="sl">
