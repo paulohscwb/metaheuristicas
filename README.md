@@ -2545,17 +2545,23 @@ Até nsucess = 0 ou iteração &ge; M
   <img src="parte8/apostila_2020_98_106_00103.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Colônia de Formigas:
-<pre><code><a alt="crie uma solução qualquer para o problema">x<sub>0</sub> = Solução_Inicial.</a>
-<a alt="utilize uma técnica para modificar a solução inicial">x = busca_local(x<sub>0</sub>) aplica uma melhoria na solução inicial</a>
-Repita
-    <a alt="busca de uma solução vizinha, como fizemos em SA e BT">x' = vizinho(x) encontra uma nova solução, vizinha de x através de 1 troca de arcos</a>
-    <a alt="melhoria com uma técnica de busca local">x'' = busca_local(x') aplica uma melhoria na solução x'</a>
-    <a alt="substitui a melhor solução encontrada">Se f(x'') &lt; f(x), então</a> 
-        x = x'' (aceita a melhor solução)
-    Caso contrário, se f(x') &lt; f(x), então
-        x = x' (aceita a melhor solução)
+<pre><code><a alt="criamos m soluções: cada formiga faz uma rota começando em uma cidade">Coloque cada formiga em uma cidade aleatória</a>
+    <a alt="critério de parada: número máximo de iterações">Para t = 1 até o número máximo de iterações</a>
+        Para k = 1 até m (nº de formigas)
+            Enquanto a formiga k não construir a viagem S<sub>k</sub>
+                <a alt="regra de probabilidade que analisa uma escolha de arcos baseada em vizinhanças">Selecione a próxima cidade pela regra da probabilidade:
+                p<sub>ij</sub><sup>k</sup> = &tau;<sub>ij</sub><sup>&alpha;</sup>&eta;<sub>ij</sub><sup>&beta;</sup> / &sum;<sub>l &isin; N<sub>j</sub><sup>k</sup></sub> &tau;<sub>il</sub><sup>&alpha;</sup>&eta;<sub>jl</sub><sup>&beta;</sup>, quando j &isin; N<sub>j</sub><sup>k</sup>. 
+            Fim
+            <a alt="cálculo da rota de cada formiga k">Calcule a distância L<sub>k</sub> da viagem S<sub>k</sub></a>
+            <a alt="armazene a melhor rota encontrada">Se L<sub>k</sub> &lt; L* então</a>
+                S* = S<sub>k</sub>, L* = L<sub>k</sub>
+            Fim
+        Fim
+        <a alt="usamos as contribuições de cada formiga que usa o arco (i, j)">Atualize os feromônios: &tau;<sub>ij</sub> = (1-&rho;)&tau;<sub>ij</sub> + &sum;<sub>k=1</sub><sup>m</sup>&Delta;&tau;<sub>ij</sub><sup>k</sup>, onde:</a>
+        &Delta;&tau;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub> quando a aresta (i, j) pertence S<sub>k</sub>, onde Q é uma constante.
+        &Delta;&tau;<sub>ij</sub><sup>k</sup> = 0 em caso contrário. 
     Fim
-<a alt="critérios de paradas: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+O resultado é a rota S*.
 
 </code></pre></figcaption>
    </details></div>
@@ -2630,7 +2636,7 @@ Repita
 			   <figcaption>A formiga 2 começa a rota na cidade 2, e assim sucessivamente. A técnica pode ser executada até que as soluções fiquem todas com mesmo valor da função objetivo.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte8/103_01_01.png" class="fundo" style="visibility:hidden" />
+		<img src="parte8/103_01_02.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00104.png"/>
