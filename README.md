@@ -2530,27 +2530,27 @@ Até nsucess = 0 ou iteração &ge; M
 <details>
   <summary id="parte8">ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
-  <img src="parte7/apostila_2020_98_106_00098.png"/>
-  <img src="parte7/apostila_2020_98_106_00098a.png"/>
+  <img src="parte8/apostila_2020_98_106_00098.png"/>
+  <img src="parte8/apostila_2020_98_106_00098a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00099.png"/>
-  <img src="parte7/apostila_2020_98_106_00099a.png"/>
+  <img src="parte8/apostila_2020_98_106_00099.png"/>
+  <img src="parte8/apostila_2020_98_106_00099a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00100.png"/>
+  <img src="parte8/apostila_2020_98_106_00100.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00101.png"/>
+  <img src="parte8/apostila_2020_98_106_00101.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00102.png"/>
+  <img src="parte8/apostila_2020_98_106_00102.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00103.png"/>
-  <img src="parte7/apostila_2020_98_106_00103a.png"/>
+  <img src="parte8/apostila_2020_98_106_00103.png"/>
+  <img src="parte8/apostila_2020_98_106_00103a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00104.png"/>
-  <img src="parte7/apostila_2020_98_106_00104a.png"/>
+  <img src="parte8/apostila_2020_98_106_00104.png"/>
+  <img src="parte8/apostila_2020_98_106_00104a.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00105.png"/>
+  <img src="parte8/apostila_2020_98_106_00105.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
-  <img src="parte7/apostila_2020_98_106_00106.png"/>
+  <img src="parte8/apostila_2020_98_106_00106.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo VNS - Variable Neighborhood Search:
 <pre><code><a alt="crie uma solução qualquer para o problema">x<sub>0</sub> = Solução_Inicial.</a>
