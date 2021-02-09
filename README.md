@@ -2828,5 +2828,16 @@ Repita
 	<li>POWELL, M. J. D. Radial basis functions for multivariate interpolation: a review. In: J.C. Mason, M.G. Cox (Eds.), Algorithms for Approximation, Clarendon Press, Oxford, 1987</li>
 	<li>VIEIRA, F. C., DÓRIA NETO, A. D., COSTA, J. A. F. An Efficient Approach to the Travelling Salesman Problem Using Self-Organizing Maps. International Journal of Neural Systems, London, UK, v. 13, n.2, p. 59-66, 2003</li>
 	<li>Le COADOU, BENABDESLEM, K. Optimizing local modeling for times series prediction. International Journal of Computational Intelligence Research, v. 2, n. 1, p. 81-85, 2006.</li>
-	<li></li>
+	<li>DORIGO, M.; GARAMBARDELLA, L.M., Ant Colonies for the Traveling Salesman Problem. Biosystems, v. 43, n. 2, p. 73-81, 1997.</li>
+	<li>ENGELBRECHT, A. P., Computational Intelligence, John Wiley & Sons, 2007.</li>
+	<li>EBERHART, R. C., SHI, Y., Comparison between genetic algorithms and particle swarm optimization, Evolutionary Programming VII: Lecture Notes in Computer Science, vol 1447, p. 611-616, 1998</li>
+	<li>LIN, S., KERNIGHAN, B. W. An effective heuristic algorithm for the traveling-salesman problem, Operations research, v. 21, n. 2, p. 498-516, 1973.</li>
+	<li>HU, X. PSO Tutorial. Disponível em: http://www.swarmintelligence.org/tutorials.php</li>
+	<li>GLOVER, F. Multilevel tabu search and embedded search neighborhoods for the traveling salesman problem. Graduate School of Business, University of Colorado, 1991.</li>
+	<li>LOPES, H. S. Algoritmos genéticos em projetos de engenharia: aplicações e perspectivas futuras. Anais do IV Simpósio Brasileiro de Automação Inteligente, p. 64-74, 1999.</li>
+	<li>MICHALEWICZ, Z., SCHOENAUER, M. Evolutionary algorithms for constrained parameter optimization problems. Evolutionary computation, v. 4, n. 1, p. 1-32, 1999.</li>
+	<li>VAN LAARHOVEN, P. J., AARTS, E. H. Simulated annealing. In Simulated annealing: Theory and applications p. 7-15. Springer, Dordrecht, 1987.</li>
+	<li>MITRA, D., ROMEO, F., SANGIOVANNI-VINCENTELLI, A. Convergence and finite-time behavior of simulated annealing. Advances in applied probability, v. 18, n. 3, p. 747-771, 1986.</li>
+	<li>KIRKPATRICK, S., GELATT, C. D., VECCHI, M. P. Optimization by simulated annealing. science, v. 220, n. 4598, p. 671-680, 1983.</li>
+	<li>ARAGON, C. R., JOHNSON, D. S., McGEOCH, L. A., SCHEVON, C. Optimization by simulated annealing: an experimental evaluation. In: Workshop on Statistical Physics in Engineering and Biology. Yorktown Heights, 1984.</li>
 <ol>
