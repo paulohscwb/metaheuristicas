@@ -2863,7 +2863,7 @@ Repita
 			   <input type="radio" id="326" name="sl">
 			   <label for="326"></label>
 			   <img src="parte9/113_02_02a.png"/>
-			   <figcaption>Trocamos os materiais genéticos entre os pontos de cruzamento, gerando os novos filhos, gerando os novos filhos i<sub>3</sub> e i<sub>4</sub>. Agora vamos fazer as mutações nestes novos indivíduos.</figcaption>
+			   <figcaption>Trocamos os materiais genéticos entre os pontos de cruzamento, gerando os novos filhos i<sub>3</sub> e i<sub>4</sub>. Agora vamos fazer as mutações nestes novos indivíduos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="327" name="sl">
@@ -2901,6 +2901,66 @@ Repita
   <img src="parte9/apostila_2020_106_119_00113b.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00114.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Algoritmos Genéticos para encontrar soluções para o problema do Caixeiro Viajante, com uma população de 4 indivíduos. Utilizaremos 2 pontos de cruzamento e mutação apenas se um número aleatório for maior do que 0,5.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="333" name="sl">
+			   <label for="333"></label>
+			   <img src="parte9/114_01_01.png"/>
+			   <figcaption>Como o problema é de minimização, vamos usar como fitness f<sub>j</sub> = (max{rota<sub>k</sub>} + 1) - rota<sub>j</sub>. Desta forma, soluções com menores valores nos fornecem maiores probabilidades p<sub>j</sub>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="334" name="sl">
+			   <label for="334"></label>
+			   <img src="parte9/114_01_02.png"/>
+			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que sofreração cruzamentos: para o primeiro par de indivíduos (i<sub>1</sub> e i<sub>3</sub>), encontramos dois números aleatórios entre 0 e 6 (2,13 e 4,81), que indicam os pontos de cruzamento entre o terceiro e o quarto bit (2,13) e entre o quinto e o sexto bit (4,81).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="335" name="sl">
+			   <label for="335"></label>
+			   <img src="parte9/114_01_02a.png"/>
+			   <figcaption>Trocamos os materiais genéticos entre os pontos de cruzamento, gerando os novos filhos i<sub>1</sub> e i<sub>2</sub>. Para evitar soluções infactíveis, devemos trocar as cidades repetidas que entraram nas novas rotas: na terceira posição de i<sub>1</sub>, trocamos a cidade 3 pela cidade 5, e na segunda posição de i<sub>2</sub>, trocamos a cidade 5 pela cidade 3.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="335a" name="sl">
+			   <label for="335a"></label>
+			   <img src="parte9/114_01_02b.png"/>
+			   <figcaption>Para o segundo par de indivíduos (i<sub>2</sub> e i<sub>1</sub>), encontramos dois números aleatórios entre 0 e 6 (3,87 e 1,55), que indicam os pontos de cruzamento entre o segundo e o terceiro bit (1,55) e entre o quarto e o quinto bit (3,87).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="336" name="sl">
+			   <label for="336"></label>
+			   <img src="parte9/114_01_02c.png"/>
+			   <figcaption>Trocamos os materiais genéticos entre os pontos de cruzamento, gerando os novos filhos i<sub>3</sub> e i<sub>4</sub>. Para evitar soluções infactíveis, devemos trocar as cidades repetidas que entraram nas novas rotas: na segunda posição de i<sub>3</sub>, trocamos a cidade 4 pela cidade 1 e na quinta posição trocamos a cidade 3 pela cidade 6; na primeira posição de i<sub>4</sub>, trocamos a cidade 1 pela cidade 4 e na sexta posição trocamos a cidade 6 pela cidade 3.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="337" name="sl">
+			   <label for="337"></label>
+			   <img src="parte9/114_01_03.png"/>
+			   <figcaption>Podemos sortear um número n<sub>1</sub> que define quando será feita a mutação. No caso do indivíduo i<sub>4</sub>, temos n<sub>1</sub> &gt; 0,5, n<sub>2</sub> = 3,2 (quarta posição) e n<sub>3</sub> = 0,71 (primeira posição). Logo, podemos trocar as cidades da primeira com a quarta posição do indivíduo. Substituímos a população e podemos começar a 2&ordf; iteração. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="339" name="sl">
+			   <label for="339"></label>
+			   <img src="parte9/114_01_04.png"/>
+			   <figcaption>Encontramos os valores dos fitness dos novos indivíduos e as respectivas probabilidades de escolhas para usarmos na roleta: p<sub>j</sub>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="340" name="sl">
+			   <label for="340"></label>
+			   <img src="parte9/114_01_05.png"/>
+			   <figcaption>Selecionamos os indivíduos por meio de 4 números aleatórios, e criamos os pontos de cruzamentos. Trocamos os materiais genéticos dos indivíduos escolhidos, fazendo as trocas de cidades repetidas, e podemos avançar para a fase de mutações.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="341" name="sl">
+			   <label for="341"></label>
+			   <img src="parte9/114_01_06.png"/>
+			   <figcaption>Usando o mesmo critério da primeira iteração, temos as mutações nos indivíduos i<sub>1</sub> e i<sub>2</sub>. Desta forma, criamos a nova população e podemos concluir a iteração. O processo continua até que um critério de parada seja satisfeito (solução máxima encontrada ou número máximo de iterações).</figcaption>
+		   </li>
+		</ul>
+		<img src="parte9/114_01_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00115.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
