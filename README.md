@@ -183,7 +183,7 @@
 		   <li>
 			   <input type="radio" id="020" name="sl">
 			   <label for="020"></label>
-			   <img src="parte1/10_02_01.png"/>
+			   <img src="parte1/10_02_01a.png"/>
 			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos apenas 1 padrão classificado corretamente.</figcaption>
 		   </li>
 		   <li>
@@ -195,7 +195,7 @@
 		   <li>
 			   <input type="radio" id="022" name="sl">
 			   <label for="022"></label>
-			   <img src="parte1/10_02_03.png"/>
+			   <img src="parte1/10_02_03a.png"/>
 			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos 2 padrões classificados corretamente.</figcaption>
 		   </li>
 		   <li>
