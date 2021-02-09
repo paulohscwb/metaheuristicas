@@ -232,7 +232,7 @@
              w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> + &alpha;dx<sub>i</sub> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup> + &alpha;d 
            Caso contrário
              w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
-        6. <a alt="guardamos no bolso a melhor combinação de pesos&#10;esta tática é muito usada nas Metaheurísticas para não perder bons pesos">Se w classifica corretamente mais exemplos do que w<sup>bolso</sup>:</a>  
+        6. <a alt="guardamos no bolso a melhor combinação de pesos; esta tática é muito&#10;usada nas Metaheurísticas para não perder boas combinações de pesos">Se w classifica corretamente mais exemplos do que w<sup>bolso</sup>:</a>  
              w<sup>bolso</sup> = w; grave o número de exemplos corretos 
 6. Teste a condição de parada.
 </code></pre></figcaption>
@@ -277,7 +277,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="025" name="sl">
 			   <label for="025"></label>
 			   <img src="parte1/18_01_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural Adaline fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha;.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural Adaline fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos iniciar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha;.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="026" name="sl">
@@ -289,7 +289,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="027" name="sl">
 			   <label for="027"></label>
 			   <img src="parte1/18_01_03.png"/>
-			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo.</figcaption>
+			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo para w<sub>1</sub> e w<sub>2</sub>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="028" name="sl">
