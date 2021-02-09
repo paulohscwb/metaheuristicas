@@ -2781,56 +2781,56 @@ Repita
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Algoritmos Genéticos para encontrar o valor máximo da função f(x), com uma população de 4 indivíduos. Utilizaremos 1 ponto de cruzamento e mutação apenas se um número aleatório for maior do que 0,5.</p>
 	  <ul class="slider">
 		   <li>
-			   <input type="radio" id="303" name="sl">
-			   <label for="303"></label>
+			   <input type="radio" id="313" name="sl">
+			   <label for="313"></label>
 			   <img src="parte9/113_01_01.png"/>
 			   <figcaption>Em problemas de maximização, usamos o valor da função objetivo como fitness, pois soluções com maiores valores nos fornecem maiores probabilidades p<sub>j</sub>. Como os indivíduos serão usados em formato binário, encontramos os respectivos valores decimais e calculamos o valor da função f para cada indivíduo.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="304" name="sl">
-			   <label for="304"></label>
+			   <input type="radio" id="314" name="sl">
+			   <label for="314"></label>
 			   <img src="parte9/113_01_02.png"/>
 			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que soferação cruzamentos: para o primeiro par de indivíduos (i<sub>1</sub> e i<sub>3</sub>), encontramos um número aleatório entre 0 e 5 (2,51), que indica o ponto de cruzamento está entre o terceiro e o quarto bit.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="304a" name="sl">
-			   <label for="304a"></label>
+			   <input type="radio" id="315" name="sl">
+			   <label for="315"></label>
 			   <img src="parte9/113_01_02a.png"/>
 			   <figcaption>Trocamos os materiais genéticos entre o ponto de cruzamento e o final de cada indivíduo, gerando os novos filhos i<sub>1</sub> e i<sub>2</sub>. Para o segundo par de indivíduos (i<sub>2</sub> e i<sub>1</sub>), encontramos um número aleatório entre 0 e 5 (1,23), que indica o ponto de cruzamento está entre o segundo e o terceiro bit.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="304b" name="sl">
-			   <label for="304b"></label>
+			   <input type="radio" id="316" name="sl">
+			   <label for="316"></label>
 			   <img src="parte9/113_01_02a.png"/>
 			   <figcaption>Trocamos os materiais genéticos entre o ponto de cruzamento e o final de cada indivíduo, gerando os novos filhos i<sub>3</sub> e i<sub>4</sub>. Agora vamos fazer as mutações nestes novos indivíduos.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="305" name="sl">
-			   <label for="305"></label>
+			   <input type="radio" id="317" name="sl">
+			   <label for="317"></label>
 			   <img src="parte9/113_01_03.png"/>
 			   <figcaption>Podemos sortear um número n<sub>1</sub> que define quando será feita a mutação. No caso do indivíduo i<sub>3</sub>, temos n<sub>1</sub> &gt; 0,5, e n<sub>2</sub> = 2,66 nos fornece o ponto de mutação no terceiro bit do indivíduo. Logo, a terceira posição de i<sub>3</sub> torna-se 1.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="306" name="sl">
-			   <label for="306"></label>
+			   <input type="radio" id="318" name="sl">
+			   <label for="318"></label>
 			   <img src="parte9/113_01_03a.png"/>
 			   <figcaption>No caso do indivíduo i<sub>4</sub>, temos n<sub>1</sub> &gt; 0,5, e n<sub>2</sub> = 0,71 nos fornece o ponto de mutação no primeiro bit do indivíduo. Logo, a primeira posição de i<sub>4</sub> torna-se 0. Os outros indivíduos não sofrem mutações pois n<sub>1</sub> &lt; 0. Substituindo a população, temos uma nova iteração.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="307" name="sl">
-			   <label for="307"></label>
+			   <input type="radio" id="319" name="sl">
+			   <label for="319"></label>
 			   <img src="parte9/113_01_04.png"/>
 			   <figcaption>Encontramos os valores dos fitnesse dos novos indivíduos e as respectivas probabilidades de escolhas para usarmos na roleta: p<sub>j</sub>.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="308" name="sl">
-			   <label for="308"></label>
+			   <input type="radio" id="320" name="sl">
+			   <label for="320"></label>
 			   <img src="parte9/113_01_05.png"/>
 			   <figcaption>Selecionamos os indivíduos por meio de 4 números aleatórios, e criamos os pontos de cruzamentos. Trocamos os materiais genéticos dos indivíduos escolhidos e podemos avançar para a fase de mutações.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="309" name="sl">
-			   <label for="309"></label>
+			   <input type="radio" id="321" name="sl">
+			   <label for="321"></label>
 			   <img src="parte9/113_01_06.png"/>
 			   <figcaption>Usando o mesmo critério da primeira iteração, temos as mutações nos indivíduos <i<sub>1</sub>, i<sub>2</sub> e i<sub>4</sub>. Desta forma, criamos a nova população e podemos concluir a iteração. O processo continua até que um critério de parada seja satisfeito (solução máxima encontrada ou número máximo de iterações).</figcaption>
 		   </li>
