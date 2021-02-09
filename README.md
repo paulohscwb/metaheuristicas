@@ -2761,8 +2761,34 @@ Repita
 
 <details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9">Algoritmos Genéticos e Busca Local</summary>
-  <p>Material da página xx até a página xxx.</p>
-  
+  <p>Material da página 106 até a página 119.</p>
+  <img src="parte9/apostila_2020_106_119_00106.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00107.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00108.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00109.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00110.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00111.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00112.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00113.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00114.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00115.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00116.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00117.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00118.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00119.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
 </details>
 
