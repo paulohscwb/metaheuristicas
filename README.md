@@ -414,7 +414,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="031" name="sl">
 			   <label for="031"></label>
 			   <img src="parte2/27_01_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural deste primeiro exercício fica análoga à arquitetura que usamos nos exemplos Perceptron e Adaline. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha; = 1.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural deste primeiro exercício fica análoga à arquitetura que usamos nos exemplos Perceptron e Adaline. O resumo dos cálculos está mostrado nesta imagem. Vamos iniciar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha; = 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="032" name="sl">
@@ -426,7 +426,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="033" name="sl">
 			   <label for="033"></label>
 			   <img src="parte2/27_01_03.png"/>
-			   <figcaption>O padrão (1, 2) é apresentado à rede, com a atualização automática dos pesos. Aplicando a simplificação de atualização dos pesos, podemos calcular as atualizações para usarmos na próxima apresentação de padrão de entrada.</figcaption>
+			   <figcaption>O padrão (1, 2) é apresentado à rede, com a atualização automática dos pesos. Usamos a simplificação de atualização dos pesos para as próximas apresentações de padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="034" name="sl">
@@ -529,7 +529,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="049" name="sl">
 			   <label for="049"></label>
 			   <img src="parte2/27_02_03.png"/>
-			   <figcaption>O padrão (1, 2) é apresentado à rede, com a atualização automática dos pesos. Aplicando a simplificação de atualização dos pesos, podemos calcular as atualizações para a próxima apresentação de padrão de entrada.</figcaption>
+			   <figcaption>O padrão (1, 2) é apresentado à rede, com a atualização automática dos pesos. Usamos a simplificação de atualização dos pesos para as próximas apresentações de padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="050" name="sl">
@@ -579,7 +579,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="056" name="sl">
 			   <label for="056"></label>
 			   <img src="parte2/28_01_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural deste exercício tem 3 neurônios na camada escondida. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de v, w, &theta;a e &theta;b e a taxa de aprendizagem &alpha; = 1.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural deste exercício tem 3 neurônios na camada escondida. O resumo dos cálculos está mostrado nesta imagem. Vamos iniciar com os pesos indicados de v, w, &theta;a e &theta;b e a taxa de aprendizagem &alpha; = 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="057" name="sl">
@@ -603,7 +603,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="060" name="sl">
 			   <label for="060"></label>
 			   <img src="parte2/28_01_03.png"/>
-			   <figcaption>O padrão (-1, 1) é apresentado à rede, com a atualização automática dos pesos. Aplicando a simplificação de atualização dos pesos, podemos calcular as atualizações para a próxima apresentação de padrão de entrada.</figcaption>
+			   <figcaption>O padrão (-1, 1) é apresentado à rede, com a atualização automática dos pesos. Usamos a simplificação de atualização dos pesos para as próximas apresentações de padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="061" name="sl">
