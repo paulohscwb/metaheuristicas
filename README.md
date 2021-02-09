@@ -2777,12 +2777,15 @@ Repita
   <img src="parte9/apostila_2020_106_119_00112.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00113.png"/>
+  <img src="parte9/apostila_2020_106_119_00113a.png"/>
+  <img src="parte9/apostila_2020_106_119_00113b.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00114.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00115.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00116.png"/>
+  <img src="parte9/apostila_2020_106_119_00116a.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00117.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
