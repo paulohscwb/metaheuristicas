@@ -271,25 +271,25 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
    </details></div>
   <img src="parte1/apostila_2020_1_19_0018a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício da Rede Neural Adaline. Vamos usar entradas e saídas bipolares.</p>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de classificação de padrões usando a Rede Neural Adaline. Vamos usar entradas e saídas bipolares.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="025" name="sl">
 			   <label for="025"></label>
 			   <img src="parte1/18_01_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural Adaline fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos iniciar com os pesos indicados de w e &theta; e a taxa de aprendizagem &alpha;.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural Adaline fica análoga à arquitetura que usamos no caso do Perceptron. O resumo dos cálculos está mostrado nesta imagem. Vamos iniciar com os pesos indicados de <b>w</b> e <b>&theta;</b> e a taxa de aprendizagem <b>&alpha;</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="026" name="sl">
 			   <label for="026"></label>
 			   <img src="parte1/18_01_02.png"/>
-			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Note que o termo &#9651;&theta; é comum na atualização dos pesos w<sub>1</sub> e w<sub>2</sub>; logo, podemos aplicar uma simplificação para estes cálculos.</figcaption>
+			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede, com a atualização automática dos pesos. Note que o termo <b>&Delta;&theta;</b> é comum na atualização dos pesos <b>w<sub>1</sub></b> e <b>w<sub>2</sub></b>; logo, podemos aplicar uma simplificação para estes cálculos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="027" name="sl">
 			   <label for="027"></label>
 			   <img src="parte1/18_01_03.png"/>
-			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo para w<sub>1</sub> e w<sub>2</sub>.</figcaption>
+			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo para <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="028" name="sl">
@@ -307,7 +307,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="030" name="sl">
 			   <label for="030"></label>
 			   <img src="parte1/18_01_06.png"/>
-			   <figcaption>Usando a equação do erro, similar à usada para deduzir a Regra Delta, temos que: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (-1 - (-1))<sup>2</sup> = 0. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
+			   <figcaption>Usando a equação do erro, similar à usada para deduzir a Regra Delta, temos que: <b>E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (-1 - (-1))<sup>2</sup> = 0</b>. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/18_01_01.png" class="fundo" style="visibility:hidden"/>
