@@ -289,7 +289,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="027" name="sl">
 			   <label for="027"></label>
 			   <img src="parte1/18_01_03.png"/>
-			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo para <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b>.</figcaption>
+			   <figcaption>O padrão (1, -1) é apresentado à rede, com a atualização automática dos pesos. Note que a simplificação na atualização dos pesos foi aplicada neste passo para <b>w<sub>1</sub></b> e <b>w<sub>2</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="028" name="sl">
@@ -307,7 +307,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 			   <input type="radio" id="030" name="sl">
 			   <label for="030"></label>
 			   <img src="parte1/18_01_06.png"/>
-			   <figcaption>Usando a equação do erro, similar à usada para deduzir a Regra Delta, temos que: <b>E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (-1 - (-1))<sup>2</sup> = 0</b>. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
+			   <figcaption>Usando a função do cálculo do erro, similar à usada para deduzir a Regra Delta, temos que: <b>E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2</b> = ((1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (1 - 1)<sup>2</sup> + (-1 - (-1))<sup>2</sup>)/2 = 0. O erro quantitativo também fica nulo, logo, podemos finalizar a aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/18_01_01.png" class="fundo" style="visibility:hidden"/>
