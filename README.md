@@ -984,19 +984,19 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="097" name="sl">
 			   <label for="097"></label>
 			   <img src="parte3/52_01_01.png"/>
-			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>) = (1, 0, 0, 0) e (1, 1, 0, 0) para a rede. As atualizações dos pesos são automáticas e produzem a matriz de pesos indicada w<sub>ij</sub>, com i = 1, 2, 3, 4 e j = 1, 2.</figcaption>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>, <b>x<sub>3</sub></b>, <b>x<sub>4</sub></b>) = (1, 0, 0, 0) e (1, 1, 0, 0) para a rede. As atualizações dos pesos são automáticas e produzem a matriz de pesos indicada <b>w<sub>ij</sub></b>, com <b>i</b> = 1, 2, 3, 4 e <b>j</b> = 1, 2.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="098" name="sl">
 			   <label for="098"></label>
 			   <img src="parte3/52_01_02.png"/>
-			   <figcaption>Continuando a apresentação dos padrões de entrada: (0, 0, 0 ,1) e (0, 0, 1, 1). As atualizações dos pesos produzem a matriz de pesos indicada w<sub>ij</sub>, com i = 1, 2, 3, 4 e j = 1, 2.</figcaption>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (0, 0, 0 ,1) e (0, 0, 1, 1). As atualizações dos pesos produzem a matriz de pesos indicada <b>w<sub>ij</sub></b>, com <b>i</b> = 1, 2, 3, 4 e <b>j</b> = 1, 2.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="099" name="sl">
 			   <label for="099"></label>
 			   <img src="parte3/52_01_03.png"/>
-			   <figcaption>Multiplicando-se a matriz de pesos W pelos vetores dos dados de entrada, temos o reconhecimento destes padrões. O processo de treinamento desta rede pode ser finalizado.</figcaption>
+			   <figcaption>Multiplicando-se a matriz de pesos <b>W</b> pelos vetores dos dados de entrada, temos o reconhecimento destes padrões. O processo de treinamento desta rede pode ser finalizado.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/52_01_01.png" class="fundo" style="visibility:hidden"/>
