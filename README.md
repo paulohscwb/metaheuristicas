@@ -683,13 +683,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="066" name="sl">
 			   <label for="066"></label>
 			   <img src="parte3/43_01_00.png"/>
-			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), temos o problema de Programação Quadrática apresentado. Os valores de <b>&alpha;<sub>i</sub></b> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
+			   <figcaption>Utilizando a função de núcleo <b>(1 + x<sup>T</sup>x)</b>, temos o problema de Programação Quadrática apresentado. Os valores de <b>&alpha;<sub>i</sub></b> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="067" name="sl">
 			   <label for="067"></label>
 			   <img src="parte3/43_01_01.png"/>
-			   <figcaption>Substituindo os valores de x na função de decisão, encontramos a função de 2&ordm; grau. A parábola faz a separação dos dados nas classes 1 e 2.</figcaption>
+			   <figcaption>Substituindo os valores de <b>x</b> na função de decisão, encontramos a função de 2&ordm; grau. A parábola faz a separação dos dados nas classes 1 e 2.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/43_01_01.png" class="fundo" style="visibility:hidden"/>
@@ -697,31 +697,31 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00044.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de Support Vector Machine (SVM). A rede deve separar os dados de entrada em duas classes.</p>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de classificação usando a Rede Support Vector Machine (SVM). Os dados devem ser separados em duas classes.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="068" name="sl">
 			   <label for="068"></label>
 			   <img src="parte3/44_01_00.png"/>
-			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), precisamos desenvolvê-la para inserir os dados de entrada das variáveis x<sub>1</sub> e x<sub>2</sub>.</figcaption>
+			   <figcaption>Utilizando a função de núcleo <b>(1 + x<sup>T</sup>x)</b>, precisamos desenvolvê-la para inserir os dados de entrada das variáveis <b>x<sub>1</sub></b> e <b>x<sub>2</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="069" name="sl">
 			   <label for="069"></label>
 			   <img src="parte3/44_01_01.png"/>
-			   <figcaption>Substituindo os valores de x<sub>1</sub> e x<sub>2</sub> na função de decisão, encontramos os vetores de decisão.</figcaption>
+			   <figcaption>Substituindo os valores de <b>x<sub>1</sub></b> e <b>x<sub>2</sub></b> na função de decisão, encontramos os vetores de decisão.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="070" name="sl">
 			   <label for="070"></label>
 			   <img src="parte3/44_01_02.png"/>
-			   <figcaption>Resolvendo o problema de programação quadrática, todas as variáveis de decisão ficam com os respectivos valores $\mathsf{\alpha_i = {1 \over 8}}$, ou seja, todas as variáveis representam vetores suportes. Substituindo estes valores, temos o vetor w.</figcaption>
+			   <figcaption>Resolvendo o problema de programação quadrática, todas as variáveis de decisão ficam com os respectivos valores $\mathsf{\alpha_i = {1 \over 8}}$, ou seja, todas as variáveis representam vetores suportes. Substituindo estes valores, temos o vetor <b>w</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="071" name="sl">
 			   <label for="071"></label>
 			   <img src="parte3/44_01_03.png"/>
-			   <figcaption>A função decisão fica representada por f(x) = &minus;x<sub>1</sub>x<sub>2</sub>. Todos os dados de entrada ficam classificados corretamente com a SVM apresentada.</figcaption>
+			   <figcaption>A função decisão fica representada por <b>f(x) = &minus;x<sub>1</sub>x<sub>2</sub></b>. Todos os dados de entrada ficam classificados corretamente com a SVM apresentada.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/44_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -765,31 +765,31 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="072" name="sl">
 			   <label for="072"></label>
 			   <img src="parte3/48_01_00.png"/>
-			   <figcaption>Vamos começar com a apresentação do padrão de entrada (x<sub>1</sub>, x<sub>2</sub>) = (0, 2), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz G: g<sub>1</sub>.</figcaption>
+			   <figcaption>Vamos começar com a apresentação do padrão de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (0, 2), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz <b>G</b>: <b>g<sub>1</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="073" name="sl">
 			   <label for="073"></label>
 			   <img src="parte3/48_01_01.png"/>
-			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 2) e (1, 3). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>2</sub> e g<sub>3</sub>.</figcaption>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 2) e (1, 3). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz <b>G</b>: <b>g<sub>2</sub></b> e <b>g<sub>3</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="074" name="sl">
 			   <label for="074"></label>
 			   <img src="parte3/48_01_02.png"/>
-			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 0) e (2, 1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>4</sub> e g<sub>5</sub>.</figcaption>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 0) e (2, 1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz <b>G</b>: <b>g<sub>4</sub></b> e <b>g<sub>5</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="075" name="sl">
 			   <label for="075"></label>
 			   <img src="parte3/48_01_03.png"/>
-			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
+			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz <b>G</b>. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de <b>&theta;</b>. Temos o vetor de pesos calculado da seguinte maneira: <b>w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="076" name="sl">
 			   <label for="076"></label>
 			   <img src="parte3/48_01_04.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="077" name="sl">
@@ -801,7 +801,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="078" name="sl">
 			   <label for="078"></label>
 			   <img src="parte3/48_01_06.png"/>
-			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,219.</figcaption>
+			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em <b>E = 0,219</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/48_01_00.png" class="fundo" style="visibility:hidden"/>
