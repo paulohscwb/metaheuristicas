@@ -2281,43 +2281,43 @@ Fim
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00090.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar o valor mínimo da função f(x). Vamos utilizar 3 partículas que representam soluções do problema.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar o valor mínimo da função <b>f(x)</b>. Vamos utilizar 3 partículas que representam soluções do problema.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="269" name="sl">
 			   <label for="269"></label>
 			   <img src="parte7/90_01_01.png"/>
-			   <figcaption>Com os parâmetros indicados, temos as 2 primeiras iterações da técnica. A melhor partícula é p<sub>2</sub> nestas iterações, com f(x) = 21,4.</figcaption>
+			   <figcaption>Com os parâmetros indicados, temos as 2 primeiras iterações da técnica. A melhor partícula é <b>p<sub>2</sub></b> nestas iterações, com <b>f(x)</b> = 21,4. As melhores posições de cada partícula <b>pbest<sub>i</sub></b> são suas novas posições.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="270" name="sl">
 			   <label for="270"></label>
 			   <img src="parte7/90_01_02.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é p<sub>2</sub>, com f(x) = 21,4.</figcaption>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula continua sendo <b>p<sub>2</sub></b>, com <b>f(x)</b> = 21,4.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="271" name="sl">
 			   <label for="271"></label>
 			   <img src="parte7/90_01_03.png"/>
-			   <figcaption>Na 7&ordf; iteração, a melhor partícula é p<sub>3</sub>, com f(x) = 16,7. Porém, com as atualizações de velocidades, a partícula p<sub>2</sub>, volta a ser a melhor com f(x) = 15,6.</figcaption>
+			   <figcaption>Na 7&ordf; iteração, a melhor partícula é <b>p<sub>3</sub></b>, com <b>f(x)</b> = 21,3. Porém, com as atualizações de velocidades, a partícula <b>p<sub>2</sub></b>, volta a ser a melhor com <b>f(x)</b> = 15,6 na 8&ordf; iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="272" name="sl">
 			   <label for="272"></label>
 			   <img src="parte7/90_01_04.png"/>
-			   <figcaption>Na 11&ordf; iteração, a melhor partícula é p<sub>3</sub>, com f(x) = 15,4. Porém, com as atualizações de velocidades, a partícula p<sub>2</sub>, volta a ser a melhor com f(x) = 14,6.</figcaption>
+			   <figcaption>Na 11&ordf; iteração, a melhor partícula é <b>p<sub>3</sub></b>, com <b>f(x)</b> = 15,4. Porém, com as atualizações de velocidades, a partícula <b>p<sub>2</sub></b>, volta a ser a melhor com <b>f(x)</b> = 14,6 na 14&ordf; iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="273" name="sl">
 			   <label for="273"></label>
 			   <img src="parte7/90_01_05.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é p<sub>2</sub>, com f(x) = 14,5.</figcaption>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>2</sub></b>, com <b>f(x)</b> = 14,5.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="274" name="sl">
 			   <label for="274"></label>
 			   <img src="parte7/90_01_06.png"/>
-			   <figcaption>Com as partículas agrupadas, temos uma solução ótima local f(x) = 14,5. Espalhando-se as partículas e mantendo-se a melhor delas (p<sub>2</sub>), podemos explorar o espaço de busca da técnia. O critério de parada mais usado é o número máximo de iterações.</figcaption>
+			   <figcaption>Com as partículas agrupadas, temos uma solução ótima local <b>f(x)</b> = 14,5. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>2</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte7/90_01_01.png" class="fundo" style="visibility:hidden" />
