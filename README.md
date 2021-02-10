@@ -765,7 +765,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="072" name="sl">
 			   <label for="072"></label>
 			   <img src="parte3/48_01_00.png"/>
-			   <figcaption>Vamos começar com a apresentação do padrão de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (0, 2), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz <b>G</b>: <b>g<sub>1</sub></b>.</figcaption>
+			   <figcaption>Vamos começar com a apresentação do padrão de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (0, 2), com <b>&sigma; =</b> $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz <b>G</b>: <b>g<sub>1</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="073" name="sl">
@@ -795,13 +795,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="077" name="sl">
 			   <label for="077"></label>
 			   <img src="parte3/48_01_05.png"/>
-			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois padrões de entrada.</figcaption>
+			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede para mais dois padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="078" name="sl">
 			   <label for="078"></label>
 			   <img src="parte3/48_01_06.png"/>
-			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em <b>E = 0,219</b>.</figcaption>
+			   <figcaption>Para finalizar, são mostrados os cálculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em <b>E = 0,219</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/48_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -814,43 +814,43 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="079" name="sl">
 			   <label for="079"></label>
 			   <img src="parte3/48_02_01.png"/>
-			   <figcaption>Vamos começar com a apresentação do padrão de entrada (x<sub>1</sub>, x<sub>2</sub>) = (0, 2), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz G: g<sub>1</sub>.</figcaption>
+			   <figcaption>Vamos começar com a apresentação do padrão de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (0, 2), com <b>&sigma; =</b> $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado na primeira linha da matriz <b>G</b>: <b>g<sub>1</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="080" name="sl">
 			   <label for="080"></label>
 			   <img src="parte3/48_02_02.png"/>
-			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 2) e (1, 3). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>2</sub> e g<sub>3</sub>.</figcaption>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 2) e (1, 3). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz <b>G</b>: <b>g<sub>2</sub></b> e <b>g<sub>3</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="081" name="sl">
 			   <label for="081"></label>
 			   <img src="parte3/48_02_03.png"/>
-			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 0) e (2, 1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>4</sub> e g<sub>5</sub>.</figcaption>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (1, 0) e (2, 1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz <b>G</b>: <b>g<sub>4</sub></b> e <b>g<sub>5</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="082" name="sl">
 			   <label for="082"></label>
 			   <img src="parte3/48_02_04.png"/>
-			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a quarta coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
+			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz <b>G</b>. Note que a quarta coluna desta matriz tem valores iguais a 1, pois são as ativações de <b>&theta;</b>. Temos o vetor de pesos calculado da seguinte maneira: <b>w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="083" name="sl">
 			   <label for="083"></label>
 			   <img src="parte3/48_02_05.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + w<sub>3</sub>&phiv;<sub>3</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + w<sub>3</sub>&phiv;<sub>3</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="084" name="sl">
 			   <label for="084"></label>
 			   <img src="parte3/48_02_06.png"/>
-			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede mais dois padrões de entrada.</figcaption>
+			   <figcaption>Seguem os cálculos das saídas e os erros quadráticos desta rede para mais dois padrões de entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="085" name="sl">
 			   <label for="085"></label>
 			   <img src="parte3/48_02_07.png"/>
-			   <figcaption>Para finalizar, são mostrados os cáculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em E = 0,0057.</figcaption>
+			   <figcaption>Para finalizar, são mostrados os cálculos da saída e do erro quadrático da rede para o último padrão de entrada. O erro quadrático total desta RBF ficou em <b>E = 0,0057</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/48_02_03.png" class="fundo" style="visibility:hidden"/>
