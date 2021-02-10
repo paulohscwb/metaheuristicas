@@ -2657,13 +2657,19 @@ O resultado é a rota S*.
 			   <input type="radio" id="310" name="sl">
 			   <label for="310"></label>
 			   <img src="parte8/103_01_07.png"/>
-			   <figcaption>A melhor solução encontrada foi com custo <b>L* = 9,8</b>. As "contribuições" de feromônios são feitas com base nos arcos que cada formiga utilizou. As contribuições de cada formiga k são calculadas por meio do inverso do custo de cada rota: <b>&Delta;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub></b>.</figcaption>
+			   <figcaption>A melhor solução encontrada foi com custo <b>L* = 9,8</b>. As "contribuições" de feromônios são feitas com base nos arcos que cada formiga utilizou. As contribuições de cada formiga <b>k</b> são calculadas por meio do inverso do custo de cada rota: <b>&Delta;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="310a" name="sl">
 			   <label for="310a"></label>
 			   <img src="parte8/103_01_07a.png"/>
-			   <figcaption>Por exemplo, o arco (1, 2) foi usado pelas formigas 1, 4 e 5: logo, o feromônio <b>&tau;<sub>12</sub></b> terá as contribuições <b>&Delta;<sub>12</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio. Os cálculos das demais atualizações de feromônios são feitos da mesma forma.</figcaption>
+			   <figcaption>Por exemplo, o arco (1, 2) foi usado pelas formigas 1, 4 e 5: logo, o feromônio <b>&tau;<sub>12</sub></b> terá as contribuições <b>&Delta;<sub>12</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="310b" name="sl">
+			   <label for="310b"></label>
+			   <img src="parte8/103_01_07b.png"/>
+			   <figcaption>O arco (1, 4) não foi usado pelas formigas, e tem atualização somente da evaporação do feromônio. Os cálculos das demais atualizações de feromônios são feitos da mesma forma.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="311" name="sl">
@@ -2683,61 +2689,61 @@ O resultado é a rota S*.
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00104.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema da Mochila. Vamos utilizar os parâmetros indicados de &alpha; e &beta;. A fórmula da probabilidade fica mais simplificada, com apenas um índice i.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema da Mochila. Vamos utilizar os parâmetros indicados de <b>&alpha;</b> e <b>&beta;</b>. A fórmula da probabilidade fica mais simplificada, com apenas o índice <b>i</b>.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="295" name="sl">
 			   <label for="295"></label>
 			   <img src="parte8/104_01_01.png"/>
-			   <figcaption>Os valores de &eta; são calculados utilizando o valor máximo v<sub>i</sub>, pois temos um problema de maximização. A formiga 1 começa carregando o objeto 1, e fazemos os cálculos de forma similar ao PCV.</figcaption>
+			   <figcaption>Os valores de <b>&eta;</b> são calculados utilizando o valor máximo <b>v<sub>i</sub></b>, pois temos um problema de maximização. A formiga 1 começa carregando o objeto 1, e fazemos os cálculos de forma similar ao PCV.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="295a" name="sl">
 			   <label for="295a"></label>
 			   <img src="parte8/104_01_01a.png"/>
-			   <figcaption>A vizinhança N contém os objetos ainda não carregados pela formiga, e a probabilidade utiliza apenas um índice de feromônio &tau; e atratividade &eta;. Podemos verificar sempre a capacidade da mochila antes de fazer os cálculos de probabilidades. Nesta situação, a formiga consegue colocar os objetos 2, 3, 5 e 6 na mochila, com custo L<sub>1</sub> = 11. </figcaption>
+			   <figcaption>A vizinhança <b>N</b> contém os objetos ainda não carregados pela formiga, e a probabilidade utiliza apenas um índice de feromônio <b>&tau;</b> e atratividade <b>&eta;</b>. Podemos verificar sempre a capacidade da mochila antes de fazer os cálculos de probabilidades. Nesta situação, a formiga consegue colocar os objetos 2, 3, 5 e 6 na mochila, com custo <b>L<sub>1</sub> = 11</b>. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="296" name="sl">
 			   <label for="296"></label>
 			   <img src="parte8/104_01_02.png"/>
-			   <figcaption>A formiga 2 começa com o segundo objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo L<sub>2</sub> = 9.</figcaption>
+			   <figcaption>A formiga 2 começa com o segundo objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo <b>L<sub>2</sub> = 9</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="297" name="sl">
 			   <label for="297"></label>
 			   <img src="parte8/104_01_03.png"/>
-			   <figcaption>A formiga 3 começa com o terceiro objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo L<sub>3</sub> = 9.</figcaption>
+			   <figcaption>A formiga 3 começa com o terceiro objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo <b>L<sub>3</sub> = 9</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="298" name="sl">
 			   <label for="298"></label>
 			   <img src="parte8/104_01_04.png"/>
-			   <figcaption>A formiga 4 começa com o quarto objeto, e consegue carregar os objetos 2, 4 e 5 na mochila, com custo L<sub>4</sub> = 10.</figcaption>
+			   <figcaption>A formiga 4 começa com o quarto objeto, e consegue carregar os objetos 2, 4 e 5 na mochila, com custo <b>L<sub>4</sub> = 10</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="299" name="sl">
 			   <label for="299"></label>
 			   <img src="parte8/104_01_05.png"/>
-			   <figcaption>A formiga 5 começa com o quinto objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo L<sub>5</sub> = 9.</figcaption>
+			   <figcaption>A formiga 5 começa com o quinto objeto, e consegue carregar os objetos 2, 3 e 5 na mochila, com custo <b>L<sub>5</sub> = 9</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="300" name="sl">
 			   <label for="300"></label>
 			   <img src="parte8/104_01_06.png"/>
-			   <figcaption>Para finalizar a iteração, a formiga 6 começa com o sexto objeto, e consegue carregar os objetos 1, 3, 5 e 6 na mochila, com custo L<sub>6</sub> = 11.</figcaption>
+			   <figcaption>Para finalizar a iteração, a formiga 6 começa com o sexto objeto, e consegue carregar os objetos 1, 3, 5 e 6 na mochila, com custo <b>L<sub>6</sub> = 11</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="301" name="sl">
 			   <label for="301"></label>
 			   <img src="parte8/104_01_07.png"/>
-			   <figcaption>A melhor solução encontrada foi com custo L* = 11. As "contribuições" de feromônios são feitas com base nos objetos que cada formiga carregou. Como o problema é de maximização, podemos utilizar o valor de &gamma; para atribuir maiores feromônios às soluções com custos maiores.</figcaption>
+			   <figcaption>A melhor solução encontrada foi com custo <b>L* = 11</b>. As "contribuições" de feromônios são feitas com base nos objetos que cada formiga carregou. Como o problema é de maximização, podemos utilizar o valor de <b>&gamma;</b> para atribuir maiores feromônios às soluções com custos maiores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="301a" name="sl">
 			   <label for="301a"></label>
 			   <img src="parte8/104_01_07a.png"/>
-			   <figcaption>Por exemplo, o objeto 2 foi carregado pelas formigas 1, 2, 3, 4 e 5: logo, o feromônio &tau;<sub>2</sub> terá as contribuições &Delta;<sub>2</sub> de cada formiga. O valor &rho; é da taxa de evaporação do feromônio.</figcaption>
+			   <figcaption>Por exemplo, o objeto 2 foi carregado pelas formigas 1, 2, 3, 4 e 5: logo, o feromônio <b>&tau;<sub>2</sub></b> terá as contribuições <b>&Delta;<sub>2</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="302" name="sl">
