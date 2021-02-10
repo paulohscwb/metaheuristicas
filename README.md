@@ -2334,31 +2334,31 @@ Fim
 			   <input type="radio" id="275" name="sl">
 			   <label for="275"></label>
 			   <img src="parte7/92_01_01.png"/>
-			   <figcaption>As velocidades são aplicadas com as trocas de posições dos vértices, tentando "imitar" as rotas pbest<sub>i</sub> e gbest.</figcaption>
+			   <figcaption>As velocidades são aplicadas com as trocas de posições dos vértices, tentando "imitar" as rotas <b>pbest<sub>i</sub></b> e <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="276" name="sl">
 			   <label for="276"></label>
 			   <img src="parte7/92_01_02.png"/>
-			   <figcaption>Com os parâmetros indicados, temos a 1&ordf; iteração da técnica. A melhor partícula é p<sub>2</sub>, com solução 39,89. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a gbest.</figcaption>
+			   <figcaption>Com os parâmetros indicados, temos a 1&ordf; iteração da técnica. A melhor partícula é <b>p<sub>2</sub></b>, com solução 39,89. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="277" name="sl">
 			   <label for="277"></label>
 			   <img src="parte7/92_01_03.png"/>
-			   <figcaption>Na 2&ordf; iteração, a melhor partícula é p<sub>3</sub>, com solução 36,05. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a gbest.</figcaption>
+			   <figcaption>Na 2&ordf; iteração, a melhor partícula é <b>p<sub>3</sub></b>, com solução 36,05. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="278" name="sl">
 			   <label for="278"></label>
 			   <img src="parte7/92_01_04.png"/>
-			   <figcaption>Na 3&ordf; iteração, a melhor partícula é p<sub>3</sub>, com solução 36,05. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a gbest.</figcaption>
+			   <figcaption>Na 3&ordf; iteração, a melhor partícula é <b>p<sub>3</sub></b>, com solução 36,05. Calculamos as velocidades por meio de trocas de posições dos vértices, deixando as rotas parecidas com a <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="279" name="sl">
 			   <label for="279"></label>
 			   <img src="parte7/92_01_05.png"/>
-			   <figcaption>A técnica prossegue até que as rotas fiquem todas iguais à gbest. Neste momento, podemos criar 2 novas partículas, mantendo-se a partícula gbest para não perdermos boas soluções. Esta técnica de "espalhar" as partículas pode ser feita algumas vezes, até alcançarmos um número máximo de iterações.</figcaption>
+			   <figcaption>A técnica prossegue até que as rotas fiquem todas iguais à <b>gbest</b>. Neste momento, podemos criar 2 novas partículas, mantendo-se a partícula <b>gbest</b> para não perdermos boas soluções. Esta técnica de "espalhar" as partículas pode ser feita algumas vezes, até alcançarmos um número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte7/92_01_01.png" class="fundo" style="visibility:hidden" />
