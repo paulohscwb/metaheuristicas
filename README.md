@@ -2394,6 +2394,12 @@ Fim
 			   <figcaption>Com os parâmetros indicados, temos a 1&ordf; iteração da técnica. A melhor partícula é <b>p<sub>3</sub></b>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com a <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="281a" name="sl">
+			   <label for="281a"></label>
+			   <img src="parte7/93_01_02a.png"/>
+			   <figcaption>Escolhemos 1 troca de <b>gbest - x<sub>1</sub></b>: por exemplo na posição 3, que a partícula <b>gbest</b> tem valor 1. Escolhemos 1 troca de <b>gbest - x<sub>2</sub></b>: por exemplo na posição 2, que a partícula <b>gbest</b> tem valor 0.</figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="282" name="sl">
 			   <label for="282"></label>
 			   <img src="parte7/93_01_03.png"/>
