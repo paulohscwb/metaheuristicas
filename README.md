@@ -2545,7 +2545,7 @@ Até nsucess = 0 ou iteração &ge; M
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da técnica ILS:
+   <figcaption>Algoritmo de ILS: Iterated Local Search
 <pre><code><a alt="começamos com uma solução qualquer">x<sub>0</sub> = Solução_Inicial</a>
 <a alt="técnica de melhoria aplicada na solução inicial">x = busca_local(x<sub>0</sub>) aplica uma melhoria na solução inicial</a>
 Repita
@@ -2564,7 +2564,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00099.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da técnica GRASP:
+   <figcaption>Algoritmo de GRASP - Greedy Randomized Adaptative Search Procedure:
 <pre><code><a alt="começamos com uma solução M">Melhor_solução = M, função de avaliação: f.</a>
 Repita
     <a alt="solução gulosa: por exemplo, usar os arcos de menores custos do PCV">X = solução_grasp (criar uma solução aleatória por inserção gulosa de elementos)</a>
