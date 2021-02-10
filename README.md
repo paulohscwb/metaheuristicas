@@ -141,7 +141,7 @@
 			   <input type="radio" id="014" name="sl">
 			   <label for="014"></label>
 			   <img src="parte1/10_01_13a.png"/>
-			   <figcaption>Os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta;  definem as equações das retas usadas para a classificação. Note que temos 2 padrões classificados corretamente e os outros 2 na região de indefinição.</figcaption>
+			   <figcaption>Os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> definem as equações das retas usadas para a classificação. Note que temos 2 padrões classificados corretamente e os outros 2 na região de indefinição.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="015" name="sl">
@@ -178,37 +178,37 @@
 			   <input type="radio" id="019" name="sl">
 			   <label for="019"></label>
 			   <img src="parte1/10_02_01.png"/>
-			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados.</figcaption>
+			   <figcaption>O primeiro padrão (1, 1) é apresentado à rede. Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="020" name="sl">
 			   <label for="020"></label>
 			   <img src="parte1/10_02_01a.png"/>
-			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos apenas 1 padrão classificado corretamente.</figcaption>
+			   <figcaption>Usando os coeficientes de <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> que definem as equações das retas usadas para a classificação, temos apenas 1 padrão classificado corretamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="021" name="sl">
 			   <label for="021"></label>
 			   <img src="parte1/10_02_03.png"/>
-			   <figcaption>O segundo padrão (1, -1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados.</figcaption>
+			   <figcaption>O segundo padrão (1, -1) é apresentado à rede. Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="022" name="sl">
 			   <label for="022"></label>
 			   <img src="parte1/10_02_03a.png"/>
-			   <figcaption>Usando os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; que definem as equações das retas usadas para a classificação, temos 2 padrões classificados corretamente.</figcaption>
+			   <figcaption>Usando os coeficientes de <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> que definem as equações das retas usadas para a classificação, temos 2 padrões classificados corretamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="023" name="sl">
 			   <label for="023"></label>
 			   <img src="parte1/10_02_05.png"/>
-			   <figcaption>O terceiro padrão (-1, 1) é apresentado à rede. Como y &ne; d, então os pesos são atualizados. Na apresentação do último padrão, temos que y = d e os valores dos pesos são mantidos.</figcaption>
+			   <figcaption>O terceiro padrão (-1, 1) é apresentado à rede. Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados. Na apresentação do último padrão, temos que <b>y</b> = <b>d</b> e os valores dos pesos são mantidos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="024" name="sl">
 			   <label for="024"></label>
 			   <img src="parte1/10_02_07.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 1, w<sub>2</sub> = 1, &theta; = -1) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (<b>w<sub>1</sub></b> = 1, <b>w<sub>2</sub></b> = 1, <b>&theta;</b> = -1) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/10_02_01.png" class="fundo" style="visibility:hidden"/>
