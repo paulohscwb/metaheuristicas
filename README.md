@@ -2463,37 +2463,37 @@ Até nsucess = 0 ou iteração &ge; M
    </details></div>
   <img src="parte7/apostila_2020_85_97_00096a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação do Simulated Annealing para encontrar rotas para o problema do Caixeiro Viajante. Vamos utilizar a solução inicial S<sub>0</sub> indicada.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação do Simulated Annealing para encontrar rotas para o problema do Caixeiro Viajante. Vamos utilizar a solução inicial <b>S<sub>0</sub></b> indicada.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="285" name="sl">
 			   <label for="285"></label>
 			   <img src="parte7/96_01_01.png"/>
-			   <figcaption>Na 1&ordf; iteração, encontramos a solução vizinha S<sub>1</sub> com uma troca de arcos de S<sub>0</sub>. Como a f(S<sub>1</sub>) &le; f(S<sub>0</sub>), então a solução é aceita e podemos atualizar a temperatura para a próxima iteração.</figcaption>
+			   <figcaption>Na 1&ordf; iteração, encontramos a solução vizinha <b>S<sub>1</sub></b> com uma troca de arcos de <b>S<sub>0</sub></b>. Como <b>f(S<sub>1</sub>) &le; f(S<sub>0</sub>)</b>, então a solução é aceita e podemos atualizar a temperatura para a próxima iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="286" name="sl">
 			   <label for="286"></label>
 			   <img src="parte7/96_01_02.png"/>
-			   <figcaption>Na 2&ordf; iteração, encontramos a solução vizinha S<sub>2</sub> com uma troca de arcos de S<sub>1</sub>. Como f(S<sub>2</sub>) &gt; f(S<sub>1</sub>), então utilizamos a probabilidade P para verificar a aceitação desta solução.</figcaption>
+			   <figcaption>Na 2&ordf; iteração, encontramos a solução vizinha <b>S<sub>2</sub></b> com uma troca de arcos de <b>S<sub>1</sub></b>. Como <b>f(S<sub>2</sub>) &gt; f(S<sub>1</sub>)</b>, então utilizamos a probabilidade <b>P</b> para verificar a aceitação desta solução.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="288" name="sl">
 			   <label for="288"></label>
 			   <img src="parte7/96_01_02a.png"/>
-			   <figcaption>Como P &lt; rnd, a solução não é aceita e podemos encontrar mais uma vizinha de S<sub>1</sub> (o máximo é V = 2). Como f(S<sub>2</sub>) &le; f(S<sub>1</sub>), então aceitamos a solução e podemos atualizar a temperatura para a próxima iteração.</figcaption>
+			   <figcaption>Como <b>P &lt; rnd</b>, a solução não é aceita e podemos encontrar mais uma vizinha de <b>S<sub>1</sub></b> (o máximo é <b>V</b> = 2). Como <b>f(S<sub>2</sub>) &le; f(S<sub>1</sub>)</b>, então aceitamos a solução e podemos atualizar a temperatura para a próxima iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="287" name="sl">
 			   <label for="287"></label>
 			   <img src="parte7/96_01_03.png"/>
-			   <figcaption>Na 3&ordf; iteração, encontramos a solução vizinha S<sub>3</sub> com uma troca de arcos de S<sub>2</sub>. Como f(S<sub>3</sub>) &gt; f(S<sub>2</sub>), então utilizamos a probabilidade P para verificar a aceitação desta solução.</figcaption>
+			   <figcaption>Na 3&ordf; iteração, encontramos a solução vizinha <b>S<sub>3</sub></b> com uma troca de arcos de <b>S<sub>2</sub></b>. Como <b>f(S<sub>3</sub>) &gt; f(S<sub>2</sub>)</b>, então utilizamos a probabilidade <b>P</b> para verificar a aceitação desta solução.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="289" name="sl">
 			   <label for="289"></label>
 			   <img src="parte7/96_01_03a.png"/>
-			   <figcaption>Como P &gt; rnd, a solução é aceita e podemos  podemos atualizar a temperatura para a próxima iteração. O processo continua até atingir um número máximo de iterações.</figcaption>
+			   <figcaption>Como <b>P &gt; rnd</b>, a solução é aceita e podemos  podemos atualizar a temperatura para a próxima iteração. O processo continua até atingir um número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte7/96_01_02.png" class="fundo" style="visibility:hidden" />
