@@ -2933,7 +2933,7 @@ Repita
 			   <input type="radio" id="334" name="sl">
 			   <label for="334"></label>
 			   <img src="parte9/114_01_02.png"/>
-			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que sofreração cruzamentos: para o primeiro par de indivíduos (<b>i<sub>1</sub></b> e <b>i<sub>3</sub></b>), encontramos dois números aleatórios entre 0 e 6 (2,13 e 4,81), que indicam os pontos de cruzamento entre o terceiro e o quarto bit (2,13) e entre o quinto e o sexto bit (4,81).</figcaption>
+			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que participam dos cruzamentos: para o primeiro par de indivíduos (<b>i<sub>1</sub></b> e <b>i<sub>3</sub></b>), encontramos dois números aleatórios entre 0 e 6 (2,13 e 4,81), que indicam os pontos de cruzamento entre o terceiro e o quarto bit (2,13) e entre o quinto e o sexto bit (4,81).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="335" name="sl">
@@ -2991,49 +2991,49 @@ Repita
 			   <input type="radio" id="343" name="sl">
 			   <label for="343"></label>
 			   <img src="parte9/116_01_01.png"/>
-			   <figcaption>Como o problema é de minimização, vamos usar como fitness f<sub>j</sub> = (max{custo<sub>k</sub>} + 1) - custo<sub>j</sub>. Desta forma, soluções com menores valores nos fornecem maiores probabilidades p<sub>j</sub>.</figcaption>
+			   <figcaption>Como o problema é de minimização, vamos usar como fitness <b>f<sub>j</sub> = (max{custo<sub>k</sub>} + 1) - custo<sub>j</sub></b>. Desta forma, soluções com menores valores nos fornecem maiores probabilidades <b>p<sub>j</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="344" name="sl">
 			   <label for="344"></label>
 			   <img src="parte9/116_01_02.png"/>
-			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que sofreração cruzamentos. O primeiro par de indivíduos (r<sub>1</sub> e r<sub>5</sub>) tem as medianas 2 e 4 pertencentes apenas à solução r<sub>5</sub>, e as medianas 1 e 5 pertencentes apenas à solução r<sub>1</sub>.</figcaption>
+			   <figcaption>Utilizando o método da roleta, encontramos 4 números aleatórios que definem quais serão os indivíduos que participam dos cruzamentos. O primeiro par de indivíduos (<b>r<sub>1</sub></b> e <b>r<sub>5</sub></b>) tem as medianas 2 e 4 pertencentes apenas à solução <b>r<sub>5</sub></b>, e as medianas 1 e 5 pertencentes apenas à solução <b>r<sub>1</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="345" name="sl">
 			   <label for="345"></label>
 			   <img src="parte9/116_01_02.png"/>
-			   <figcaption>Podemos gerar um número aleatório entre 0 e 2 que define quais serão as medianas que devem ser trocadas: 0,54 indica que trocaremos as medianas 2 e 1 entre os indivíduos r<sub>1</sub> e r<sub>5</sub>, gerando os filhos r<sub>2</sub> e r<sub>3</sub>.</figcaption>
+			   <figcaption>Podemos gerar um número aleatório entre 0 e 2 que define quais serão as medianas que devem ser trocadas: 0,54 indica que trocaremos as medianas 2 e 1 entre os indivíduos <b>r<sub>1</sub></b> e <b>r<sub>5</sub></b>, gerando os filhos <b>r<sub>2</sub></b> e <b>r<sub>3</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="345a" name="sl">
 			   <label for="345a"></label>
 			   <img src="parte9/116_01_02a.png"/>
-			   <figcaption>O segundo par de indivíduos (r<sub>4</sub> e r<sub>3</sub>) tem as medianas 2 e 3 pertencentes apenas à solução r<sub>4</sub>, e as medianas 1 e 4 pertencentes apenas à solução r<sub>3</sub>.</figcaption>
+			   <figcaption>O segundo par de indivíduos (<b>r<sub>4</sub></b> e <b>r<sub>3</sub></b>) tem as medianas 2 e 3 pertencentes apenas à solução <b>r<sub>4</sub></b>, e as medianas 1 e 4 pertencentes apenas à solução <b>r<sub>3</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="346" name="sl">
 			   <label for="346"></label>
 			   <img src="parte9/116_01_02a.png"/>
-			   <figcaption>Podemos gerar um número aleatório entre 0 e 2 que define quais serão as medianas que devem ser trocadas: 1,3 indica que trocaremos as medianas 3 e 4 entre os indivíduos r<sub>4</sub> e r<sub>3</sub>, gerando os filhos r<sub>4</sub> e r<sub>5</sub>.</figcaption>
+			   <figcaption>Podemos gerar um número aleatório entre 0 e 2 que define quais serão as medianas que devem ser trocadas: 1,3 indica que trocaremos as medianas 3 e 4 entre os indivíduos <b>r<sub>4</sub></b> e <b>r<sub>3</sub></b>, gerando os filhos <b>r<sub>4</sub></b> e <b>r<sub>5</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="347" name="sl">
 			   <label for="347"></label>
 			   <img src="parte9/116_01_02b.png"/>
-			   <figcaption>Podemos sortear um número n<sub>1</sub> que define quando será feita a mutação. No caso do indivíduo r<sub>2</sub>, temos n<sub>1</sub> &gt; 0,5, n<sub>2</sub> = 0,21 (primeira posição) e n<sub>3</sub> = 3,2 (mediana 4). Logo, o indivíduo  r<sub>2</sub> tem a primeira mediana trocada por 4.</figcaption>
+			   <figcaption>Podemos sortear um número <b>n<sub>1</sub></b> que define quando será feita a mutação. No caso do indivíduo <b>r<sub>2</sub></b>, temos <b>n<sub>1</sub> &gt; 0,5</b>, <b>n<sub>2</sub> = 0,21</b> (primeira posição) e <b>n<sub>3</sub> = 3,2</b> (mediana 4). Logo, o indivíduo  <b>r<sub>2</sub></b> tem a primeira mediana trocada por 4.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="349" name="sl">
 			   <label for="349"></label>
 			   <img src="parte9/116_01_02c.png"/>
-			   <figcaption>No caso do indivíduo r<sub>3</sub>, temos n<sub>1</sub> &gt; 0,5, n<sub>2</sub> = 1,3 (segunda posição) e n<sub>3</sub> = 1,61 (mediana 2). Logo, o indivíduo  r<sub>3</sub> tem a segunda mediana trocada por 2. Podemos manter o melhor indivíduo e substituir os outros 4 da população para começar a próxima iteração.</figcaption>
+			   <figcaption>No caso do indivíduo <b>r<sub>3</sub></b>, temos <b>n<sub>1</sub> &gt; 0,5</b>, <b>n<sub>2</sub> = 1,3</b> (segunda posição) e <b>n<sub>3</sub> = 1,61</b> (mediana 2). Logo, o indivíduo <b>r<sub>3</sub></b> tem a segunda mediana trocada por 2. Podemos manter o melhor indivíduo e substituir os outros 4 da população para começar a próxima iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="348" name="sl">
 			   <label for="348"></label>
 			   <img src="parte9/116_01_03.png"/>
-			   <figcaption>Encontramos os valores dos fitness dos novos indivíduos e as respectivas probabilidades de escolhas para usarmos na roleta: p<sub>j</sub>.</figcaption>
+			   <figcaption>Encontramos os valores dos fitness dos novos indivíduos e as respectivas probabilidades de escolhas para usarmos na roleta: <b>p<sub>j</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="350" name="sl">
