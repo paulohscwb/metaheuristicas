@@ -2171,6 +2171,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte5/apostila_2020_53_81_00080.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
 </details>
+
 <h3>Outras Metaheurísticas</h3>
 <details>
   <summary id="parte6">Busca Tabú</summary>
@@ -2200,31 +2201,31 @@ Fim
    </details></div>
   <img src="parte6/apostila_2020_82_84_00083a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabú para encontrar uma rota para o problema do Caixeiro Viajante. Vamos utilizar k = 3, ou seja, 3 movimentos para cada iteração.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabú para encontrar uma rota para o problema do Caixeiro Viajante. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="261" name="sl">
 			   <label for="261"></label>
 			   <img src="parte6/83_01_01.png"/>
-			   <figcaption>Com a solução aleatória S<sub>1</sub>, aplicamos 3 movimentos da lista M: o melhor movimento é m<sub>3</sub>, que será colocado na lista tabú por 3 iterações.</figcaption>
+			   <figcaption>Com a solução aleatória <b>S<sub>1</sub></b>, aplicamos 3 movimentos da lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabú por 3 iterações.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="262" name="sl">
 			   <label for="262"></label>
 			   <img src="parte6/83_01_02.png"/>
-			   <figcaption>Com a solução modificada S<sub>2</sub>, aplicamos 3 movimentos da nova lista M: o melhor movimento é m<sub>2</sub>, que será colocado na lista tabú por 3 iterações. O movimento m<sub>1</sub> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>2</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>2</sub></b>, que será colocado na lista tabú por 3 iterações. O movimento <b>m<sub>1</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263" name="sl">
 			   <label for="263"></label>
 			   <img src="parte6/83_01_03.png"/>
-			   <figcaption>Com a solução modificada S<sub>3</sub>, aplicamos 3 movimentos da nova lista M: nenhum dos movimentos melhora a solução. O movimento m<sub>3</sub> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>3</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="264" name="sl">
 			   <label for="264"></label>
 			   <img src="parte6/83_01_04.png"/>
-			   <figcaption>Com a solução S<sub>3</sub>, aplicamos 3 movimentos da nova lista M: nenhum dos movimentos melhora a solução. O movimento m<sub>2</sub> está na lista tabú, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
+			   <figcaption>Com a solução <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabú, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte6/83_01_01.png" class="fundo" style="visibility:hidden" />
