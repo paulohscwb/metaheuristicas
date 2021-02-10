@@ -1642,7 +1642,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="181" name="sl">
 			   <label for="181"></label>
 			   <img src="parte5/75_02_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.75; (0.9, 0.75) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (1, 0.9).</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>x</b> para prever 1 passo à frente: (1, 0.9) para prever 0.75; (0.9, 0.75) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (1, 0.9).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="182" name="sl">
@@ -1666,7 +1666,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="185" name="sl">
 			   <label for="185"></label>
 			   <img src="parte5/75_02_05.png"/>
-			   <figcaption>Utilizando as 6 linhas da matriz G, calculamos os pesos para a Rede RBF.</figcaption>
+			   <figcaption>Utilizando as 6 linhas da matriz <b>G</b>, calculamos os pesos para a Rede RBF.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="186" name="sl">
@@ -1696,7 +1696,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="190" name="sl">
 			   <label for="190"></label>
 			   <img src="parte5/75_02_10.png"/>
-			   <figcaption>Temos o erro quadrático desta rede E = 0,0483.</figcaption>
+			   <figcaption>Temos o erro quadrático desta rede <b>E = 0,0483</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/75_02_01.png" class="fundo" style="visibility:hidden" />
@@ -1709,7 +1709,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="191" name="sl">
 			   <label for="191"></label>
 			   <img src="parte5/75_03_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (0.1, 0.2) para prever 0.75; (0.2, 0.3) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b> para prever 1 passo à frente: (0.1, 0.2) para prever 0.75; (0.2, 0.3) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="192" name="sl">
@@ -1733,7 +1733,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="195" name="sl">
 			   <label for="195"></label>
 			   <img src="parte5/75_03_05.png"/>
-			   <figcaption>Utilizando as 6 linhas da matriz G, calculamos os pesos para a Rede RBF.</figcaption>
+			   <figcaption>Utilizando as 6 linhas da matriz <b>G</b>, calculamos os pesos para a Rede RBF.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="196" name="sl">
@@ -1763,7 +1763,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="200" name="sl">
 			   <label for="200"></label>
 			   <img src="parte5/75_03_10.png"/>
-			   <figcaption>Temos o erro quadrático desta rede E = 0,0574.</figcaption>
+			   <figcaption>Temos o erro quadrático desta rede <b>E = 0,0574</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/75_03_01.png" class="fundo" style="visibility:hidden" />
