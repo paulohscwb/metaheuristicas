@@ -1047,7 +1047,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   <li>
 			   <input type="radio" id="100a" name="sl">
 			   <label for="100a"></label>
-			   <img src="parte4/58_01_01.png"/>
+			   <img src="parte4/58_01_01a.png"/>
 			   <figcaption>Neste exemplo, vamos usar o treinamento "hard", que só atualiza o neurônio vencedor.</figcaption>
 		   </li>
 		   <li>
