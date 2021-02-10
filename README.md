@@ -1114,7 +1114,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   <li>
 			   <input type="radio" id="109" name="sl">
 			   <label for="109"></label>
-			   <img src="parte4/61_01_01.png"/>
+			   <img src="parte4/61_01_01a.png"/>
 			   <figcaption>Apresentamos a cidade A(0,1; 0,1) para a rede, e o neurônio vencedor é o 4. Com a vizinhança Gaussiana, usamos a quarta linha e a quarta coluna da matriz de distâncias <b>&Lambda;<sub>ii*</sub></b> para atualizar todos os pesos da rede.</figcaption>
 		   </li>
 		   <li>
