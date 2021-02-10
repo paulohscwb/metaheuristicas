@@ -910,19 +910,19 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    </details></div>
   <img src="parte3/apostila_2020_40_52_00050a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função "OU" com a rede neural de Hebb, com &alpha; = 1.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões da função "OU" utilizando a rede neural de Hebb, com <b>&alpha;</b> = 1.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="091" name="sl">
 			   <label for="091"></label>
 			   <img src="parte3/50_01_01.png"/>
-			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (1, 1) e (1, -1) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (2, 0, 2).</figcaption>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (1, 1) e (1, -1) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (<b>w<sub>1</sub></b>, <b>w<sub>2</sub></b>, <b>&theta;</b>) = (2, 0, 2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="092" name="sl">
 			   <label for="092"></label>
 			   <img src="parte3/50_01_02.png"/>
-			   <figcaption>Continuando a apresentação dos padrões de entrada: (-1, 1) e (-1, -1). As atualizações dos pesos produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (2, 2, 2).</figcaption>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (-1, 1) e (-1, -1). As atualizações dos pesos produzem o vetor (<b>w<sub>1</sub></b>, <b>w<sub>2</sub></b>, <b>&theta;</b>) = (2, 2, 2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="093" name="sl">
