@@ -935,25 +935,25 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte3/apostila_2020_40_52_00050b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural de Hebb, com &alpha; = 1. Precisamos deixar os padrões de entrada no intervalo [-1, 1] para que a rede de Hebb funcione adequadamente.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de classificação de padrões com a rede neural de Hebb, com <b>&alpha;</b> = 1. Precisamos deixar os padrões de entrada no intervalo [-1, 1] para que a rede de Hebb funcione corretamente.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="094" name="sl">
 			   <label for="094"></label>
 			   <img src="parte3/50_02_01.png"/>
-			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (-1, 0.33) e (-0.33, 0.33) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.33, 0.66, 2).</figcaption>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (-1, 0.33) e (-0.33, 0.33) para a rede. As atualizações dos pesos são automáticas e produzem o vetor (<b>w<sub>1</sub></b>, <b>w<sub>2</sub></b>, <b>&theta;</b>) = (-1.33, 0.66, 2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="095" name="sl">
 			   <label for="095"></label>
 			   <img src="parte3/50_02_02.png"/>
-			   <figcaption>Continuando a apresentação dos padrões de entrada: (-0.33, 1) e (-0.33, -1). As atualizações dos pesos produzem o vetor (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.33, 2.66, 2).</figcaption>
+			   <figcaption>Continuando a apresentação dos padrões de entrada: (-0.33, 1) e (-0.33, -1). As atualizações dos pesos produzem o vetor (<b>w<sub>1</sub></b>, <b>w<sub>2</sub></b>, <b>&theta;</b>) = (-1.33, 2.66, 2).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="096" name="sl">
 			   <label for="096"></label>
 			   <img src="parte3/50_02_03.png"/>
-			   <figcaption>Ao final da 1&ordf; iteração, o vetor de pesos (w<sub>1</sub>, w<sub>2</sub>, &theta;) = (-1.66, 2.99, 1). Todos os padrões são classificados corretamente, e o treinamento da rede pode ser finalizado.</figcaption>
+			   <figcaption>Ao final da 1&ordf; iteração, o vetor de pesos (<b>w<sub>1</sub></b>, <b>w<sub>2</sub></b>, <b>&theta;</b>) = (-1.66, 2.99, 1). Todos os padrões são classificados corretamente, e o treinamento da rede pode ser finalizado.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte3/50_02_01.png" class="fundo" style="visibility:hidden"/>
