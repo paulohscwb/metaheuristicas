@@ -81,13 +81,13 @@
 			   <input type="radio" id="005" name="sl">
 			   <label for="005"></label>
 			   <img src="parte1/10_01_05.png"/>
-			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados. Como os coeficientes das variáveis <b>x<sub>1</sub></b> e <b>x<sub>2</sub></b> ficaram nulos, não temos a interpretação geométrica nesta apresentação de padrões.</figcaption>
+			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados. Como os coeficientes das variáveis <b>x<sub>1</sub></b> e <b>x<sub>2</sub></b> ficaram nulos, não temos a interpretação geométrica nesta apresentação de padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="006" name="sl">
 			   <label for="006"></label>
 			   <img src="parte1/10_01_05a.png"/>
-			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y = d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da primeira iteração.</figcaption>
+			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y</b> = <b>d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da primeira iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="006a" name="sl">
@@ -99,25 +99,25 @@
 			   <input type="radio" id="007" name="sl">
 			   <label for="007"></label>
 			   <img src="parte1/10_01_07.png"/>
-			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, 1). Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="009" name="sl">
 			   <label for="009"></label>
 			   <img src="parte1/10_01_09.png"/>
-			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y &ne; d</b>, então os pesos são atualizados. As equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados. As equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="011" name="sl">
 			   <label for="011"></label>
 			   <img src="parte1/10_01_11.png"/>
-			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados.</figcaption>
+			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="012" name="sl">
 			   <label for="012"></label>
 			   <img src="parte1/10_01_11a.png"/>
-			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y = d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da segunda iteração.</figcaption>
+			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y</b> = <b>d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da segunda iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="012a" name="sl">
@@ -135,7 +135,7 @@
 			   <input type="radio" id="013" name="sl">
 			   <label for="013"></label>
 			   <img src="parte1/10_01_13.png"/>
-			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, -2). Como <b>y &ne; d</b>, então os pesos são atualizados.</figcaption>
+			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, -2). Como <b>y</b> &ne; <b>d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="014" name="sl">
