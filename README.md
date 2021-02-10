@@ -63,7 +63,7 @@
 			   <input type="radio" id="001" name="sl" checked>
 			   <label for="001"></label>
 			   <img src="parte1/10_01_01.png"/>
-			   <figcaption>Apresentação do primeiro padrão para a rede (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (1, 1). Como <b>y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 0 + 1.0 + 1.0 = 0 &ne; <b>d</b> = 1, então os pesos são atualizados (passo 5 do algoritmo).</figcaption>
+			   <figcaption>Apresentação do primeiro padrão para a rede (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (1, 1). Como <b>y</b> = <b>&theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 0 + 1.0 + 1.0 = 0 &ne; <b>d</b> = 1, então os pesos são atualizados (passo 5 do algoritmo).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="002" name="sl">
@@ -75,7 +75,7 @@
 			   <input type="radio" id="003" name="sl">
 			   <label for="003"></label>
 			   <img src="parte1/10_01_03.png"/>
-			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 1 + 1.1 + 0.1 = 2 &ne; <b>d</b> = -1, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y</b> = <b>&theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 1 + 1.1 + 0.1 = 2 &ne; <b>d</b> = -1, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="005" name="sl">
