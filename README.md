@@ -1036,13 +1036,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00058.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen, com &alpha; = 0,5. Temos um mapa com 4 neurônios em formato quadrado, e os dados com valores no intervalo [-1, 1], o que garante a convergência mais rápida da rede.</p>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede de Kohonen, com <b>&alpha;</b> = 0,5. Temos um mapa com 4 neurônios em formato quadrado, e os dados com valores no intervalo [-1, 1], o que garante a convergência mais rápida da rede.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="100" name="sl">
 			   <label for="100"></label>
 			   <img src="parte4/58_01_01.png"/>
-			   <figcaption>Vamos começar com a apresentação do padrão de entrada A(-0,15; 0,25). Calculamos as distâncias d<sub>i</sub> entre as coordenadas deste padrão e as coordenadas w<sub>ij</sub> dos pesos dos neurônios. O vencedor é o neurônio 2.</figcaption>
+			   <figcaption>Vamos começar com a apresentação do padrão de entrada A(-0,15; 0,25). Calculamos as distâncias <b>d<sub>i</sub></b> entre as coordenadas deste padrão e as coordenadas <b>w<sub>ij</sub></b> dos pesos dos neurônios. O vencedor é o neurônio 2.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="100a" name="sl">
@@ -1054,7 +1054,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="101" name="sl">
 			   <label for="101"></label>
 			   <img src="parte4/58_01_02.png"/>
-			   <figcaption>Na apresentação do padrão de entrada B(-0,2; -0,2), calculamos as distâncias d<sub>i</sub> entre as coordenadas deste padrão e as coordenadas w<sub>ij</sub> dos pesos dos neurônios. O vencedor é o neurônio 3, que é atualizado.</figcaption>
+			   <figcaption>Na apresentação do padrão de entrada B(-0,2; -0,2), calculamos as distâncias <b>d<sub>i</sub></b> entre as coordenadas deste padrão e as coordenadas <b>w<sub>ij</sub></b> dos pesos dos neurônios. O vencedor é o neurônio 3, que é atualizado.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="102" name="sl">
@@ -1090,7 +1090,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="107" name="sl">
 			   <label for="107"></label>
 			   <img src="parte4/58_01_08.png"/>
-			   <figcaption>Na segunda iteração, reduzimos a taxa de aprendizagem &alpha; e apresentamos novamente os padrões de entrada para a rede. O critério de parada é a "convergência" da rede, ou seja, quando os pesos sofrem poucas modificações de uma iteração para outra.</figcaption>
+			   <figcaption>Na segunda iteração, reduzimos a taxa de aprendizagem <b>&alpha;</b> e apresentamos novamente os padrões de entrada para a rede. O critério de parada é a "convergência" da rede, ou seja, quando os pesos sofrem poucas modificações de uma iteração para outra.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte4/58_01_01.png" class="fundo" style="visibility:hidden"/>
