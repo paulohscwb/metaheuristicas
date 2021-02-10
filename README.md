@@ -2397,7 +2397,7 @@ Fim
 			   <input type="radio" id="281a" name="sl">
 			   <label for="281a"></label>
 			   <img src="parte7/93_01_02a.png"/>
-			   <figcaption>Escolhemos 1 troca de <b>gbest - x<sub>1</sub></b>: por exemplo na posição 3, que a partícula <b>gbest</b> tem valor 1. Escolhemos 1 troca de <b>gbest - x<sub>2</sub></b>: por exemplo na posição 2, que a partícula <b>gbest</b> tem valor 0.</figcaption>
+			   <figcaption>Escolhemos 1 troca de <b>gbest - x<sub>1</sub></b>: na posição 3, que a partícula <b>gbest</b> tem valor 1. Escolhemos 1 troca de <b>gbest - x<sub>2</sub></b>: na posição 2, que a partícula <b>gbest</b> tem valor 0.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="282" name="sl">
@@ -2406,10 +2406,22 @@ Fim
 			   <figcaption>Na 2&ordf; iteração, a melhor partícula é <b>p<sub>1</sub></b>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com <b>pbest</b> e <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="281b" name="sl">
+			   <label for="281b"></label>
+			   <img src="parte7/93_01_03a.png"/>
+			   <figcaption>Escolhemos 1 troca de <b>gbest - x<sub>2</sub></b>: na posição 4, que a partícula <b>gbest</b> tem valor 1. Escolhemos 1 troca de <b>gbest - x<sub>3</sub></b>: na posição 5, que a partícula <b>gbest</b> tem valor 0.</figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="283" name="sl">
 			   <label for="283"></label>
 			   <img src="parte7/93_01_04.png"/>
 			   <figcaption>Na 3&ordf; iteração, a melhor partícula é <b>p<sub>1</sub></b>, com solução 9. Calculamos as velocidades por meio de trocas de valores dos objetos, deixando as soluções parecidas com <b>pbest</b> e <b>gbest</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="281c" name="sl">
+			   <label for="281c"></label>
+			   <img src="parte7/93_01_04a.png"/>
+			   <figcaption>Escolhemos 1 troca de <b>gbest - x<sub>2</sub></b>: na posição 5, que a partícula <b>gbest</b> tem valor 0. Escolhemos 1 troca de <b>gbest - x<sub>3</sub></b>: na posição 4, que a partícula <b>gbest</b> tem valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="284" name="sl">
