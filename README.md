@@ -327,17 +327,17 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0021.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-   <figcaption><p align="center">Neste caso, o parâmetro &beta; da função sigmoidal é igual a 1.
-   <br>A derivada da função y<sub>k</sub> = tanh(y<sub>k</sub>*) com parâmetro &beta; = 1 é y'<sub>k</sub> = (1 - y<sub>k</sub><sup>2</sup>). 
-   <br>Logo, a atualização de pesos w será <b>&#9651;w<sub>jk</sub> = &alpha;(1 - y<sub>k</sub><sup>2</sup>)(d<sub>k</sub> - y<sub>k</sub>)z<sub>j</sub></b>.</p></figcaption>
+   <figcaption><p align="center">Neste caso, o parâmetro <b>&beta;</b> da função sigmoidal é igual a 1.
+   <br>A derivada da função <b>y<sub>k</sub></b> = <b>tanh(y<sub>k</sub>*)</b> com parâmetro <b>&beta;</b> = 1 é <b>y'<sub>k</sub></b> = <b>(1 - y<sub>k</sub><sup>2</sup>)</b>. 
+   <br>Logo, a atualização de pesos w será <b>&Delta;w<sub>jk</sub> = &alpha;(1 - y<sub>k</sub><sup>2</sup>)(d<sub>k</sub> - y<sub>k</sub>)z<sub>j</sub></b>.</p></figcaption>
    </details></div>
   <img src="parte2/apostila_2020_20_40_0021a.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0022.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-   <figcaption><p align="center">As derivadas das funções y<sub>k</sub> = tanh(y<sub>k</sub>*) e z<sub>j</sub> = tanh(z<sub>j</sub>*) com parâmetro &beta; = 1 são:
-   <br>y'<sub>k</sub> = tanh(y<sub>k</sub>*) = (1 - y<sub>k</sub><sup>2</sup>) e z'<sub>j</sub> = tanh(z<sub>j</sub>*) = (1 - z<sub>j</sub><sup>2</sup>). 
-   <br>Logo, a atualização de pesos v será <b>&#9651;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> - y<sub>k</sub>)(1 - y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub></b>.</p></figcaption>
+   <figcaption><p align="center">As derivadas das funções <b>y<sub>k</sub></b> = <b>tanh(y<sub>k</sub>*)</b> e <b>z<sub>j</sub></b> = <b>tanh(z<sub>j</sub>*)</b> com parâmetro <b>&beta;</b> = 1 são:
+   <br><b>y'<sub>k</sub></b> = <b>tanh(y<sub>k</sub>*)</b> = <b>(1 - y<sub>k</sub><sup>2</sup>)</b> e <b>z'<sub>j</sub></b> = <b>tanh(z<sub>j</sub>*)</b> = <b>(1 - z<sub>j</sub><sup>2</sup>)</b>. 
+   <br>Logo, a atualização de pesos v será <b>&#Delta;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> - y<sub>k</sub>)(1 - y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub></b>.</p></figcaption>
    </details></div>
   <img src="parte2/apostila_2020_20_40_0022a.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
@@ -450,7 +450,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="037" name="sl">
 			   <label for="037"></label>
 			   <img src="parte2/27_01_07.png"/>
-			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,937. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,937. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="038" name="sl">
@@ -486,7 +486,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="043" name="sl">
 			   <label for="043"></label>
 			   <img src="parte2/27_01_13.png"/>
-			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,859.</figcaption>
+			   <figcaption>Calculamos as saídas y* e y de cada padrão de entrada para encontrarmos o erro desta iteração. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,859.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="044" name="sl">
@@ -553,7 +553,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="053" name="sl">
 			   <label for="053"></label>
 			   <img src="parte2/27_02_07.png"/>
-			   <figcaption>Calculamos as saídas z* e z para determinar as saídas y* e y de cada padrão de entrada. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,268. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
+			   <figcaption>Calculamos as saídas z* e z para determinar as saídas y* e y de cada padrão de entrada. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,268. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="054" name="sl">
@@ -621,7 +621,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="063" name="sl">
 			   <label for="063"></label>
 			   <img src="parte2/28_01_06.png"/>
-			   <figcaption>Calculamos as saídas z* e z para determinar as saídas y* e y de cada padrão de entrada. A equação do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,753.</figcaption>
+			   <figcaption>Calculamos as saídas z* e z para determinar as saídas y* e y de cada padrão de entrada. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,753.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="064" name="sl">
