@@ -789,7 +789,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="076" name="sl">
 			   <label for="076"></label>
 			   <img src="parte3/48_01_04.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phi;<sub>1</sub> + w<sub>2</sub>&phi;<sub>2</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="077" name="sl">
@@ -863,25 +863,25 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="086" name="sl">
 			   <label for="086"></label>
 			   <img src="parte3/48_03_01.png"/>
-			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (x<sub>1</sub>, x<sub>2</sub>) = (1, 1) e (-1, 1), com &sigma; = $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado nas duas primeiras linha da matriz G: g<sub>1</sub> e g<sub>2</sub>.</figcaption>
+			   <figcaption>Vamos começar com a apresentação dos padrões de entrada (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (1, 1) e (-1, 1), com <b>&sigma; =</b> $\mathsf{\sqrt {0,5}}$. O resultado da ativação de cada neurônio da camada escondida será guardado nas duas primeiras linha da matriz <b>G</b>: <b>g<sub>1</sub></b> e <b>g<sub>2</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="087" name="sl">
 			   <label for="087"></label>
 			   <img src="parte3/48_03_02.png"/>
-			   <figcaption>Agora temos as apresentações dos padrões de entrada (-1, -1) e (1, -1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz G: g<sub>3</sub> e g<sub>4</sub>.</figcaption>
+			   <figcaption>Agora temos as apresentações dos padrões de entrada (-1, -1) e (1, -1). O resultado da ativação de cada neurônio da camada escondida será guardado nas linhas da matriz <b>G</b>: <b>g<sub>3</sub></b> e <b>g<sub>4</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="088" name="sl">
 			   <label for="088"></label>
 			   <img src="parte3/48_03_03.png"/>
-			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz G. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de &theta;. Temos o vetor de pesos calculado da seguinte maneira: w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d.</figcaption>
+			   <figcaption>Agora podemos calcular o vetor de pesos usando a matriz <b>G</b>. Note que a terceira coluna desta matriz tem valores iguais a 1, pois são as ativações de <b>&theta;</b>. Temos o vetor de pesos calculado da seguinte maneira: <b>w = (G<sup>T</sup>G)<sup>-1</sup>G<sup>T</sup>d</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="089" name="sl">
 			   <label for="089"></label>
 			   <img src="parte3/48_03_04.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + &theta; e E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2.</figcaption>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phi;<sub>1</sub> + w<sub>2</sub>&phi;<sub>2</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="090" name="sl">
