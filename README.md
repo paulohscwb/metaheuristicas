@@ -2337,6 +2337,18 @@ Fim
 			   <figcaption>As velocidades são aplicadas com as trocas de posições dos vértices, tentando "imitar" as rotas <b>pbest<sub>i</sub></b> e <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="276a" name="sl">
+			   <label for="276a"></label>
+			   <img src="parte7/92_01_02a.png"/>
+			   <figcaption>Para fazermos as trocas do PCV com a técnica PSO, podemos utilizar índices para <b>gbest - x<sub>i</sub></b>. Na partícula 1, a cidade <b>F</b> está na posição 6; porém, na partícula <b>gbest</b> a cidade <b>F</b> está na posição 1. Logo, a posição 1 de <b>gbest - x<sub>1</sub></b> tem índice 6.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="276b" name="sl">
+			   <label for="276b"></label>
+			   <img src="parte7/92_01_02b.png"/>
+			   <figcaption>A cidade <b>B</b> está na posição 2 da partícula 1; porém, na partícula <b>gbest</b> a cidade <b>B</b> está na posição 5. Logo, a posição 5 de <b>gbest - x<sub>1</sub></b> tem índice 2. Quando a partícula é a <b>gbest</b>, temos que os índices de <b>gbest - x<sub>i</sub></b> estão na ordem 1, 2, 3, 4, 5, 6.</figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="276" name="sl">
 			   <label for="276"></label>
 			   <img src="parte7/92_01_02.png"/>
