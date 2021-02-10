@@ -838,7 +838,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="083" name="sl">
 			   <label for="083"></label>
 			   <img src="parte3/48_02_05.png"/>
-			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phiv;<sub>1</sub> + w<sub>2</sub>&phiv;<sub>2</sub> + w<sub>3</sub>&phiv;<sub>3</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
+			   <figcaption>Podemos calcular as saídas e os erros quadráticos desta rede para os dois primeiros padrões de entrada: <b>y = w<sub>1</sub>&phi;<sub>1</sub> + w<sub>2</sub>&phi;<sub>2</sub> + w<sub>3</sub>&phi;<sub>3</sub> + &theta;</b> e <b>E<sub>k</sub> = (d<sub>k</sub> &minus; y)<sup>2</sup>)/2</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="084" name="sl">
