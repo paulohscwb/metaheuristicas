@@ -408,7 +408,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte2/apostila_2020_20_40_0027a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de classificação de padrões com a Rede Neural Multi Layer Perceptron (MLP). Vamos usar saídas binárias para classificar os padrões de entrada em dois conjuntos: A e B.</p>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de classificação de padrões com a Rede Neural Multi Layer Perceptron (MLP). Vamos usar saídas binárias para classificar os padrões de entrada em dois conjuntos: <b>A</b> e <b>B</b>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="031" name="sl">
@@ -499,31 +499,31 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte2/apostila_2020_20_40_0027b.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício da Rede Neural Multi Layer Perceptron (MLP). Vamos usar saídas binárias para classificar os padrões de entrada em dois conjuntos A e B, além de uma camada escondida para acelerar a convergência.</p>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de classificação de padrões usando uma Rede Neural Multi Layer Perceptron (MLP). Vamos usar saídas binárias para classificar os padrões de entrada em dois conjuntos <b>A</b> e <b>B</b>, além de uma camada escondida para acelerar a convergência.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="045" name="sl">
 			   <label for="045"></label>
 			   <img src="parte2/27_02_01.png"/>
-			   <figcaption>A arquitetura da Rede Neural deste exercício tem 3 neurônios na camada escondida. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de v, w &theta;a e &theta;b e a taxa de aprendizagem &alpha; = 1.</figcaption>
+			   <figcaption>A arquitetura da Rede Neural deste exercício tem 3 neurônios na camada escondida. O resumo dos cálculos está mostrado nesta imagem. Vamos inicializar com os pesos indicados de <b>v</b>, <b>w</b>, <b>&theta;a</b> e <b>&theta;b</b> e a taxa de aprendizagem <b>&alpha;</b> = 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="046" name="sl">
 			   <label for="046"></label>
 			   <img src="parte2/27_02_02.png"/>
-			   <figcaption>O primeiro padrão (0, 2) é apresentado à rede. Calculamos a saída z* e aplicamos a função de ativação sigmóide (na camada escondida, podemos aplicar a função tanh ou limiar). Com os valores z, calculamos a saída da rede y* com a função de ativação sigmóide.</figcaption>
+			   <figcaption>O primeiro padrão (0, 2) é apresentado à rede. Calculamos a saída <b>z*</b> e aplicamos a função de ativação sigmóide (na camada escondida, podemos aplicar a função tanh ou limiar). Com os valores <b>z</b>, calculamos a saída da rede <b>y*</b> com a função de ativação sigmóide.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="047" name="sl">
 			   <label for="047"></label>
 			   <img src="parte2/27_02_02a.png"/>
-			   <figcaption>De acordo com o algoritmo Backpropagation, atualizamos primeiro os pesos da camada de saída w. Podemos simplificar a atualização dos pesos w, pois o termo &#9651;&theta;b é comum nas atualizações dos pesos w. </figcaption>
+			   <figcaption>De acordo com o algoritmo Backpropagation, atualizamos primeiro os pesos da camada de saída <b>w</b>. Podemos simplificar a atualização dos pesos <b>w</b>, pois o termo <b>&Delta;&theta;b</b> é comum nas atualizações dos pesos <b>w</b>. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="048" name="sl">
 			   <label for="048"></label>
 			   <img src="parte2/27_02_02b.png"/>
-			   <figcaption>De acordo com o algoritmo Backpropagation, atualizamos a seguir os pesos da camada de entrada v. Podemos simplificar a atualização dos pesos v, pois os termos &#9651;&theta;a<sub>1</sub> &#9651;&theta;a<sub>2</sub> e &#9651;&theta;a<sub>3</sub> são comuns nestas atualizações de pesos. </figcaption>
+			   <figcaption>De acordo com o algoritmo Backpropagation, atualizamos a seguir os pesos da camada de entrada <b>v</b>. Podemos simplificar a atualização dos pesos v, pois os termos <b>&Delta;&theta;a<sub>1</sub></b>, <b>&Delta;&theta;a<sub>2</sub></b> e <b>&Delta;&theta;a<sub>3</sub></b> são comuns nestas atualizações de pesos. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="049" name="sl">
@@ -535,13 +535,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="050" name="sl">
 			   <label for="050"></label>
 			   <img src="parte2/27_02_04.png"/>
-			   <figcaption>O padrão (1, 3) é apresentado à rede, com a atualização automática dos pesos. Este é o último padrão de entrada do conjunto com d = 1.</figcaption>
+			   <figcaption>O padrão (1, 3) é apresentado à rede, com a atualização automática dos pesos. Este é o último padrão de entrada do conjunto com <b>d</b> = 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="051" name="sl">
 			   <label for="051"></label>
 			   <img src="parte2/27_02_05.png"/>
-			   <figcaption>O padrão (2, 1) é apresentado à rede, com a atualização automática dos pesos. Este é o primeiro padrão de entrada do conjunto com d = 0.</figcaption>
+			   <figcaption>O padrão (2, 1) é apresentado à rede, com a atualização automática dos pesos. Este é o primeiro padrão de entrada do conjunto com <b>d</b> = 0.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="052" name="sl">
@@ -553,19 +553,19 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="053" name="sl">
 			   <label for="053"></label>
 			   <img src="parte2/27_02_07.png"/>
-			   <figcaption>Calculamos as saídas z* e z para determinar as saídas y* e y de cada padrão de entrada. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,268. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
+			   <figcaption>Calculamos as saídas <b>z*</b> e <b>z</b> para determinar as saídas <b>y*</b> e <b>y</b> de cada padrão de entrada. A função do cálculo do erro é a mesma que foi usada para deduzir a Regra Delta: <b>E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,268</b>. A interpretação geométrica da MLP pode ser melhor compreendida usando o gráfico em 3 dimensões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="054" name="sl">
 			   <label for="054"></label>
 			   <img src="parte2/27_02_08.png"/>
-			   <figcaption>Na segunda iteração, precisamos atualizar a taxa de aprendizagem: &alpha; = &alpha;.0,95. O primeiro padrão (0, 2) é apresentado à rede, com atualização automática dos pesos.</figcaption>
+			   <figcaption>Na segunda iteração, precisamos atualizar a taxa de aprendizagem: <b>&alpha; = &alpha;.0,95</b>. O primeiro padrão (0, 2) é apresentado à rede, com atualização automática dos pesos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="055" name="sl">
 			   <label for="055"></label>
 			   <img src="parte2/27_02_09.png"/>
-			   <figcaption>No final da 10&ordf;  iteração, temos esta configuração de pesos. O erro nesta iteração é E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,102.</figcaption>
+			   <figcaption>No final da 10&ordf;  iteração, temos esta configuração de pesos. O erro nesta iteração é <b>E = &sum;<sub>k</sub>((d<sub>k</sub> - y)<sup>2</sup>)/2 = 0,102</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte2/27_02_07.png" class="fundo" style="visibility:hidden"/>
