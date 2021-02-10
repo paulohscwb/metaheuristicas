@@ -677,13 +677,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00043.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício de Support Vector Machine (SVM). A rede deve separar os dados de entrada em duas classes.</p>
+	<p>Vamos acompanhar os resultados e as interpretações geométricas deste exercício da Rede Support Vector Machine (SVM) para classificação de padrões. A rede deve separar os dados de entrada em duas classes.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="066" name="sl">
 			   <label for="066"></label>
 			   <img src="parte3/43_01_00.png"/>
-			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), temos o problema de Programação Quadrática apresentado. Os valores de &alpha;<sub>i</sub> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
+			   <figcaption>Utilizando a função de núcleo (1 + x<sup>T</sup>x), temos o problema de Programação Quadrática apresentado. Os valores de <b>&alpha;<sub>i</sub></b> diferentes de zero nos mostram quais serão os vetores suporte: 2, 4 e 6.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="067" name="sl">
