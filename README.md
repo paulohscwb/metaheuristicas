@@ -2440,7 +2440,7 @@ Fim
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00096.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo do Simulated Annealing:
+   <figcaption>Algoritmo de Simulated Annealing:
 <pre><code>Inicialização: <a alt="parâmetros da técnica">S<sub>0</sub> (solução inicial), M (máximo de iterações), V (máximo de vizinhos),</a> 
 L (máximo de sucessos), S = S<sub>0</sub>, T = T<sub>0</sub>, iteração = 1 
 Repita
@@ -2545,7 +2545,7 @@ Até nsucess = 0 ou iteração &ge; M
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da Colônia de Formigas:
+   <figcaption>Algoritmo da técnica ILS:
 <pre><code><a alt="começamos com uma solução qualquer">x<sub>0</sub> = Solução_Inicial</a>
 <a alt="técnica de melhoria aplicada na solução inicial">x = busca_local(x<sub>0</sub>) aplica uma melhoria na solução inicial</a>
 Repita
@@ -2564,7 +2564,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00099.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da Colônia de Formigas:
+   <figcaption>Algoritmo da técnica GRASP:
 <pre><code><a alt="começamos com uma solução M">Melhor_solução = M, função de avaliação: f.</a>
 Repita
     <a alt="solução gulosa: por exemplo, usar os arcos de menores custos do PCV">X = solução_grasp (criar uma solução aleatória por inserção gulosa de elementos)</a>
@@ -2586,7 +2586,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00103.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da Colônia de Formigas:
+   <figcaption>Algoritmo de Colônia de Formigas:
 <pre><code><a alt="criamos m soluções: cada formiga faz uma rota começando em uma cidade">Coloque cada formiga em uma cidade aleatória</a>
     <a alt="critério de parada: número máximo de iterações">Para t = 1 até o número máximo de iterações</a>
         Para k = 1 até m (nº de formigas)
@@ -2609,61 +2609,61 @@ O resultado é a rota S*.
    </details></div>
   <img src="parte8/apostila_2020_98_106_00103a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema do Caixeiro Viajante. Vamos utilizar os parâmetros indicados de &alpha; e &beta;.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema do Caixeiro Viajante. Vamos utilizar os parâmetros indicados de <b>&alpha;</b> e <b>&beta;</b>.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="303" name="sl">
 			   <label for="303"></label>
 			   <img src="parte8/103_01_01.png"/>
-			   <figcaption>O valor de &eta;<sub>ij</sub> é o inverso do custo c<sub>ij</sub>. Desta forma, os menores custos têm maior atratividade para a técnica. A formiga 1 começa a rota pela cidade 1.</figcaption>
+			   <figcaption>O valor de <b>&eta;<sub>ij</sub></b> é o inverso do custo <b>c<sub>ij</sub></b>. Desta forma, os menores custos têm maior atratividade para a técnica. A formiga 1 começa a rota pela cidade 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="304" name="sl">
 			   <label for="304"></label>
 			   <img src="parte8/103_01_02.png"/>
-			   <figcaption>Para decidir se a formiga 1 vai da cidade 1 para a cidade 2, note que calculamos os valores de &tau;<sub>1l</sub> e &eta;<sub>2l</sub>, para todas as cidades l ainda não visitadas. Desta forma, a técnica prevê o que acontece com a decisão de usar a cidade 2 analisando todas as cidades ainda não visitadas.</figcaption>
+			   <figcaption>Para decidir se a formiga 1 vai da cidade 1 para a cidade 2, note que calculamos os valores de <b>&tau;<sub>1l</sub></b> e <b>&eta;<sub>2l</sub></b>, para todas as cidades <b>l</b> ainda não visitadas. Desta forma, a técnica prevê o que acontece com a decisão de usar a cidade 2 analisando todas as cidades ainda não visitadas.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="305" name="sl">
 			   <label for="305"></label>
 			   <img src="parte8/103_01_02a.png"/>
-			   <figcaption>Escolhemos a maior probabilidade, e podemos calcular da mesma forma a sequência da rota: da cidade 2 para a cidade 3, e assim sucessivamente. A rota encontrada da formiga 1 tem custo L<sub>1</sub> = 9,8. Devemos guardar quais arcos são usados por cada formiga.</figcaption>
+			   <figcaption>Escolhemos a maior probabilidade, e podemos calcular da mesma forma a sequência da rota: da cidade 2 para a cidade 3, e assim sucessivamente. A rota encontrada da formiga 1 tem custo <b>L<sub>1</sub> = 9,8</b>. Devemos guardar quais arcos são usados por cada formiga.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="306" name="sl">
 			   <label for="306"></label>
 			   <img src="parte8/103_01_03.png"/>
-			   <figcaption>Os cálculos são feitos de forma similar para as demais formigas. A formiga 2 começa a rota pela cidade 2, com custo L<sub>2</sub> = 10,8.</figcaption>
+			   <figcaption>Os cálculos são feitos de forma similar para as demais formigas. A formiga 2 começa a rota pela cidade 2, com custo <b>L<sub>2</sub> = 10,8</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="307" name="sl">
 			   <label for="307"></label>
 			   <img src="parte8/103_01_04.png"/>
-			   <figcaption>A formiga 3 começa a rota pela cidade 3, com custo L<sub>3</sub> = 10,9.</figcaption>
+			   <figcaption>A formiga 3 começa a rota pela cidade 3, com custo <b>L<sub>3</sub> = 10,9</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="308" name="sl">
 			   <label for="308"></label>
 			   <img src="parte8/103_01_05.png"/>
-			   <figcaption>A formiga 4 começa a rota pela cidade 4, com custo L<sub>4</sub> = 10,9.</figcaption>
+			   <figcaption>A formiga 4 começa a rota pela cidade 4, com custo <b>L<sub>4</sub> = 10,9</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="parte8/103_01_06.png"/>
-			   <figcaption>A formiga 5 começa a rota pela cidade 4, com custo L<sub>5</sub> = 9,8.</figcaption>
+			   <figcaption>A formiga 5 começa a rota pela cidade 4, com custo <b>L<sub>5</sub> = 9,8</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="310" name="sl">
 			   <label for="310"></label>
 			   <img src="parte8/103_01_07.png"/>
-			   <figcaption>A melhor solução encontrada foi com custo L* = 9,8. As "contribuições" de feromônios são feitas com base nos arcos que cada formiga utilizou. As contribuições de cada formiga k são calculadas por meio do inverso do custo de cada rota: &Delta;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub>.</figcaption>
+			   <figcaption>A melhor solução encontrada foi com custo <b>L* = 9,8</b>. As "contribuições" de feromônios são feitas com base nos arcos que cada formiga utilizou. As contribuições de cada formiga k são calculadas por meio do inverso do custo de cada rota: <b>&Delta;<sub>ij</sub><sup>k</sup> = Q / L<sub>k</sub></b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="310a" name="sl">
 			   <label for="310a"></label>
 			   <img src="parte8/103_01_07a.png"/>
-			   <figcaption>Por exemplo, o arco (1, 2) foi usado pelas formigas 1, 4 e 5: logo, o feromônio &tau;<sub>12</sub> terá as contribuições &Delta;<sub>12</sub> de cada formiga. O valor &rho; é da taxa de evaporação do feromônio. Os cálculos das demais atualizações de feromônios são feitos da mesma forma.</figcaption>
+			   <figcaption>Por exemplo, o arco (1, 2) foi usado pelas formigas 1, 4 e 5: logo, o feromônio <b>&tau;<sub>12</sub></b> terá as contribuições <b>&Delta;<sub>12</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio. Os cálculos das demais atualizações de feromônios são feitos da mesma forma.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="311" name="sl">
