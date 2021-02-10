@@ -1906,13 +1906,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="221" name="sl">
 			   <label for="221"></label>
 			   <img src="parte5/79_01_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>x</b> para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="222" name="sl">
 			   <label for="222"></label>
 			   <img src="parte5/79_01_02.png"/>
-			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começa com valor 1.</figcaption>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial dos neurônios recorrentes <b>z<sub>1</sub>(t&minus;1)</b> e <b>z<sub>2</sub>(t&minus;1)</b> começa com valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="223" name="sl">
@@ -1948,7 +1948,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="228" name="sl">
 			   <label for="228"></label>
 			   <img src="parte5/79_01_08.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,137.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio <b>E = 0,137</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="229" name="sl">
@@ -1960,7 +1960,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="230" name="sl">
 			   <label for="230"></label>
 			   <img src="parte5/79_01_10.png"/>
-			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,004.</figcaption>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio <b>E = 0,004</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/79_01_10.png" class="fundo" style="visibility:hidden" />
@@ -1973,13 +1973,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="231" name="sl">
 			   <label for="231"></label>
 			   <img src="parte5/79_02_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b> para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="232" name="sl">
 			   <label for="232"></label>
 			   <img src="parte5/79_02_02.png"/>
-			   <figcaption>Apresentamos o padrão de entrada (1, 2) para a rede. O peso inicial dos neurônios recorrentes z<sub>1</sub>(t&minus;1) e z<sub>2</sub>(t&minus;1) começa com valor 1.</figcaption>
+			   <figcaption>Apresentamos o padrão de entrada (1, 2) para a rede. O peso inicial dos neurônios recorrentes <b>z<sub>1</sub>(t&minus;1)</b> e <b>z<sub>2</sub>(t&minus;1)</b> começa com valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="233" name="sl">
@@ -2015,7 +2015,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="238" name="sl">
 			   <label for="238"></label>
 			   <img src="parte5/79_02_08.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,198.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio <b>E = 0,198</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="239" name="sl">
@@ -2027,7 +2027,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="240" name="sl">
 			   <label for="240"></label>
 			   <img src="parte5/79_02_10.png"/>
-			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,026.</figcaption>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio <b>E = 0,026</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/79_02_10.png" class="fundo" style="visibility:hidden" />
@@ -2040,13 +2040,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="241" name="sl">
 			   <label for="241"></label>
 			   <img src="parte5/79_03_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada x para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>x</b> para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="242" name="sl">
 			   <label for="242"></label>
 			   <img src="parte5/79_03_02.png"/>
-			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial do neurônio recorrente y(t&minus;1) começa com valor 1.</figcaption>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial do neurônio recorrente <b>y(t&minus;1)</b> começa com valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="243" name="sl">
@@ -2082,7 +2082,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="248" name="sl">
 			   <label for="248"></label>
 			   <img src="parte5/79_03_08.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,017.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio <b>E = 0,017</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="249" name="sl">
@@ -2094,7 +2094,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="250" name="sl">
 			   <label for="250"></label>
 			   <img src="parte5/79_03_10.png"/>
-			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,003.</figcaption>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio <b>E = 0,003</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/79_03_10.png" class="fundo" style="visibility:hidden" />
@@ -2107,13 +2107,13 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="251" name="sl">
 			   <label for="251"></label>
 			   <img src="parte5/79_04_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada t para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b>para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="252" name="sl">
 			   <label for="252"></label>
 			   <img src="parte5/79_04_02.png"/>
-			   <figcaption>Apresentamos o padrão de entrada (1, 2) para a rede. O peso inicial do neurônio recorrente y(t&minus;1) começa com valor 1.</figcaption>
+			   <figcaption>Apresentamos o padrão de entrada (1, 2) para a rede. O peso inicial do neurônio recorrente <b>y(t&minus;1)</b> começa com valor 1.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="253" name="sl">
@@ -2149,7 +2149,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="258" name="sl">
 			   <label for="258"></label>
 			   <img src="parte5/79_04_08.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos o erro médio E = 0,017.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio <b>E = 0,017</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="259" name="sl">
@@ -2161,7 +2161,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="260" name="sl">
 			   <label for="260"></label>
 			   <img src="parte5/79_04_10.png"/>
-			   <figcaption>No final da 7&ordf; iteração, temos o erro médio E = 0,008.</figcaption>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio <b>E = 0,008</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte5/79_04_10.png" class="fundo" style="visibility:hidden" />
