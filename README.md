@@ -63,67 +63,67 @@
 			   <input type="radio" id="001" name="sl" checked>
 			   <label for="001"></label>
 			   <img src="parte1/10_01_01.png"/>
-			   <figcaption>Apresentação do primeiro padrão para a rede (x<sub>1</sub>, x<sub>2</sub>) = (1, 1). Como y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> = 0 + 1.0 + 1.0 = 0 &ne; d = 1, então os pesos são atualizados (passo 5 do algoritmo).</figcaption>
+			   <figcaption>Apresentação do primeiro padrão para a rede (<b>x<sub>1</sub></b>, <b>x<sub>2</sub></b>) = (1, 1). Como <b>y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 0 + 1.0 + 1.0 = 0 &ne; <b>d</b> = 1, então os pesos são atualizados (passo 5 do algoritmo).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="002" name="sl">
 			   <label for="002"></label>
 			   <img src="parte1/10_01_01a.png"/>
-			   <figcaption>Os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; definem as equações das retas usadas para a classificação. O parâmetro &delta; cria uma região de indefinição para a classificação.</figcaption>
+			   <figcaption>Os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> definem as equações das retas usadas para a classificação. O parâmetro <b>&delta;</b> cria uma região de indefinição para a classificação.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="003" name="sl">
 			   <label for="003"></label>
 			   <img src="parte1/10_01_03.png"/>
-			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> = 1 + 1.1 + 0.1 = 2 &ne; d = -1, então os pesos são atualizados. Note que as equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y = &theta; + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub></b> = 1 + 1.1 + 0.1 = 2 &ne; <b>d</b> = -1, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="005" name="sl">
 			   <label for="005"></label>
 			   <img src="parte1/10_01_05.png"/>
-			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como y &ne; d, então os pesos são atualizados. Como os coeficientes das variáveis x<sub>1</sub> e x<sub>2</sub> ficaram nulos, não temos a interpretação geométrica nesta apresentação de padrões.</figcaption>
+			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados. Como os coeficientes das variáveis <b>x<sub>1</sub></b> e <b>x<sub>2</sub></b> ficaram nulos, não temos a interpretação geométrica nesta apresentação de padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="006" name="sl">
 			   <label for="006"></label>
 			   <img src="parte1/10_01_05a.png"/>
-			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como y = d, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da primeira iteração.</figcaption>
+			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y = d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da primeira iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="006a" name="sl">
 			   <label for="006a"></label>
 			   <img src="parte1/10_01_06a.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = -1) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo nesta primeira iteração é de 25%.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (<b>w<sub>1</sub></b> = 0, <b>w<sub>2</sub></b> = 0, <b>&theta;</b> = -1) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo nesta primeira iteração é de 25%.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="007" name="sl">
 			   <label for="007"></label>
 			   <img src="parte1/10_01_07.png"/>
-			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, 1). Como y &ne; d, então os pesos são atualizados. Note que as equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados. Note que as equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="009" name="sl">
 			   <label for="009"></label>
 			   <img src="parte1/10_01_09.png"/>
-			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como y &ne; d, então os pesos são atualizados. As equações definidas com os coeficientes de w<sub>1</sub>, w<sub>2</sub> e &theta; ainda não classificam corretamente todos dos padrões.</figcaption>
+			   <figcaption>Apresentação do segundo padrão para a rede (1, 0). Como <b>y &ne; d</b>, então os pesos são atualizados. As equações definidas com os coeficientes <b>w<sub>1</sub></b>, <b>w<sub>2</sub></b> e <b>&theta;</b> ainda não classificam corretamente todos dos padrões.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="011" name="sl">
 			   <label for="011"></label>
 			   <img src="parte1/10_01_11.png"/>
-			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como y &ne; d, então os pesos são atualizados.</figcaption>
+			   <figcaption>Apresentação do terceiro padrão para a rede (0, 1). Como <b>y &ne; d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="012" name="sl">
 			   <label for="012"></label>
 			   <img src="parte1/10_01_11a.png"/>
-			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como y = d, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da segunda iteração.</figcaption>
+			   <figcaption>Apresentação do último padrão para a rede (0, 0). Como <b>y = d</b>, então os pesos são mantidos. Usando esta combinação de pesos, podemos calcular o erro da segunda iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="012a" name="sl">
 			   <label for="012a"></label>
 			   <img src="parte1/10_01_12a.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 0, w<sub>2</sub> = 0, &theta; = -2) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo da segunda iteração é de 25%.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (<b>w<sub>1</sub></b> = 0, <b>w<sub>2</sub></b> = 0, <b>&theta;</b> = -2) da última apresentação de padrões para calcular o erro. Apenas o primeiro padrão está classificado incorretamente: logo, o erro quantitativo da segunda iteração é de 25%.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
@@ -135,7 +135,7 @@
 			   <input type="radio" id="013" name="sl">
 			   <label for="013"></label>
 			   <img src="parte1/10_01_13.png"/>
-			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, -2). Como y &ne; d, então os pesos são atualizados.</figcaption>
+			   <figcaption>Recomeçamos a apresentação de cada padrão para a rede na próxima iteração. O primeiro padrão (1, 1) é apresentado à rede, com a combinação de parâmetros (0, 0, -2). Como <b>y &ne; d</b>, então os pesos são atualizados.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="014" name="sl">
@@ -165,7 +165,7 @@
 			   <input type="radio" id="018" name="sl">
 			   <label for="018"></label>
 			   <img src="parte1/10_01_20.png"/>
-			   <figcaption>Usamos a combinação de pesos (w<sub>1</sub> = 2, w<sub>2</sub> = 3, &theta; = -4) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
+			   <figcaption>Usamos a combinação de pesos (<b>w<sub>1</sub></b> = 2, <b>w<sub>2</sub></b> = 3, <b>&theta;</b> = -4) da última apresentação de padrões para calcular o erro. Todos os padrões estão classificados corretamente. Logo, podemos finalizar o processo de aprendizagem desta Rede Neural.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte1/10_01_01.png" class="fundo" style="visibility:hidden"/>
