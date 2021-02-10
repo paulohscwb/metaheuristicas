@@ -2107,7 +2107,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="251" name="sl">
 			   <label for="251"></label>
 			   <img src="parte5/79_04_01.png"/>
-			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b>para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b> para prever 1 passo à frente: (1, 2) para prever 0.6; (2, 3) para prever 0.5; e assim sucessivamente.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="252" name="sl">
