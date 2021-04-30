@@ -55,7 +55,7 @@ figcaption {
   font-size: 14px;
   position: relative;
   height:auto;
-  box-shadow: 0px -4px 4px -4px rgba(21,153,87,0.4);
+  box-shadow: 0 -1px 1px rgb(227,243,235);
   margin-bottom: 5px;
   display:block;
 }
@@ -73,12 +73,11 @@ details {
   padding: 3px;
   border-radius: 4px;
   width:100%;
-  box-shadow: -3px 0px 3px -3px rgba(21,153,87,0.4), 3px 0px 3px -3px rgba(21,153,87,0.4);
 }
 
 .combo {
 	display:block;
-	box-shadow: 0px 4px 4px -4px rgba(21,153,87,0.4);
+	box-shadow: 0px 1px 1px 0px rgba(21,153,87,0.2);
 	margin: 0 -3px 30px -3px;
 	width:100.7%;
 }
@@ -273,7 +272,7 @@ h3::after {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  margin-bottom:10px; box-shadow: 0px 8px 8px -7px grey;
+  margin-bottom:10px; box-shadow: 0px 5px 5px -6px grey;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
