@@ -2,7 +2,7 @@ code{
 	font-weight: bold;
 }
 
-img{image-rendering: crisp-edges;}
+img{image-rendering:high-quality;}
 
 @keyframes open {
   0% {opacity: 0;}
