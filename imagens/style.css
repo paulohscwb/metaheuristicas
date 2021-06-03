@@ -244,25 +244,25 @@ h3::after {
 	counter-increment: contador;
 }
 
- .slider img {
+  .slider img {
 	 margin-top:10px;
      opacity: 0;
      /*visibility: hidden;*/
-     transition: all .5s;
+     transition: opacity .5s;
 	 overflow:hidden;
 	 min-width:100%;
  }
 
  .slider li input:checked ~ img  {
 	 opacity:1;
-     transition: all .5s;
+     transition: opacity .5s;
      /*visibility: visible;*/
      z-index: 10;
  }
 
  .slider figcaption {
      opacity: 0;
-     visibility: hidden;
+     /*visibility: hidden;*/
      transition: all 0.5s;
 	 /*transform: translateY(-120px);*/
  }
@@ -271,7 +271,7 @@ h3::after {
      opacity: 1;
 	 /*transform: translateY(0);*/
      transition: all 1s ;
-     visibility: visible;
+     /*visibility: visible;*/
      z-index: 10;
  }
 
