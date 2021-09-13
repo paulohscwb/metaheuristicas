@@ -20,6 +20,9 @@
   <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/0xIg8RPgL-Y" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
    <img src="parte1/apostila_2020_1_19_0002.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <img src="parte1/apostila_2020_1_19_0003.png"/>
