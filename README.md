@@ -16,7 +16,7 @@
 
 <h3>Redes Neurais Artificiais</h3>
 <details>
-  <summary id="parte1">Perceptron e Adaline</summary>
+  <summary id="parte1">1. Perceptron e Adaline</summary>
   <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
@@ -319,7 +319,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
 </details>
 
 <details>
-  <summary id="parte2">Multi Layer Perceptron (MLP)</summary>
+  <summary id="parte2">2. Multi Layer Perceptron (MLP)</summary>
   <p>Material da página 19 até a página 40.</p>
   <img src="parte2/apostila_2020_1_19_0019.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
@@ -667,7 +667,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details>
-  <summary id="parte3">Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
+  <summary id="parte3">3. Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
@@ -1006,7 +1006,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details>
-  <summary id="parte4">Mapas auto-organizáveis</summary>
+  <summary id="parte4">4. Mapas auto-organizáveis</summary>
   <p>Material da página 53 até a página 66.</p>
   <img src="parte4/apostila_2020_53_81_00053.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
@@ -1214,7 +1214,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <details style="border-bottom: 1px solid #a2dec0;">
-  <summary id="parte5">Redes Temporais</summary>
+  <summary id="parte5">5.1. Redes Temporais</summary>
   <p>Material da página 66 até a página 80.</p>
   <img src="parte5/apostila_2020_53_81_00066.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
@@ -2174,26 +2174,26 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 
 <h3>Outras Metaheurísticas</h3>
 <details>
-  <summary id="parte6">Busca Tabú</summary>
+  <summary id="parte6">5.2. Busca Tabu</summary>
   <p>Material da página 82 até a página 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
   <img src="parte6/apostila_2020_82_84_00083.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
-   <figcaption>Algoritmo da Busca Tabú:
+   <figcaption>Algoritmo da Busca Tabu:
 <pre><code>Faça i = 1 e <a alt="criar uma solução qualquer para o problema">crie aleatoriamente uma solução S<sub>i</sub>.</a> 
     <a alt="critério de parada: número de iterações">Enquanto iteração_atual &le; max_iterações, faça:</a>
         iteração_atual = iteração_atual + 1.
         <a alt="modificações na solução atual">Crie uma lista de movimentos M = {m<sub>1</sub>, m<sub>2</sub>, ..., m<sub>k</sub>}.</a>
         <a alt="calcule a função objetivo para cada mudança de M">Calcule a função objetivo do problema S<sub>i</sub> considerando a aplicação de cada movimento m<sub>j</sub> &isin; M.</a>
-        <a alt="solução com movimento na lista tabú pode ser aceito eventualmente">Verifique se o critério de aspiração será usado (solução na lista tabu pode ser aceita?).</a>
+        <a alt="solução com movimento na lista tabu pode ser aceito eventualmente">Verifique se o critério de aspiração será usado (solução na lista tabu pode ser aceita?).</a>
         Escolha m<sub>j</sub> &isin; M que produz a melhor solução S<sub>i+1</sub>, tal que tabu(m<sub>j</sub>) = 0.
         <a alt="a nova solução é aceita desde que melhore a solução atual">Se f(S<sub>i+1</sub>) &le; f(S<sub>i</sub>), então </a>
            S<sub>i</sub> = S<sub>i+1</sub>
            tabu(m<sub>j</sub>) = 3
            i = i + 1
         Fim
-        <a alt="atualização da lista tabú">Atualize a lista tabu: tabu(m<sub>q</sub>) = tabu(m<sub>q</sub>) – 1, onde tabu(m<sub>q</sub>) > 0.</a>
+        <a alt="atualização da lista tabu">Atualize a lista tabu: tabu(m<sub>q</sub>) = tabu(m<sub>q</sub>) – 1, onde tabu(m<sub>q</sub>) > 0.</a>
     Fim
 Fim
 
@@ -2201,31 +2201,31 @@ Fim
    </details></div>
   <img src="parte6/apostila_2020_82_84_00083a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabú para encontrar uma rota para o problema do Caixeiro Viajante. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabu para encontrar uma rota para o problema do Caixeiro Viajante. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="261" name="sl">
 			   <label for="261"></label>
 			   <img src="parte6/83_01_01.png"/>
-			   <figcaption>Com a solução aleatória <b>S<sub>1</sub></b>, aplicamos 3 movimentos da lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabú por 3 iterações.</figcaption>
+			   <figcaption>Com a solução aleatória <b>S<sub>1</sub></b>, aplicamos 3 movimentos da lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabu por 3 iterações.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="262" name="sl">
 			   <label for="262"></label>
 			   <img src="parte6/83_01_02.png"/>
-			   <figcaption>Com a solução modificada <b>S<sub>2</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>2</sub></b>, que será colocado na lista tabú por 3 iterações. O movimento <b>m<sub>1</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>2</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>2</sub></b>, que será colocado na lista tabu por 3 iterações. O movimento <b>m<sub>1</sub></b> está na lista tabu, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263" name="sl">
 			   <label for="263"></label>
 			   <img src="parte6/83_01_03.png"/>
-			   <figcaption>Com a solução modificada <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>3</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>3</sub></b> está na lista tabu, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="264" name="sl">
 			   <label for="264"></label>
 			   <img src="parte6/83_01_04.png"/>
-			   <figcaption>Com a solução <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabú, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
+			   <figcaption>Com a solução <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte6/83_01_01.png" class="fundo" style="visibility:hidden" />
@@ -2233,31 +2233,31 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
   <img src="parte6/apostila_2020_82_84_00084.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabú para encontrar uma solução do problema da Mochila. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabu para encontrar uma solução do problema da Mochila. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="265" name="sl">
 			   <label for="265"></label>
 			   <img src="parte6/84_01_01.png"/>
-			   <figcaption>Com a solução aleatória <b>S<sub>1</sub></b>, aplicamos 3 movimentos da lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabú por 3 iterações.</figcaption>
+			   <figcaption>Com a solução aleatória <b>S<sub>1</sub></b>, aplicamos 3 movimentos da lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabu por 3 iterações.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="266" name="sl">
 			   <label for="266"></label>
 			   <img src="parte6/84_01_02.png"/>
-			   <figcaption>Com a solução modificada <b>S<sub>2</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabú por 3 iterações. O movimento <b>m<sub>2</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>2</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabu por 3 iterações. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="267" name="sl">
 			   <label for="267"></label>
 			   <img src="parte6/84_01_03.png"/>
-			   <figcaption>Com a solução modificada <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>1</sub></b>, que será colocado na lista tabú por 3 iterações. O movimento <b>m<sub>2</sub></b> está na lista tabú, e não foi considerado nesta iteração.</figcaption>
+			   <figcaption>Com a solução modificada <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>1</sub></b>, que será colocado na lista tabu por 3 iterações. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="268" name="sl">
 			   <label for="268"></label>
 			   <img src="parte6/84_01_04.png"/>
-			   <figcaption>Com a solução <b>S<sub>4</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabú, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
+			   <figcaption>Com a solução <b>S<sub>4</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte6/84_01_01.png" class="fundo" style="visibility:hidden" />
@@ -2267,7 +2267,7 @@ Fim
 </details>
 
 <details>
-  <summary id="parte7">Nuvem de Partículas e Simulated Annealing</summary>
+  <summary id="parte7">6. Nuvem de Partículas e Simulated Annealing</summary>
   <p>Material da página 85 até a página 97.</p>
   <img src="parte7/apostila_2020_85_97_00085.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
@@ -2541,7 +2541,7 @@ Até nsucess = 0 ou iteração &ge; M
 </details>
 
 <details>
-  <summary id="parte8">ILS, GRASP, Colônia de Formigas e VNS</summary>
+  <summary id="parte8">7. ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
@@ -2779,7 +2779,7 @@ Repita
 </details>
 
 <details style="border-bottom: 1px solid #a2dec0;">
-  <summary id="parte9">Algoritmos Genéticos e Busca Local</summary>
+  <summary id="parte9">8. Algoritmos Genéticos e Busca Local</summary>
   <p>Material da página 106 até a página 119.</p>
   <img src="parte9/apostila_2020_106_119_00106.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
