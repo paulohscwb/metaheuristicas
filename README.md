@@ -226,6 +226,9 @@
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0011.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/9thR_Ez3ydE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+   </div>
   <img src="parte1/apostila_2020_1_19_0012.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Perceptron com bolso:
@@ -243,7 +246,7 @@
              w<sub>i</sub><sup>atual</sup> = w<sub>i</sub><sup>anterior</sup> e &theta;<sup>atual</sup> = &theta;<sup>anterior</sup>
         6. <a alt="guardamos no bolso a melhor combinação de pesos; esta tática é muito&#10;usada nas Metaheurísticas para não perder boas combinações de pesos">Se w classifica corretamente mais exemplos do que w<sup>bolso</sup>:</a>  
              w<sup>bolso</sup> = w; grave o número de exemplos corretos 
-6. Teste a condição de parada.
+7. Teste a condição de parada.
 </code></pre></figcaption>
    </details></div>
    <img src="parte1/apostila_2020_1_19_0012a.png"/>
