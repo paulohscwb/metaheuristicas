@@ -40,6 +40,9 @@
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <img src="parte1/apostila_2020_1_19_0008.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
+   <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/aCfLD7L7HmQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+   </div>
    <img src="parte1/apostila_2020_1_19_0009.png"/>
    <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Perceptron:
