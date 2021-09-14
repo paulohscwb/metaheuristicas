@@ -223,8 +223,11 @@
 		<img src="parte1/10_02_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
+  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.1</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0011.png"/>
+  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.2</span></div>
+  <img src="parte1/apostila_2020_1_19_0011a.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/9thR_Ez3ydE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
@@ -330,6 +333,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte1/apostila_2020_1_19_0018b.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0019.png"/>
+  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.3</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
 </details>
 
