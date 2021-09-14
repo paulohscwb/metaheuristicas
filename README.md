@@ -664,6 +664,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte2/28_01_07.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte2/apostila_2020_20_40_0028a.png"/>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/7ydMN03MEMg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0029.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
