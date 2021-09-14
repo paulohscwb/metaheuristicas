@@ -341,6 +341,9 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <summary id="parte2">2. Multi Layer Perceptron (MLP)</summary>
   <p>Material da página 19 até a página 40.</p>
   <img src="parte2/apostila_2020_1_19_0019.png"/>
+   <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/wY_l7A8unN4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0020.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
@@ -355,7 +358,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte2/apostila_2020_20_40_0022.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
    <figcaption><p align="center">As derivadas das funções <b>y<sub>k</sub></b> = <b>tanh(y<sub>k</sub>*)</b> e <b>z<sub>j</sub></b> = <b>tanh(z<sub>j</sub>*)</b> com parâmetro <b>&beta;</b> = 1 são:
-   <br><b>y'<sub>k</sub></b> = <b>tanh(y<sub>k</sub>*)</b> = <b>(1 - y<sub>k</sub><sup>2</sup>)</b> e <b>z'<sub>j</sub></b> = <b>tanh(z<sub>j</sub>*)</b> = <b>(1 - z<sub>j</sub><sup>2</sup>)</b>. 
+   <br><b>y'<sub>k</sub></b> = <b>(1 - y<sub>k</sub><sup>2</sup>)</b> e <b>z'<sub>j</sub></b> = <b>(1 - z<sub>j</sub><sup>2</sup>)</b>. 
    <br>Logo, a atualização de pesos v será <b>&Delta;v<sub>ij</sub> = &alpha;&sum;<sub>k</sub>[(d<sub>k</sub> - y<sub>k</sub>)(1 - y<sub>k</sub><sup>2</sup>)w<sub>jk</sub>](1 - z<sub>j</sub><sup>2</sup>)x<sub>i</sub></b>.</p></figcaption>
    </details></div>
   <img src="parte2/apostila_2020_20_40_0022a.png"/>
