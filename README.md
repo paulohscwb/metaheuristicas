@@ -368,6 +368,9 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte2/apostila_2020_20_40_0024.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0025.png"/>
+   <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/6HC3HJlU7zM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0026.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
