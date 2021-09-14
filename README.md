@@ -342,7 +342,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <p>Material da página 19 até a página 40.</p>
   <img src="parte2/apostila_2020_1_19_0019.png"/>
    <div class="embed-container">
-		<iframe width="100%" src="https://www.youtube.com/embed/wY_l7A8unN4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="100%" src="https://www.youtube.com/embed/A6zbFVqCeO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0020.png"/>
