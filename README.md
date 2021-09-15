@@ -223,10 +223,10 @@
 		<img src="parte1/10_02_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
-  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.1</span></div>
+  <div class="combo">&#x1f4ce; &#x1f4dt; <span class="atv">Atividade 1.1</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0011.png"/>
-  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.2</span></div>
+  <div class="combo">&#x1f4ce; &#x1f4dt; <span class="atv">Atividade 1.2</span></div>
   <img src="parte1/apostila_2020_1_19_0011a.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <div class="embed-container">
@@ -333,7 +333,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte1/apostila_2020_1_19_0018b.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0019.png"/>
-  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 1.3</span></div>
+  <div class="combo">&#x1f4ce; &#x1f4dt; <span class="atv">Atividade 1.3</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
 </details>
 
@@ -664,7 +664,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte2/28_01_07.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte2/apostila_2020_20_40_0028a.png"/>
-  <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 2.1</span></div>
+  <div class="combo">&#x1f4ce; &#x1f4dt; <span class="atv">Atividade 2.1</span></div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0029.png"/>
   <div class="embed-container">
@@ -682,8 +682,8 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte2/apostila_2020_20_40_0034.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p> 
   <img src="parte2/apostila_2020_20_40_0035.png"/>
+   <div class="combo">&#x1f4ce; &#x1f4dt; <span class="atv">Atividade 2.2</span></div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
-   <div class="combo">&#x1f4cf; &#x1f4d0; <span class="atv">Atividade 2.2</span></div>
   <img src="parte2/apostila_2020_20_40_0036.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0037.png"/>
