@@ -700,6 +700,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <summary id="parte3">3. Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/g8yf2cqt5Qs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00041.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
