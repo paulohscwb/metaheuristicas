@@ -929,8 +929,11 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte3/48_03_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048d.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.1</span></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00049.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.2</span></div>
+  <img src="parte3/apostila_2020_40_52_00049a.png"/>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/FAi5oc0HEPg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div> 
@@ -1000,6 +1003,8 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte3/apostila_2020_40_52_00050c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00051.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.3</span></div>
+  <img src="parte3/apostila_2020_40_52_00051a.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00052.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
