@@ -1,7 +1,6 @@
 td, th {font-size: 14px; color: rgb(21,153,87); padding: 0px; text-align: center;}
 
-td:last-child {border-right:none;}
-td:first-child {border-left:none;}
+table {margin: auto;}
 
 footer {
   display: none !important;
