@@ -1143,6 +1143,8 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte4/58_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte4/apostila_2020_53_81_00058a.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 4.1</span></div>
+  <img src="parte4/apostila_2020_53_81_00058b.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00059.png"/>
   <div class="embed-container">
@@ -1213,6 +1215,26 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte4/61_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte4/apostila_2020_53_81_00061a.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 4.2</span>
+  <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema burma14 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 14 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
+  <table>
+  <tr><th>cidade</th><th>x</th><th>y</th></tr>
+  <tr><td>1</td><td>16.47</td><td>96.1</td></tr>
+  <tr><td>2</td><td>16.47</td><td>94.44</td></tr>
+  <tr><td>3</td><td>20.09</td><td>92.54</td></tr>
+  <tr><td>4</td><td>22.39</td><td>93.37</td></tr>
+  <tr><td>5</td><td>25.23</td><td>97.24</td></tr>
+  <tr><td>6</td><td>22</td><td>96.05</td></tr>
+  <tr><td>7</td><td>20.47</td><td>97.02</td></tr>
+  <tr><td>8</td><td>17.2</td><td>96.29</td></tr>
+  <tr><td>9</td><td>16.3</td><td>97.38</td></tr>
+  <tr><td>10</td><td>14.05</td><td>98.12</td></tr>
+  <tr><td>11</td><td>16.53</td><td>97.38</td></tr>
+  <tr><td>12</td><td>21.52</td><td>95.59</td></tr>
+  <tr><td>13</td><td>19.41</td><td>97.13</td></tr>
+  <tr><td>14</td><td>20.09</td><td>94.55</td></tr>
+  </table>
+  </div>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00062.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
