@@ -1226,6 +1226,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <tr><td>5</td><td>25.23</td><td>97.24</td></tr>
   <tr><td>6</td><td>22</td><td>96.05</td></tr>
   <tr><td>7</td><td>20.47</td><td>97.02</td></tr>
+  </table>
+  <table>
+  <tr><th>cidade</th><th>x</th><th>y</th></tr>
   <tr><td>8</td><td>17.2</td><td>96.29</td></tr>
   <tr><td>9</td><td>16.3</td><td>97.38</td></tr>
   <tr><td>10</td><td>14.05</td><td>98.12</td></tr>
