@@ -1,5 +1,8 @@
 td, th {font-size: 14px; color: rgb(21,153,87); padding: 2px; text-align: center;}
 
+td:last-child {border-right:none;}
+td:first-child {border-left:none;}
+
 footer {
   display: none !important;
 }
