@@ -1,4 +1,4 @@
-td {font-size: 14px; color: rgb(21,153,87);}
+td, td {font-size: 14px; color: rgb(21,153,87); padding: 3px; text-align: center;}
 
 footer {
   display: none !important;
