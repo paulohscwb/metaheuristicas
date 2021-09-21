@@ -1292,6 +1292,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <summary id="parte5">5.1. Redes Temporais</summary>
   <p>Material da página 66 até a página 80.</p>
   <img src="parte5/apostila_2020_53_81_00066.png"/>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/51VCh5UIOY0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00067.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
@@ -1372,6 +1375,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		</ul>
 		<img src="parte5/73_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/ALcIqwL-qKU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00074.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
@@ -1966,6 +1972,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/75_05_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00075e.png"/>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/qF2pMRocZp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00076.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
