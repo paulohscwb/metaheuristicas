@@ -223,10 +223,10 @@
 		<img src="parte1/10_02_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte1/apostila_2020_1_19_0010b.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 1.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 1.1</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0011.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 1.2</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv12">Atividade 1.2</span></div>
   <img src="parte1/apostila_2020_1_19_0011a.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
    <div class="embed-container">
@@ -333,7 +333,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
   <img src="parte1/apostila_2020_1_19_0018b.png"/>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
   <img src="parte1/apostila_2020_1_19_0019.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 1.3</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv13">Atividade 1.3</span></div>
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
 </details>
 
@@ -664,7 +664,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte2/28_01_07.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte2/apostila_2020_20_40_0028a.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 2.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv21">Atividade 2.1</span></div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0029.png"/>
   <div class="embed-container">
@@ -682,7 +682,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte2/apostila_2020_20_40_0034.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p> 
   <img src="parte2/apostila_2020_20_40_0035.png"/>
-   <div class="combo">&#x1f4d1; <span class="atv">Atividade 2.2</span></div>
+   <div class="combo">&#x1f4d1; <span class="atv" id="atv22">Atividade 2.2</span></div>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
   <img src="parte2/apostila_2020_20_40_0036.png"/>
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
@@ -929,10 +929,10 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte3/48_03_03.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048d.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv31">Atividade 3.1</span></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00049.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.2</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv32">Atividade 3.2</span></div>
   <img src="parte3/apostila_2020_40_52_00049a.png"/>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/FAi5oc0HEPg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1003,7 +1003,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte3/apostila_2020_40_52_00050c.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00051.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 3.3</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv33">Atividade 3.3</span></div>
   <img src="parte3/apostila_2020_40_52_00051a.png"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00052.png"/>
@@ -1143,7 +1143,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte4/58_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte4/apostila_2020_53_81_00058a.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 4.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv41">Atividade 4.1</span></div>
   <img src="parte4/apostila_2020_53_81_00058b.png"/>
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
   <img src="parte4/apostila_2020_53_81_00059.png"/>
@@ -1215,7 +1215,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte4/61_01_01.png" class="fundo" style="visibility:hidden"/>
   </details></div>
   <img src="parte4/apostila_2020_53_81_00061a.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 4.2</span>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv42">Atividade 4.2</span>
   <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema burma14 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 14 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
   <table>
   <tr><th>cidade</th><th>x</th><th>y</th></tr>
@@ -1981,7 +1981,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte5/apostila_2020_53_81_00077.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00078.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv">Atividade 5.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv51">Atividade 5.1</span></div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00079.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
