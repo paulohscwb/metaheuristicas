@@ -1981,6 +1981,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <img src="parte5/apostila_2020_53_81_00077.png"/>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00078.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv">Atividade 5.1</span></div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00079.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
