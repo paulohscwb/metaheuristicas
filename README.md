@@ -337,7 +337,7 @@ próxima de zero; e a convergência não é garantida para valores muito próxim
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte2">2. Multi Layer Perceptron (MLP)</summary>
   <p>Material da página 19 até a página 40.</p>
   <img src="parte2/apostila_2020_1_19_0019.png"/>
