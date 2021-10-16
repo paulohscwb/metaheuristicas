@@ -15,7 +15,7 @@
 <p>A apostila está disponível no link: <a href="parte1/apostila_2020.pdf" target="_blank">apostila de Metaheurísticas</a></p>
 
 <h3>Redes Neurais Artificiais</h3>
-<details open>
+<details>
   <summary id="parte1">1. Perceptron e Adaline</summary>
   <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png"/>
@@ -696,7 +696,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte3">3. Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png"/>
