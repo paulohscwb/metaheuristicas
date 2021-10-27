@@ -2263,6 +2263,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p>Material da página 82 até a página 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/chI3-TdVYJc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte6/apostila_2020_82_84_00083.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Busca Tabu:
@@ -2317,6 +2320,8 @@ Fim
   </details></div>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
   <img src="parte6/apostila_2020_82_84_00084.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 5.2</span></div>
+  <img src="parte6/apostila_2020_82_84_00084a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabu para encontrar uma solução do problema da Mochila. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
 	  <ul class="slider">
@@ -2347,7 +2352,7 @@ Fim
 		</ul>
 		<img src="parte6/84_01_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
-  <img src="parte6/apostila_2020_82_84_00084a.png"/>
+  <img src="parte6/apostila_2020_82_84_00084b.png"/>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
