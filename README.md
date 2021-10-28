@@ -2361,6 +2361,9 @@ Fim
   <p>Material da página 85 até a página 97.</p>
   <img src="parte7/apostila_2020_85_97_00085.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/GIdntpSX4JY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte7/apostila_2020_85_97_00086.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00087.png"/>
