@@ -2419,6 +2419,9 @@ Fim
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00091.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/NLm9uC_D1-4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte7/apostila_2020_85_97_00092.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar rotas do Problema do Caixeiro Viajante. Vamos utilizar 3 partículas que representam soluções do problema.</p>
@@ -2526,6 +2529,8 @@ Fim
 		<img src="parte7/93_01_02.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte7/apostila_2020_85_97_00093a.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 6.1</span></div>
+  <img src="parte7/apostila_2020_85_97_00093b.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00094.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
