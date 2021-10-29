@@ -2420,7 +2420,7 @@ Fim
   <img src="parte7/apostila_2020_85_97_00091.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
-		<iframe width="100%" src="https://www.youtube.com/embed/NLm9uC_D1-4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="100%" src="https://www.youtube.com/embed/5LYDJJ-EFXE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <img src="parte7/apostila_2020_85_97_00092.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
@@ -2532,6 +2532,9 @@ Fim
   <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 6.1</span></div>
   <img src="parte7/apostila_2020_85_97_00093b.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/58_ZRAM4e0U" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte7/apostila_2020_85_97_00094.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00095.png"/>
@@ -2598,6 +2601,8 @@ Até nsucess = 0 ou iteração &ge; M
   </details></div>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 6.2</span></div>
+  <img src="parte7/apostila_2020_85_97_00097a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação do Simulated Annealing para encontrar soluções para o problema da Mochila. Vamos utilizar a solução inicial <b>S<sub>0</sub></b> indicada.</p>
 	  <ul class="slider">
@@ -2634,7 +2639,7 @@ Até nsucess = 0 ou iteração &ge; M
 		</ul>
 		<img src="parte7/97_01_02.png" class="fundo" style="visibility:hidden" />
   </details></div>
-  <img src="parte7/apostila_2020_85_97_00097a.png"/>
+  <img src="parte7/apostila_2020_85_97_00097b.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
