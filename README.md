@@ -2846,7 +2846,7 @@ O resultado é a rota S*.
 			   <input type="radio" id="301a" name="sl">
 			   <label for="301a"></label>
 			   <img src="parte8/104_01_07a.png"/>
-			   <figcaption>Por exemplo, o objeto 2 foi carregado pelas formigas 1, 2, 3, 4 e 5: logo, o feromônio <b>&tau;<sub>2</sub></b> terá as contribuições <b>&Delta;<sub>2</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio.</figcaption>
+			   <figcaption>Por exemplo, o objeto 2 foi carregado pelas formigas 2, 3, 4 e 5: logo, o feromônio <b>&tau;<sub>2</sub></b> terá as contribuições <b>&Delta;<sub>2</sub></b> de cada formiga. O valor <b>&rho;</b> é da taxa de evaporação do feromônio.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="302" name="sl">
