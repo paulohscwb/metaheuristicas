@@ -2320,7 +2320,7 @@ Fim
   </details></div>
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
   <img src="parte6/apostila_2020_82_84_00084.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 5.2</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv52">Atividade 5.2</span></div>
   <img src="parte6/apostila_2020_82_84_00084a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Busca Tabu para encontrar uma solução do problema da Mochila. Vamos utilizar <b>k</b> = 3, ou seja, 3 movimentos para cada iteração.</p>
@@ -2529,7 +2529,7 @@ Fim
 		<img src="parte7/93_01_02.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte7/apostila_2020_85_97_00093a.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 6.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv61">Atividade 6.1</span></div>
   <img src="parte7/apostila_2020_85_97_00093b.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
@@ -2601,7 +2601,7 @@ Até nsucess = 0 ou iteração &ge; M
   </details></div>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00097.png"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 6.2</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv62">Atividade 6.2</span></div>
   <img src="parte7/apostila_2020_85_97_00097a.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação do Simulated Annealing para encontrar soluções para o problema da Mochila. Vamos utilizar a solução inicial <b>S<sub>0</sub></b> indicada.</p>
@@ -2683,6 +2683,9 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00100.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/-uZmt_ErimY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte8/apostila_2020_98_106_00101.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00102.png"/>
@@ -2858,6 +2861,8 @@ O resultado é a rota S*.
 		<img src="parte8/104_01_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte8/apostila_2020_98_106_00104a.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv71">Atividade 7.1</span></div>
+  <img src="parte8/apostila_2020_98_106_00104b.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00105.png"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
