@@ -2356,7 +2356,7 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte7">6. Nuvem de Partículas e Simulated Annealing</summary>
   <p>Material da página 85 até a página 97.</p>
   <img src="parte7/apostila_2020_85_97_00085.png"/>
