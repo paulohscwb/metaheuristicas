@@ -1049,7 +1049,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte4">4. Mapas auto-organizáveis</summary>
   <p>Material da página 53 até a página 66.</p>
   <img src="parte4/apostila_2020_53_81_00053.png"/>
