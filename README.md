@@ -2643,7 +2643,7 @@ Até nsucess = 0 ou iteração &ge; M
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte8">7. ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
