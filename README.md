@@ -3030,6 +3030,9 @@ Repita
   </details></div>
   <img src="parte9/apostila_2020_106_119_00113b.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/e-JwBasWVGo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="parte9/apostila_2020_106_119_00114.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Algoritmos Genéticos para encontrar soluções para o problema do Caixeiro Viajante, com uma população de 4 indivíduos. Utilizaremos 2 pontos de cruzamento e mutação apenas se um número aleatório for maior do que 0,5.</p>
@@ -3093,6 +3096,8 @@ Repita
   </details></div>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00115.png"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv11">Atividade 8.1</span></div>
+  <img src="parte9/apostila_2020_106_119_00115a.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00116.png"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
