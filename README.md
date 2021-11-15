@@ -2891,6 +2891,9 @@ Repita
   <p>Material da página 106 até a página 119.</p>
   <img src="parte9/apostila_2020_106_119_00106.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/aOQ3QhSqLdY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> 
   <img src="parte9/apostila_2020_106_119_00107.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00108.png"/>
