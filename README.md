@@ -2416,6 +2416,73 @@ Fim
 		<img src="parte7/90_01_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte7/apostila_2020_85_97_00090a.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Nuvem de Partículas para encontrar o valor máximo da função <b>f(x,y)</b>. Vamos utilizar 4 partículas que representam soluções do problema.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="269x" name="sl">
+			   <label for="269x"></label>
+			   <img src="parte7/90_02_01.png"/>
+			   <figcaption>Com os parâmetros indicados, temos as 2 primeiras iterações da técnica. A melhor partícula é <b>p<sub>3</sub></b> nestas iterações, com <b>f(x,y)</b> = 4,72. As melhores posições de cada partícula <b>pbest<sub>i</sub></b> são suas novas posições na primeira iteração.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="270x" name="sl">
+			   <label for="270x"></label>
+			   <img src="parte7/90_02_02.png"/>
+			   <figcaption>Podemos observar as posições das partículas nas 3 primeiras iterações por meio das curvas de nível da função <b>f</b>. Na quarta iteração, a partícula <b>p<sub>1</sub></b>, torna-se a melhor, com <b>f(x,y)</b> = 5,48.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="271x" name="sl">
+			   <label for="271x"></label>
+			   <img src="parte7/90_02_03.png"/>
+			   <figcaption>As partículas começam a reagir, combinando as novas posições com as respectivas melhores posições <b>pbest<sub>i</sub></b> e a melhor posição da partícula do grupo <b>gbest</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="272x" name="sl">
+			   <label for="272x"></label>
+			   <img src="parte7/90_02_04.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que melhor partícula continua sendo <b>p<sub>1</sub></b>, com <b>f(x,y)</b> = 5,71.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="273x" name="sl">
+			   <label for="273x"></label>
+			   <img src="parte7/90_02_05.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que melhor partícula continua sendo <b>p<sub>1</sub></b>, com <b>f(x,y)</b> = 5,71.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="274x" name="sl">
+			   <label for="274x"></label>
+			   <img src="parte7/90_02_06.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que melhor partícula continua sendo <b>p<sub>1</sub></b>, com <b>f(x,y)</b> = 5,71.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="275x" name="sl">
+			   <label for="275x"></label>
+			   <img src="parte7/90_02_07.png"/>
+			   <figcaption>Com as partículas com tendência de agrupamento, encontramoss uma solução ótima local <b>f(x,y)</b> = 5,71. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>1</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="276x" name="sl">
+			   <label for="276x"></label>
+			   <img src="parte7/90_02_08.png"/>
+			   <figcaption>Na 22&ordf; iteração, temos que melhor partícula é <b>p<sub>2</sub></b>, com <b>f(x,y)</b> = 5,87.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="277x" name="sl">
+			   <label for="277x"></label>
+			   <img src="parte7/90_02_09.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que melhor partícula continua sendo <b>p<sub>2</sub></b>, com <b>f(x,y)</b> = 5,87.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="278x" name="sl">
+			   <label for="278x"></label>
+			   <img src="parte7/90_02_10.png"/>
+			   <figcaption>Na 28&ordf; iteração temos a solução ótima local <b>f(x,y)</b> = 5,87. O método continua até atingir um número máximo de iterações.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte7/90_02_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
+  <img src="parte7/apostila_2020_85_97_00090b.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00091.png"/>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
