@@ -2459,7 +2459,7 @@ Fim
 			   <input type="radio" id="275x" name="sl">
 			   <label for="275x"></label>
 			   <img src="parte7/90_02_07.png"/>
-			   <figcaption>Com as partículas mostrando a tendência de agrupamento, encontramoss uma solução ótima local <b>f(x,y)</b> = 5,71. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>1</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
+			   <figcaption>Com as partículas mostrando a tendência de agrupamento, encontramos uma solução ótima local <b>f(x,y)</b> = 5,71. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>1</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="276x" name="sl">
@@ -2489,65 +2489,65 @@ Fim
 		   <li>
 			   <input type="radio" id="269y" name="sl">
 			   <label for="269y"></label>
-			   <img src="parte7/90_03_01.png"/>
-			   <figcaption>Com os parâmetros indicados, temos as 2 primeiras iterações da técnica. As melhores partículas são <b>p<sub>4</sub></b> na 1&ordf; iteração e <b>p<sub>3</sub></b> na 2&ordf; iteração. As melhores posições de cada partícula <b>pbest<sub>i</sub></b> são suas novas posições na primeira iteração.</figcaption>
+			   <img src="parte7/90_04_01.png"/>
+			   <figcaption>Com os parâmetros indicados, temos as 2 primeiras iterações da técnica. As melhores partículas são <b>p<sub>1</sub></b> na 1&ordf; iteração e <b>p<sub>3</sub></b> na 2&ordf; iteração. As melhores posições de cada partícula <b>pbest<sub>i</sub></b> são suas novas posições na primeira iteração.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="270y" name="sl">
 			   <label for="270y"></label>
-			   <img src="parte7/90_03_02.png"/>
-			   <figcaption>Podemos observar as posições das partículas nas 3 primeiras iterações por meio das curvas de nível da função <b>f</b>. Na quarta iteração, a partícula <b>p<sub>1</sub></b>, torna-se a melhor, com <b>f(x,y)</b> = 1,98.</figcaption>
+			   <img src="parte7/90_04_02.png"/>
+			   <figcaption>Podemos observar as posições das partículas nas 3 primeiras iterações por meio das curvas de nível da função <b>f</b>. Na quarta iteração, a partícula <b>p<sub>3</sub></b>, torna-se a melhor, com <b>f(x,y)</b> = 2,30.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="271y" name="sl">
 			   <label for="271y"></label>
-			   <img src="parte7/90_03_03.png"/>
+			   <img src="parte7/90_04_03.png"/>
 			   <figcaption>As partículas começam a reagir, combinando as novas posições com as respectivas melhores posições <b>pbest<sub>i</sub></b> e a melhor posição da partícula do grupo <b>gbest</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="272y" name="sl">
 			   <label for="272y"></label>
-			   <img src="parte7/90_03_04.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que as melhores partículas são <b>p<sub>1</sub></b> e <b>p<sub>4</sub></b>.</figcaption>
+			   <img src="parte7/90_04_04.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>1</sub></b> com <b>f(x,y) = 2,02</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="273y" name="sl">
 			   <label for="273y"></label>
-			   <img src="parte7/90_03_05.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que as melhores partículas são <b>p<sub>4</sub></b> e <b>p<sub>1</sub></b>.</figcaption>
+			   <img src="parte7/90_04_05.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>1</sub></b> com <b>f(x,y) = 2,02</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="274y" name="sl">
 			   <label for="274y"></label>
-			   <img src="parte7/90_03_06.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que as melhores partículas são <b>p<sub>1</sub></b> e <b>p<sub>4</sub></b>.</figcaption>
+			   <img src="parte7/90_04_06.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>1</sub></b> com <b>f(x,y) = 2,02</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="275y" name="sl">
 			   <label for="275y"></label>
-			   <img src="parte7/90_03_07.png"/>
-			   <figcaption>Com as partículas mostrando tendência de agrupamento, encontramoss uma solução ótima local <b>f(x,y)</b> = 1,09. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>1</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
+			   <img src="parte7/90_04_07.png"/>
+			   <figcaption>Com as partículas mostrando tendência de agrupamento, encontramos uma solução ótima local <b>f(x,y)</b> = 2,02. Espalhando-se as partículas e mantendo-se a melhor delas (<b>p<sub>1</sub></b>), podemos explorar o espaço de busca da técnica. O critério de parada mais usado em PSO é o número máximo de iterações alcançado.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="276y" name="sl">
 			   <label for="276y"></label>
-			   <img src="parte7/90_03_08.png"/>
-			   <figcaption>Na 22&ordf; iteração, temos que melhor partícula é <b>p<sub>3</sub></b>, com <b>f(x,y)</b> = 1,03.</figcaption>
+			   <img src="parte7/90_04_08.png"/>
+			   <figcaption>Na 22&ordf; iteração, temos que melhor partícula é <b>p<sub>3</sub></b>, com <b>f(x,y)</b> = 1,21.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="277y" name="sl">
 			   <label for="277y"></label>
-			   <img src="parte7/90_03_09.png"/>
-			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>2</sub></b>, com <b>f(x,y) = 1,01</b>.</figcaption>
+			   <img src="parte7/90_04_09.png"/>
+			   <figcaption>Nas 4 iterações seguintes, temos que a melhor partícula é <b>p<sub>3</sub></b>, com <b>f(x,y) = 1,14</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="278y" name="sl">
 			   <label for="278y"></label>
-			   <img src="parte7/90_03_10.png"/>
-			   <figcaption>Na 28&ordf; iteração temos a solução ótima local <b>f(x,y)</b> = 1,01. O método continua até atingir um número máximo de iterações.</figcaption>
+			   <img src="parte7/90_04_10.png"/>
+			   <figcaption>Na 28&ordf; iteração temos a solução ótima local <b>f(x,y)</b> = 1,14. O método continua até atingir um número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
-		<img src="parte7/90_03_01.png" class="fundo" style="visibility:hidden" />
+		<img src="parte7/90_04_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
   <img src="parte7/apostila_2020_85_97_00091.png"/>
