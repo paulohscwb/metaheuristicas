@@ -2890,7 +2890,7 @@ O resultado é a rota S*.
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="parte8/103_01_06.png"/>
-			   <figcaption>A formiga 5 começa a rota pela cidade 4, com custo <b>L<sub>5</sub> = 9,8</b>.</figcaption>
+			   <figcaption>A formiga 5 começa a rota pela cidade 5, com custo <b>L<sub>5</sub> = 9,8</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="310" name="sl">
