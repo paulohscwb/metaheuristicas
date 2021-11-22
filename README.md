@@ -2356,7 +2356,7 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte7">6. Nuvem de Partículas e Simulated Annealing</summary>
   <p>Material da página 85 até a página 97.</p>
   <img src="parte7/apostila_2020_85_97_00085.png"/>
@@ -3019,7 +3019,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
-<details style="border-bottom: 1px solid #a2dec0;">
+<details open style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9">8. Algoritmos Genéticos e Busca Local</summary>
   <p>Material da página 106 até a página 119.</p>
   <img src="parte9/apostila_2020_106_119_00106.png"/>
