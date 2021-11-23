@@ -3305,17 +3305,17 @@ Repita
 Repita
    Para cada indivíduo i da população, faça:
       <a alt="Mutação: defina os índices do vetor alvo e dos vetores aleatórios">Crie os números inteiros aleatórios r<sub>1</sub>, r<sub>2</sub>, r<sub>3</sub> &isin; [1, n], onde r<sub>1</sub> &ne; r<sub>2</sub> &ne; r<sub>3</sub> &ne; i.</a>
-	  <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
-	     u<sub>i,j</sub> = x<sub>r1,j</sub> + F*(x<sub>r2,j</sub> - x<sub>r3,j</sub>) (vetor teste)
+     <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
+         u<sub>i,j</sub> = x<sub>r1,j</sub> + F*(x<sub>r2,j</sub> - x<sub>r3,j</sub>) (vetor teste)
 		 Crie o número aleatório s<sub>j</sub> &isin; [0, 1].
-		 <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
-		    x'<sub>i,j</sub> = u<sub>i,j</sub>
+         <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
+            x'<sub>i,j</sub> = u<sub>i,j</sub>
          Caso contrário
-		    x'<sub>i,j</sub> = x<sub>i,j</sub>
-		 Fim
-	  Fim
-	  <a alt="O novo indivíduo substitui o indivíduo i">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
-	     x<sub>i,j</sub> = x'<sub>i,j</sub>
+            x'<sub>i,j</sub> = x<sub>i,j</sub>
+         Fim
+      Fim
+      <a alt="O novo indivíduo substitui o indivíduo i se tiver melhor fitness">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
+         x<sub>i,j</sub> = x'<sub>i,j</sub>
       Fim
    Fim
    iteração = iteração + 1  
@@ -3335,18 +3335,18 @@ Retorne o melhor vetor da população
 Repita
    Para cada indivíduo i da população, faça:
       <a alt="Mutação: defina os índices dos vetores aleatórios">Crie os números inteiros aleatórios r<sub>1</sub>, r<sub>2</sub> &isin; [1, n], onde r<sub>1</sub> &ne; r<sub>2</sub> &ne; i.</a>
-	  <a alt="O vetor alvo tem a melhor solução da população atual">Selecione o índice k do melhor indivíduo da população atual (xbest = k).</a>
-	  <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
-	     u<sub>i,j</sub> = x<sub>k,j</sub> + F*(x<sub>r1,j</sub> - x<sub>r2,j</sub>) (vetor teste)
-		 Crie o número aleatório s<sub>j</sub> &isin; [0, 1].
-		 <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
-		    x'<sub>i,j</sub> = u<sub>i,j</sub>
+      <a alt="O vetor alvo tem a melhor solução da população atual">Selecione o índice k do melhor indivíduo da população atual (xbest = k).</a>
+      <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
+         u<sub>i,j</sub> = x<sub>k,j</sub> + F*(x<sub>r1,j</sub> - x<sub>r2,j</sub>) (vetor teste)
+         Crie o número aleatório s<sub>j</sub> &isin; [0, 1].
+         <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
+            x'<sub>i,j</sub> = u<sub>i,j</sub>
          Caso contrário
-		    x'<sub>i,j</sub> = x<sub>i,j</sub>
-		 Fim
-	  Fim
-	  <a alt="O novo indivíduo substitui o indivíduo i">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
-	     x<sub>i,j</sub> = x'<sub>i,j</sub>
+            x'<sub>i,j</sub> = x<sub>i,j</sub>
+         Fim 
+      Fim
+      <a alt="O novo indivíduo substitui o indivíduo i quanto tem melhor fitness">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
+        x<sub>i,j</sub> = x'<sub>i,j</sub>
       Fim
    Fim
    iteração = iteração + 1  
