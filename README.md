@@ -3298,8 +3298,71 @@ Repita
   <img src="parte9/apostila_2020_106_119_00117.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00118.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Evolução Diferencial:
+<pre><code><a alt="A população com n indivíduos deve cobrir o espaço de busca">Crie uma população inicial com n soluções. Defina a função fitness f.</a> 
+<a alt="Defina os parâmetros da técnica">Faça iteração = 0, defina os valores de P<sub>CR</sub> e F.</a>
+Repita
+   Para cada indivíduo i da população, faça:
+      <a alt="Mutação: defina os índices do vetor alvo e dos vetores aleatórios">Crie os números inteiros aleatórios r<sub>1</sub>, r<sub>2</sub>, r<sub>3</sub> &isin; [1, n], onde r<sub>1</sub> &ne; r<sub>2</sub> &ne; r<sub>3</sub> &ne; i.</a>
+	  <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
+	     u<sub>i,j</sub> = x<sub>r1,j</sub> + F*(x<sub>r2,j</sub> - x<sub>r3,j</sub>) (vetor teste)
+		 Crie o número aleatório s<sub>j</sub> &isin; [0, 1].
+		 <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
+		    x'<sub>i,j</sub> = u<sub>i,j</sub>
+         Caso contrário
+		    x'<sub>i,j</sub> = x<sub>i,j</sub>
+		 Fim
+	  Fim
+	  <a alt="O novo indivíduo substitui o indivíduo i">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
+	     x<sub>i,j</sub> = x'<sub>i,j</sub>
+      Fim
+   Fim
+   iteração = iteração + 1  
+<a alt="critérios de parada: número máximo de iterações, estagnação, valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+Retorne o melhor vetor da população
+</code></pre></figcaption>
+   </details></div>
+  <img src="parte9/apostila_2020_106_119_00118a.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00119.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00120.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Evolução Diferencial:
+<pre><code><a alt="A população com n indivíduos deve cobrir o espaço de busca">Crie uma população inicial com n soluções. Defina a função fitness f.</a> 
+<a alt="Defina os parâmetros da técnica">Faça iteração = 0, defina os valores de P<sub>CR</sub> e F.</a>
+Repita
+   Para cada indivíduo i da população, faça:
+      <a alt="Mutação: defina os índices dos vetores aleatórios">Crie os números inteiros aleatórios r<sub>1</sub>, r<sub>2</sub> &isin; [1, n], onde r<sub>1</sub> &ne; r<sub>2</sub> &ne; i.</a>
+	  <a alt="O vetor alvo tem a melhor solução da população atual">Selecione o índice k do melhor indivíduo da população atual (xbest = k).</a>
+	  <a alt="Componentes do vetor de teste u">Para cada j &isin; [1, m], faça:</a>
+	     u<sub>i,j</sub> = x<sub>k,j</sub> + F*(x<sub>r1,j</sub> - x<sub>r2,j</sub>) (vetor teste)
+		 Crie o número aleatório s<sub>j</sub> &isin; [0, 1].
+		 <a alt="Crossover: mistura de coordenadas de x e u">Se s<sub>j</sub> &le; P<sub>CR</sub>, então</a> 
+		    x'<sub>i,j</sub> = u<sub>i,j</sub>
+         Caso contrário
+		    x'<sub>i,j</sub> = x<sub>i,j</sub>
+		 Fim
+	  Fim
+	  <a alt="O novo indivíduo substitui o indivíduo i">Se f(x'<sub>i,j</sub>) &lt; f(x<sub>i,j</sub>), então</a> 
+	     x<sub>i,j</sub> = x'<sub>i,j</sub>
+      Fim
+   Fim
+   iteração = iteração + 1  
+<a alt="critérios de parada: número máximo de iterações, estagnação, valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
+Retorne o melhor vetor da população
+</code></pre></figcaption>
+   </details></div>
+   <img src="parte9/apostila_2020_106_119_00120a.png"/>
+   <img src="parte9/apostila_2020_106_119_00120b.png"/>
+   <img src="parte9/apostila_2020_106_119_00120c.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00121.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00122.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00123.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
 </details>
 
@@ -3351,4 +3414,7 @@ Repita
 	<li>MITRA, D., ROMEO, F., SANGIOVANNI-VINCENTELLI, A. Convergence and finite-time behavior of simulated annealing. Advances in applied probability, v. 18, n. 3, p. 747-771, 1986.</li>
 	<li>KIRKPATRICK, S., GELATT, C. D., VECCHI, M. P. Optimization by simulated annealing. science, v. 220, n. 4598, p. 671-680, 1983.</li>
 	<li>ARAGON, C. R., JOHNSON, D. S., McGEOCH, L. A., SCHEVON, C. Optimization by simulated annealing: an experimental evaluation. In: Workshop on Statistical Physics in Engineering and Biology. Yorktown Heights, 1984.</li>
+	<li>BOZORG-HADDAD, O., SOLGI, M., LOÁICIGA, H. A. Meta-heuristic and evolutionary algorithms for engineering optimization. Hoboken, John Wiley & Sons, 2017.</li>
+	<li>STORN, R., PRICE, K. Differential Evolution - a Simple and Efficient Heuristic for Global Optimization over Continuous Spaces, Journal of Global Optimization, v. 11, p. 341–359, 1997.</li>
+	<li>TALBI, E. G. Metaheuristics: from design to implementation (Vol. 74). John Wiley & Sons, 2009.</li>
 <ol>
