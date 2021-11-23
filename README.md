@@ -3356,7 +3356,7 @@ Retorne o melhor vetor da população
    </details></div>
    <img src="parte9/apostila_2020_106_119_00120a.png"/>
    <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos o fator de escala <b>F = 0,5</b> e a taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos vetor alvo aleatório, fator de escala <b>F = 0,5</b> e taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="405" name="sl">
@@ -3410,12 +3410,72 @@ Retorne o melhor vetor da população
 			   <input type="radio" id="400" name="sl">
 			   <label for="400"></label>
 			   <img src="parte9/120_01_06.png"/>
-			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub></b> com fitness <b>f(x,y) = 1,79</b>.</figcaption>
+			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub></b> com fitness <b>f(x,y) = 1,79</b>. As próximas iterações seguem o mesmo raciocínio mostrado nestas 2 primeiras iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte9/120_01_03.png" class="fundo" style="visibility:hidden" />
   </details></div>
    <img src="parte9/apostila_2020_106_119_00120b.png"/>
+   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos o melhor vetor alvo da população (xbest), o fator de escala <b>F = 0,5</b> e a taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="415" name="sl">
+			   <label for="415"></label>
+			   <img src="parte9/120_02_01.png"/>
+			   <figcaption>Para o indivíduo 1, definimos os índices <b>r<sub>1</sub> = 2</b> e <b>r<sub>2</sub> = 3</b> para o cálculo do vetor teste <b>u</b> da mutação. O vetor alvo é <b>xbest = 4</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="415a" name="sl">
+			   <label for="415a"></label>
+			   <img src="parte9/120_02_01a.png"/>
+			   <figcaption>No crossover, os números aleatórios <b>s<sub>1</sub></b> e <b>s<sub>2</sub></b> definem as coordenadas do novo indivíduo <b>x'<sub>1</sub></b>, com a primeira coordenada do vetor <b>x<sub>1</sub></b> e a segunda coordenada do vetor teste <b>u</b>. Como o novo indivíduo é melhor do que <b>x<sub>1</sub></b>, substituímos <b>x<sub>1</sub></b> por <b>x'<sub>1</sub></b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="414" name="sl">
+			   <label for="414"></label>
+			   <img src="parte9/120_02_02.png"/>
+			   <figcaption>Para o indivíduo 2, definimos os índices <b>r<sub>1</sub></b> e <b>r<sub>2</sub></b> e fazemos a mutação e o crossover da mesma maneira usada para o indivíduo 1. O novo indivíduo sobrevive e substitui o indivíduo 2 na população.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="414a" name="sl">
+			   <label for="414a"></label>
+			   <img src="parte9/120_02_02a.png"/>
+			   <figcaption>Para os indivíduos 3 e 4, definimos os índices <b>r<sub>1</sub></b> e <b>r<sub>2</sub></b> e fazemos as mutações e os crossovers da mesma maneira usada para os indivíduos anteriores. Os novos indivíduos sobrevivem e substituem os indivíduos 3 e 4 na população.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="413" name="sl">
+			   <label for="413"></label>
+			   <img src="parte9/120_02_03.png"/>
+			   <figcaption>Para os indivíduos 5 e 6, definimos os índices <b>r<sub>1</sub></b> e <b>r<sub>2</sub></b> e fazemos as mutações e os crossovers da mesma maneira usada para os indivíduos anteriores. Os novos indivíduos sobrevivem e substituem os indivíduos 5 e 6 na população. Note que o melhor indivíduo da população agora é o 5.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="413a" name="sl">
+			   <label for="413a"></label>
+			   <img src="parte9/120_02_03a.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>5</sub></b> com fitness <b>f(x,y) = 2,25</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="412" name="sl">
+			   <label for="412"></label>
+			   <img src="parte9/120_02_04.png"/>
+			   <figcaption>Na 2&ordf; iteração, seguimos os mesmos passos do algoritmo para a mutação e o crossover de cada indivíduo. Note que os novos indivíduos criados a partir dos indivíduos 1 e 3 têm fitness piores do que os indivíduos originais.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="411" name="sl">
+			   <label for="411"></label>
+			   <img src="parte9/120_02_05.png"/>
+			   <figcaption>Os novos indivíduos criados a partir dos indivíduos 4 e 6 substituem os indivíduos originais. O melhor indivíduo da população é o 4.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="410" name="sl">
+			   <label for="410"></label>
+			   <img src="parte9/120_02_06.png"/>
+			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub></b> com fitness <b>f(x,y) = 1,02</b>. As próximas iterações seguem o mesmo raciocínio mostrado nestas 2 primeiras iterações.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte9/120_02_03.png" class="fundo" style="visibility:hidden" />
+  </details></div>
    <img src="parte9/apostila_2020_106_119_00120c.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00121.png"/>
