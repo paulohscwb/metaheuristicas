@@ -3355,6 +3355,66 @@ Retorne o melhor vetor da população
 </code></pre></figcaption>
    </details></div>
    <img src="parte9/apostila_2020_106_119_00120a.png"/>
+   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos o fator de escala <b>F = 0,5</b> e a taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="405" name="sl">
+			   <label for="405"></label>
+			   <img src="parte9/120_01_01.png"/>
+			   <figcaption>Para o indivíduo 1, definimos os índices <b>r<sub>1</sub> = 2</b>, <b>r<sub>2</sub> = 3</b> e <b>r<sub>3</sub> = 6</b> para o cálculo do vetor teste <b>u</b> da mutação.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="405a" name="sl">
+			   <label for="405a"></label>
+			   <img src="parte9/120_01_01a.png"/>
+			   <figcaption>No crossover, os números aleatórios <b>s<sub>1</sub></b> e <b>s<sub>2</sub></b> definem as coordenadas do novo indivíduo <b>x'<sub>1</sub></b>, com a primeira coordenada do vetor <b>x<sub>1</sub></b> e a segunda coordenada do vetor teste <b>u</b>. Como o novo indivíduo é melhor do que <b>x<sub>1</sub></b>, substituímos <b>x<sub>1</sub></b> por <b>x'<sub>1</sub></b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="404" name="sl">
+			   <label for="404"></label>
+			   <img src="parte9/120_01_02.png"/>
+			   <figcaption>Para o indivíduo 2, definimos os índices <b>r<sub>1</sub></b>, <b>r<sub>2</sub></b> e <b>r<sub>3</sub></b> e fazemos a mutação e o crossover da mesma maneira usada para o indivíduo 1. O novo indivíduo sobrevive e substitui o indivíduo 2 na população.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="404a" name="sl">
+			   <label for="404a"></label>
+			   <img src="parte9/120_01_02a.png"/>
+			   <figcaption>Para os indivíduos 3 e 4, definimos os índices <b>r<sub>1</sub></b>, <b>r<sub>2</sub></b> e <b>r<sub>3</sub></b> e fazemos as mutações e os crossovers da mesma maneira usada para os indivíduos anteriores. Os novos indivíduos sobrevivem e substituem os indivíduos 3 e 4 na população.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="403" name="sl">
+			   <label for="403"></label>
+			   <img src="parte9/120_01_03.png"/>
+			   <figcaption>Para os indivíduos 5 e 6, definimos os índices <b>r<sub>1</sub></b>, <b>r<sub>2</sub></b> e <b>r<sub>3</sub></b> e fazemos as mutações e os crossovers da mesma maneira usada para os indivíduos anteriores. Os novos indivíduos sobrevivem e substituem os indivíduos 5 e 6 na população.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="403a" name="sl">
+			   <label for="403a"></label>
+			   <img src="parte9/120_01_03a.png"/>
+			   <figcaption>No final da 1&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>1</sub> com fitness <b>f(x,y) = 1,94</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="402" name="sl">
+			   <label for="402"></label>
+			   <img src="parte9/120_01_04.png"/>
+			   <figcaption>Na 2&ordf; iteração, seguimos os mesmos passos do algoritmo para a mutação e o crossover de cada indivíduo. Note que os novos indivíduos criados a partir dos indivíduos 1 e 3 têm fitness piores do que os indivíduos originais.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="401" name="sl">
+			   <label for="401"></label>
+			   <img src="parte9/120_01_05.png"/>
+			   <figcaption>Os novos indivíduos criados a partir dos indivíduos 4 e 6 substituem os indivíduos originais.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="400" name="sl">
+			   <label for="400"></label>
+			   <img src="parte9/120_01_06.png"/>
+			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub> com fitness <b>f(x,y) = 1,79</b>.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte9/120_01_03.png" class="fundo" style="visibility:hidden" />
+  </details></div>
    <img src="parte9/apostila_2020_106_119_00120b.png"/>
    <img src="parte9/apostila_2020_106_119_00120c.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
