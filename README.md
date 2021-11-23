@@ -3417,7 +3417,7 @@ Retorne o melhor vetor da população
   </details></div>
    <img src="parte9/apostila_2020_106_119_00120b.png"/>
    <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
-	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos o melhor vetor alvo da população (xbest), o fator de escala <b>F = 0,5</b> e a taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação de Evolução Diferencial para encontrar o valor mínimo da função <b>f(x,y)</b> com uma população de 6 indivíduos. Utilizaremos o melhor vetor alvo da população <b>xbest</b>, o fator de escala <b>F = 0,5</b> e a taxa de crossover <b>P<sub>CR</sub> = 0,7</b>.</p>
 	  <ul class="slider">
 		   <li>
 			   <input type="radio" id="415" name="sl">
