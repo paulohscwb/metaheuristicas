@@ -3423,7 +3423,7 @@ Retorne o melhor vetor da população
 			   <input type="radio" id="415" name="sl">
 			   <label for="415"></label>
 			   <img src="parte9/120_02_01.png"/>
-			   <figcaption>Para o indivíduo 1, definimos os índices <b>r<sub>1</sub> = 2</b> e <b>r<sub>2</sub> = 3</b> para o cálculo do vetor teste <b>u</b> da mutação. O vetor alvo é <b>xbest = 4</b>.</figcaption>
+			   <figcaption>Para o indivíduo 1, definimos os índices <b>r<sub>1</sub> = 3</b> e <b>r<sub>2</sub> = 6</b> para o cálculo do vetor teste <b>u</b> da mutação. O vetor alvo é <b>xbest = 4</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="415a" name="sl">
