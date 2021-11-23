@@ -3392,7 +3392,7 @@ Retorne o melhor vetor da população
 			   <input type="radio" id="403a" name="sl">
 			   <label for="403a"></label>
 			   <img src="parte9/120_01_03a.png"/>
-			   <figcaption>No final da 1&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>1</sub> com fitness <b>f(x,y) = 1,94</b>.</figcaption>
+			   <figcaption>No final da 1&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>1</sub></b> com fitness <b>f(x,y) = 1,94</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="402" name="sl">
@@ -3410,7 +3410,7 @@ Retorne o melhor vetor da população
 			   <input type="radio" id="400" name="sl">
 			   <label for="400"></label>
 			   <img src="parte9/120_01_06.png"/>
-			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub> com fitness <b>f(x,y) = 1,79</b>.</figcaption>
+			   <figcaption>No final da 2&ordf; iteração, temos a nova população criada, que será usada para começarmos a próxima iteração. A melhor solução encontrada nesta iteração é do vetor <b>x<sub>4</sub></b> com fitness <b>f(x,y) = 1,79</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte9/120_01_03.png" class="fundo" style="visibility:hidden" />
