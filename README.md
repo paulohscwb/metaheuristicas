@@ -3544,7 +3544,6 @@ Retorne o melhor vetor solução x<sub>min</sub>.
   <img src="parte9/apostila_2020_106_119_00124.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00125.png"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00125a.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00126.png"/>
