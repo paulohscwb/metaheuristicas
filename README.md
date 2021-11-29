@@ -3690,7 +3690,7 @@ Retorne o melhor vetor solução x<sub>min</sub>.
 			   <input type="radio" id="449a" name="sl">
 			   <label for="449a"></label>
 			   <img src="parte9/125_02_09a.png"/>
-			   <figcaption>Prosseguindo com a rota, temos <b>k = 5</b>, e o maior elemento desta linha é <b>x<sub>5,3</sub> = 0,238</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 5 e da coluna 3 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 -...)</b>.</figcaption>
+			   <figcaption>Prosseguindo com a rota, temos <b>k = 5</b>, e o segundo maior elemento desta linha é <b>x<sub>5,3</sub> = 0,238</b> (note que neste caso de empate com a designação anterior do arco 5 - 4, precisamos definir o segundo maior elemento). Logo, este neurônio receberá a metade da soma de todos os elementos da linha 5 e da coluna 3 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 -...)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="449b" name="sl">
