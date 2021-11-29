@@ -3684,19 +3684,19 @@ Retorne o melhor vetor solução x<sub>min</sub>.
 			   <input type="radio" id="449" name="sl">
 			   <label for="449"></label>
 			   <img src="parte9/125_02_09.png"/>
-			   <figcaption>Podemos colocar os valores das variáveis de decisão na forma matricial. Escolhendo a linha <b>k = 4</b>, temos que o maior elemento desta linha é <b>x<sub>4,5</sub> = 0,249</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 4 e da coluna 5 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - ...).</figcaption>
+			   <figcaption>Podemos colocar os valores das variáveis de decisão na forma matricial. Escolhendo a linha <b>k = 4</b>, temos que o maior elemento desta linha é <b>x<sub>4,5</sub> = 0,249</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 4 e da coluna 5 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - ...)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="449a" name="sl">
 			   <label for="449a"></label>
 			   <img src="parte9/125_02_09a.png"/>
-			   <figcaption>Prosseguindo com a rota, temos <b>k = 5</b>, e o maior elemento desta linha é <b>x<sub>5,3</sub> = 0,238</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 5 e da coluna 3 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 -...).</figcaption>
+			   <figcaption>Prosseguindo com a rota, temos <b>k = 5</b>, e o maior elemento desta linha é <b>x<sub>5,3</sub> = 0,238</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 5 e da coluna 3 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 -...)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="449b" name="sl">
 			   <label for="449b"></label>
 			   <img src="parte9/125_02_09b.png"/>
-			   <figcaption>Prosseguindo com a rota, temos <b>k = 3</b>, e o maior elemento desta linha é <b>x<sub>3,2</sub> = 0,251</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 3 e da coluna 2 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 - 2 - ...). Prosseguindo com o algoritmo, temos a matriz de decisão definida, com custo correspondente de 9,8 (solução ótima global deste problema).</figcaption>
+			   <figcaption>Prosseguindo com a rota, temos <b>k = 3</b>, e o maior elemento desta linha é <b>x<sub>3,2</sub> = 0,251</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 3 e da coluna 2 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. A sequência da rota fica <b>x'' = (4 - 5 - 3 - 2 - ...)</b>. Prosseguindo com o algoritmo, temos a matriz de decisão definida, com custo correspondente de 9,8 (solução ótima global deste problema).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="450" name="sl">
