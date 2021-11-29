@@ -3529,7 +3529,7 @@ Repita
       x’<sub>i,l</sub> = 0, para i = 1, 2, ... n, i &ne; k.
       <a alt="A cidade l é a próxima da rota do PCV">Faça x''(m + 1) = l, m = m + 1 e k = l (para prosseguir a rota).</a>
    Enquanto m &lt; n
-   <a alt="Fechamento da rota com a primeira cidade da rota: p">x’<sub>k,p</sub> = x’<sub>k,p</sub> + &frac12;(&sum;<sub>i=1</sub><sup>n</sup> x<sub>i,p</sub> + &sum;<sub>j=1</sub><sup>n</sup> x<sub>k,j</sub>).</a>
+   <a alt="Fechamento da rota com a primeira cidade escolhida: p">x’<sub>k,p</sub> = x’<sub>k,p</sub> + &frac12;(&sum;<sub>i=1</sub><sup>n</sup> x<sub>i,p</sub> + &sum;<sub>j=1</sub><sup>n</sup> x<sub>k,j</sub>).</a>
    Faça x''(n + 1) = p (fechamento da rota).
    Faça r = r + 1.
    <a alt="Vamos armazenar a melhor solução">Determine o custo C da solução.</a> 
