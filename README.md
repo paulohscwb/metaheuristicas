@@ -3496,9 +3496,9 @@ Repita
    Repita
       <a alt="Linha ainda sem designação">Escolha uma linha k da matriz x’ tal que v(k) = 0.</a>
       Encontre l tal que <a alt="Indica o neurônio vencedor, com maior designação da iteração">x’<sub>k,l</sub> = max<sub>k,i</sub>{x’<sub>k,i</sub>}, i = 1, 2, ..., n.</a>
-      <a alt="A variável x' do neurônio vencedor ganha os valores das demais variáveis na linha k e coluna l">x’<sub>k,l</sub> = x’<sub>k,l</sub> + &frac12;(&sum;<sub>i=1</sub><sup>n</sup>x<sub>i,l</sub> + &sum;<sub>j=1</sub><sup>n</sup>x<sub>k,j</sub>).</a>
+      <a alt="A variável x' do neurônio vencedor ganha os valores da linha k e coluna l">x’<sub>k,l</sub> = x’<sub>k,l</sub> + &frac12;(&sum;<sub>i=1</sub><sup>n</sup> x<sub>i,l</sub> + &sum;<sub>j=1</sub><sup>n</sup> x<sub>k,j</sub>).</a>
       <a alt="Os demais neurônios têm variáveis x' nulas">x’<sub>k,j</sub> = 0, para j = 1, 2, ... n, j &ne; l.</a>
-   	  x’<sub>i,l</sub> = 0, para i = 1, 2, ... n, i &ne; k.
+      x’<sub>i,l</sub> = 0, para i = 1, 2, ... n, i &ne; k.
       <a alt="Vetor de controle para não repetir designações da linha k">Faça v(k) = 1 e m = m + 1.</a>
    Enquanto m &le; n
    Faça r = r + 1.
