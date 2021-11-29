@@ -3544,6 +3544,90 @@ Retorne o melhor vetor solução x<sub>min</sub>.
   <img src="parte9/apostila_2020_106_119_00124.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00125.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Rede Neural de Wang com o algoritmo Winner Takes All para encontrar uma solução para o problema da Designação Linear com o número de vértices <b>n = 5</b>.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="421" name="sl">
+			   <label for="421"></label>
+			   <img src="parte9/125_01_01.png"/>
+			   <figcaption>Começamos com a tranformação da matriz de custos <b>C(n x n)</b> em um vetor <b>c(n&sup2;)</b> com a sequência de linhas da matriz <b>C</b>. Usando a mesma lógica, definimos os vetores <b>x</b> (valores de decisão), <b>u</b> e <b>&theta;</b> (bias).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="422" name="sl">
+			   <label for="422"></label>
+			   <img src="parte9/125_01_02.png"/>
+			   <figcaption>Nesta RNA a matriz de pesos <b>W</b> é fixa, composta por matrizes identidade e matrizes <b>D = I + 1</b>, onde a matriz <b>1</b> contém o número 1 em todas as posições. Os parâmetros da RNA são definidos, de acordo com o algoritmo apresentado anteriormente (considerando <b>D</b> como o desvio padrão da matriz de custos, <b>&tau;</b> e <b>&lambda;</b> fixos).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="423" name="sl">
+			   <label for="423"></label>
+			   <img src="parte9/125_01_03.png"/>
+			   <figcaption>Em cada iteração da RNA, temos o cálculo do erro <b>(Wx &minus; &theta;)/n&sup2;</b> que mede a violação das restrições do problema da Designação.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="424" name="sl">
+			   <label for="424"></label>
+			   <img src="parte9/125_01_04.png"/>
+			   <figcaption>Na 2&ordf; iteração, temos os vetores atualizados e o erro <b>(Wx &minus; &theta;)/n&sup2; = 0,52</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="425" name="sl">
+			   <label for="425"></label>
+			   <img src="parte9/125_01_05.png"/>
+			   <figcaption>Na 3&ordf; iteração, temos os vetores atualizados e o erro <b>(Wx &minus; &theta;)/n&sup2; = 1,94</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="426" name="sl">
+			   <label for="426"></label>
+			   <img src="parte9/125_01_06.png"/>
+			   <figcaption>Na 4&ordf; iteração, temos os vetores atualizados e o erro <b>(Wx &minus; &theta;)/n&sup2; = 1,73</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="427" name="sl">
+			   <label for="427"></label>
+			   <img src="parte9/125_01_07.png"/>
+			   <figcaption>Na 12&ordf; iteração, temos os vetores atualizados e o erro <b>(Wx &minus; &theta;)/n&sup2; = 0,15</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="428" name="sl">
+			   <label for="428"></label>
+			   <img src="parte9/125_01_08.png"/>
+			   <figcaption>Na 13&ordf; iteração, temos os vetores atualizados e o erro <b>(Wx &minus; &theta;)/n&sup2; = 0,04 &le; &Phi;</b>. Neste momento, podemos utilizar o algoritmo Winner Takes All para definir os valores das variáveis de decisão do problema.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="429" name="sl">
+			   <label for="429"></label>
+			   <img src="parte9/125_01_09.png"/>
+			   <figcaption>Podemos colocar os valores das variáveis de decisão na forma matricial. Escolhendo a linha <b>k = 4</b>, temos que o maior elemento desta linha é <b>x<sub>4,2</sub> = 0,508</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 4 e da coluna 2 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="429a" name="sl">
+			   <label for="429a"></label>
+			   <img src="parte9/125_01_09a.png"/>
+			   <figcaption>Escolhendo a linha <b>k = 1</b>, temos que o maior elemento desta linha é <b>x<sub>1,1</sub> = 0,326</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 1 e da coluna 1 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="429b" name="sl">
+			   <label for="429b"></label>
+			   <img src="parte9/125_01_09b.png"/>
+			   <figcaption>Escolhendo a linha <b>k = 3</b>, temos que o maior elemento desta linha é <b>x<sub>3,4</sub> = 0,581</b>. Logo, este neurônio receberá a metade da soma de todos os elementos da linha 3 e da coluna 4 da matriz de decisão <b>x</b>. Os demais elementos tornam-se nulos. Prosseguindo com o algoritmo, temos a matriz de decisão definida, com custo correspondente de 56 (solução ótima global deste problema.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="430" name="sl">
+			   <label for="430"></label>
+			   <img src="parte9/125_01_10.png"/>
+			   <figcaption>Utilizamos o vetor <b>x'</b> para a próxima iteração da RNA. Com os parâmetros da RNA, utilizamos o algoritmo Winner Takes All novamente para encontrar uma nova solução do problema da Designação.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="431" name="sl">
+			   <label for="431"></label>
+			   <img src="parte9/125_01_11.png"/>
+			   <figcaption>Com o algoritmo apresentado, temos novamente a solução ótima encontrada. O algoritmo prossegue até encontrar um número máximo de soluções definido.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte9/125_01_03.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte9/apostila_2020_106_119_00125a.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00126.png"/>
