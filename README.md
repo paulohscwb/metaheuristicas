@@ -2776,7 +2776,7 @@ Até nsucess = 0 ou iteração &ge; M
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte8">7. ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png"/>
@@ -3484,8 +3484,44 @@ Retorne o melhor vetor da população
   <img src="parte9/apostila_2020_106_119_00121.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00122.png"/>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
+   <figcaption>Problema da Designação:
+<pre><code><a alt="Ajuste a combinação de todos os parâmetros da Rede de Wang">Defina os parâmetros da Rede Neural Recorrente de Wang, o número máximo de soluções
+r<sub>max</sub>, r = 0 e v(i) = 0 (i = 1, 2, ..., n).</a> 
+Repita
+   Repita
+      <a alt="Utilizando a equação diferencial da RNA, encontre uma solução x para o problema">Encontre uma solução x para o problema da Designação usando a Rede de Wang</a>
+   Enquanto <a alt="As restrições da formulação ainda não estão satisfeitas">Wx(t) &minus; &theta; &gt; &Phi;</a>
+   Faça x’ = x e m = 1.
+   Repita
+      <a alt="Linha ainda sem designação">Escolha uma linha k da matriz x’ tal que v(k) = 0.</a>
+      Encontre l tal que <a alt="Indica o neurônio vencedor, com maior designação da iteração">x’<sub>k,l</sub> = max<sub>k,i</sub>{x’<sub>k,i</sub>}, i = 1, 2, ..., n.</a>
+      <a alt="A variável x' do neurônio vencedor ganha os valores das demais variáveis na linha k e coluna l">x’<sub>k,l</sub> = x’<sub>k,l</sub> + &frac12;(&sum;<sub>i=1</sub><sup>n</sup>x<sub>i,l</sub> + &sum;<sub>j=1</sub><sup>n</sup>x<sub>k,j</sub>).</a>
+      <a alt="Os demais neurônios têm variáveis x' nulas">x’<sub>k,j</sub> = 0, para j = 1, 2, ... n, j &ne; l.</a>
+   	  x’<sub>i,l</sub> = 0, para i = 1, 2, ... n, i &ne; k.
+      <a alt="Vetor de controle para não repetir designações da linha k">Faça v(k) = 1 e m = m + 1.</a>
+   Enquanto m &le; n
+   Faça r = r + 1.
+   <a alt="Vamos armazenar a melhor solução">Determine o custo C da solução.</a> 
+   Se C &lt; C<sub>min</sub>, então
+      C<sub>min</sub> = C e x<sub>min</sub> = x’.
+   Fim
+<a alt="Critério de parada: número máximo de soluções">Enquanto r &lt; r<sub>max</sub></a>
+Retorne o melhor vetor solução x<sub>min</sub>.
+</code></pre></figcaption>
+   </details></div>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00123.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00124.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00125.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00125a.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00126.png"/>
+  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <img src="parte9/apostila_2020_106_119_00127.png"/>
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
 </details>
 
@@ -3540,4 +3576,5 @@ Retorne o melhor vetor da população
 	<li>BOZORG-HADDAD, O., SOLGI, M., LOÁICIGA, H. A. Meta-heuristic and evolutionary algorithms for engineering optimization. Hoboken, John Wiley & Sons, 2017.</li>
 	<li>STORN, R., PRICE, K. Differential Evolution - a Simple and Efficient Heuristic for Global Optimization over Continuous Spaces, Journal of Global Optimization, v. 11, p. 341–359, 1997.</li>
 	<li>TALBI, E. G. Metaheuristics: from design to implementation (Vol. 74). John Wiley & Sons, 2009.</li>
+	<li>WANG, J. Analog Neural Network for Solving the Assignment Problem. Electronic Letters, v. 28, n. 11, p. 1047-1050, 1992.</li>
 <ol>
