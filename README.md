@@ -3019,7 +3019,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open style="border-bottom: 1px solid #a2dec0;">
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9">8. Algoritmos Genéticos, Evolução Diferencial e Busca Local</summary>
   <p>Material da página 106 até a página 128.</p>
   <img src="parte9/apostila_2020_106_119_00106.png"/>
