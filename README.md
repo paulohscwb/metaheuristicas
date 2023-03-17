@@ -15,7 +15,7 @@
 <p>A apostila está disponível no link: <a href="parte1/apostila_2020.pdf" target="_blank">apostila de Metaheurísticas</a></p>
 
 <h3>Redes Neurais Artificiais</h3>
-<details>
+<details open>
   <summary id="parte1">1. Perceptron e Adaline</summary>
   <p>Material da página 1 até a página 19.</p>
    <img src="parte1/apostila_2020_1_19_0001.png" loading="lazy"/>
