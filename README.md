@@ -1010,7 +1010,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Heteroassociativa:
 <pre><code>0. <a alt="pesos iniciam nulos">Inicialize os pesos w<sub>ij</sub> = 0</a>, onde i = 1, 2, ..., n, j = 1, 2, ..., m.
-    1. Para cada par de treinamento (x,d),</a> faça os passos 2-4:
+    1. Para cada par de treinamento (x,d), faça os passos 2-4:
     2. <a alt="calculamos a saída y*">y<sub>j</sub>* = &sum;<sub>i</sub>x<sub>i</sub>w<sub>ij</sub></a>
     3. <a alt="calculamos a saída y">Se y<sub>j</sub>* &gt; 0</a>, y<sub>j</sub> = 1
        Se y<sub>j</sub>* = 0, y<sub>j</sub> = 0
