@@ -696,7 +696,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte3">3. Support Vector Machines, Redes de Bases Radiais e Hebb</summary>
   <p>Material da página 40 até a página 52.</p>
   <img src="parte3/apostila_2020_20_40_0040.png" loading="lazy"/>
@@ -1288,7 +1288,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details style="border-bottom: 1px solid #a2dec0;">
+<details open style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte5">5.1. Redes Temporais</summary>
   <p>Material da página 66 até a página 80.</p>
   <img src="parte5/apostila_2020_53_81_00066.png" loading="lazy"/>
@@ -2258,7 +2258,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <h3>Outras Metaheurísticas</h3>
-<details>
+<details open>
   <summary id="parte6">5.2. Busca Tabu</summary>
   <p>Material da página 82 até a página 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png" loading="lazy"/>
