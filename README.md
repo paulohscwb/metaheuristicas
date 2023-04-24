@@ -1049,7 +1049,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte4">4. Mapas auto-organizáveis</summary>
   <p>Material da página 53 até a página 66.</p>
   <img src="parte4/apostila_2020_53_81_00053.png" loading="lazy"/>
@@ -2356,7 +2356,7 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte7">6. Nuvem de Partículas e Simulated Annealing</summary>
   <p>Material da página 85 até a página 97.</p>
   <img src="parte7/apostila_2020_85_97_00085.png" loading="lazy"/>
