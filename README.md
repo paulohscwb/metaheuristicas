@@ -1288,7 +1288,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open style="border-bottom: 1px solid #a2dec0;">
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte5">5.1. Redes Temporais</summary>
   <p>Material da página 66 até a página 80.</p>
   <img src="parte5/apostila_2020_53_81_00066.png" loading="lazy"/>
@@ -2258,7 +2258,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <h3>Outras Metaheurísticas</h3>
-<details open>
+<details>
   <summary id="parte6">5.2. Busca Tabu</summary>
   <p>Material da página 82 até a página 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png" loading="lazy"/>
@@ -2776,7 +2776,7 @@ Até nsucess = 0 ou iteração &ge; M
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte8">7. ILS, GRASP, Colônia de Formigas e VNS</summary>
   <p>Material da página 98 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00098.png" loading="lazy"/>
