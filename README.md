@@ -3730,7 +3730,7 @@ Retorne o melhor vetor solução x<sub>min</sub>.
 
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Metaheurísticas e Aplicações". Disponível em: <https://paulohscwb.github.io/metaheuristicas/>, Janeiro de 2021.</p>
-
+<br><a href="https://zenodo.org/badge/latestdoi/325129935"><img src="https://zenodo.org/badge/325129935.svg" alt="DOI"></a>
 <h4>Referências:</h4>
 <ol>
 	<li>FAUSETT, L. Fundamentals of Neural Networks. Prentice Hall, 1994.</li>
