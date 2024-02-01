@@ -1801,9 +1801,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   </li>
 		</ul>
 		<img src="parte5/75_02_01.png" class="fundo" style="visibility:hidden" />
-  </details></div>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv71">Atividade 7.1</span>
-  <p>Resolva este problema de classificação usando uma rede RBF com 3 centros.</p></div>
+  </details>
+  &#x1f4d1; <span class="atv" id="atv71">Atividade 7.1</span>
+  <p>Resolva o problema de classificação do Exercício 7 usando uma rede RBF com 3 centros.</p></div>
   <img src="parte5/apostila_2020_53_81_00075b.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (0.2, 0.3) e (0.5, 0.6).</p>
@@ -1870,9 +1870,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		   </li>
 		</ul>
 		<img src="parte5/75_03_01.png" class="fundo" style="visibility:hidden" />
-  </details></div>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv72">Atividade 7.2</span>
-  <p>Resolva este problema de classificação usando uma rede RBF com 3 centros.</p></div>
+  </details>
+  &#x1f4d1; <span class="atv" id="atv72">Atividade 7.2</span>
+  <p>Resolva o problema de classificação do Exercício 8 usando uma rede RBF com 3 centros.</p></div>
   <img src="parte5/apostila_2020_53_81_00075c.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (1, 0.9) e (0.55, 0.6).</p>
