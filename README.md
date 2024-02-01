@@ -1669,7 +1669,72 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00075.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv71">Atividade 7.1</span></div>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal MLP, com <b>&alpha;</b> = 1, com uma camada escondida com função tangente hiperbólica.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="171" name="sl">
+			   <label for="171"></label>
+			   <img src="parte5/75_01_01.png" loading="lazy"/>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b> para prever 1 passo à frente: (0.1, 0.2) para prever 0.6; (0.2, 0.3) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="172" name="sl">
+			   <label for="172"></label>
+			   <img src="parte5/75_01_02.png" loading="lazy"/>
+			   <figcaption>Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="173" name="sl">
+			   <label for="173"></label>
+			   <img src="parte5/75_01_03.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="174" name="sl">
+			   <label for="174"></label>
+			   <img src="parte5/75_01_04.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="175" name="sl">
+			   <label for="175"></label>
+			   <img src="parte5/75_01_05.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.4, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="176" name="sl">
+			   <label for="176"></label>
+			   <img src="parte5/75_01_06.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="177" name="sl">
+			   <label for="177"></label>
+			   <img src="parte5/75_01_07.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.7) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="178" name="sl">
+			   <label for="178"></label>
+			   <img src="parte5/75_01_08.png" loading="lazy"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro quadrático <b>E = 0,050</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="179" name="sl">
+			   <label for="179"></label>
+			   <img src="parte5/75_01_09.png" loading="lazy"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a atualização da taxa de aprendizagem, com os cálculos na sequência de apresentação da Série Temporal. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="180" name="sl">
+			   <label for="180"></label>
+			   <img src="parte5/75_01_10.png" loading="lazy"/>
+			   <figcaption>No final da 4&ordf; iteração, temos o erro quadrático <b>E = 0,030</b>.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/75_01_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00075a.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (1, 0.9) e (0.6, 0.4).</p>
@@ -1737,8 +1802,77 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		</ul>
 		<img src="parte5/75_02_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv71">Atividade 7.1</span>
+  <p>Resolva este problema de classificação usando uma rede RBF com 3 centros.</p></div>
   <img src="parte5/apostila_2020_53_81_00075b.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv72">Atividade 7.2</span></div>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (0.2, 0.3) e (0.5, 0.6).</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="191" name="sl">
+			   <label for="191"></label>
+			   <img src="parte5/75_03_01.png" loading="lazy"/>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>t</b> para prever 1 passo à frente: (0.1, 0.2) para prever 0.75; (0.2, 0.3) para prever 0.6; e assim sucessivamente. Apresentamos o primeiro padrão de entrada para a rede: (0.1, 0.2).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="192" name="sl">
+			   <label for="192"></label>
+			   <img src="parte5/75_03_02.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.2, 0.3) e (0.3, 0.4) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="193" name="sl">
+			   <label for="193"></label>
+			   <img src="parte5/75_03_03.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.4, 0.5) e (0.5, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="194" name="sl">
+			   <label for="194"></label>
+			   <img src="parte5/75_03_04.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.7) para a rede e podemos calcular os pesos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="195" name="sl">
+			   <label for="195"></label>
+			   <img src="parte5/75_03_05.png" loading="lazy"/>
+			   <figcaption>Utilizando as 6 linhas da matriz <b>G</b>, calculamos os pesos para a Rede RBF.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="196" name="sl">
+			   <label for="196"></label>
+			   <img src="parte5/75_03_06.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.1, 0.2) e (0.2, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="197" name="sl">
+			   <label for="197"></label>
+			   <img src="parte5/75_03_07.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.3, 0.4) e (0.4, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="198" name="sl">
+			   <label for="198"></label>
+			   <img src="parte5/75_03_08.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões de entrada (0.5, 0.6) e (0.6, 0.7) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="199" name="sl">
+			   <label for="199"></label>
+			   <img src="parte5/75_03_09.png" loading="lazy"/>
+			   <figcaption>Apresentamos os padrões do conjunto de testes: (0.7, 0.8) e (0.8, 0.9) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="200" name="sl">
+			   <label for="200"></label>
+			   <img src="parte5/75_03_10.png" loading="lazy"/>
+			   <figcaption>Temos o erro quadrático desta rede <b>E = 0,0574</b>.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/75_03_01.png" class="fundo" style="visibility:hidden" />
+  </details></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv72">Atividade 7.2</span>
+  <p>Resolva este problema de classificação usando uma rede RBF com 3 centros.</p></div>
   <img src="parte5/apostila_2020_53_81_00075c.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede temporal RBF, com 2 centros: (1, 0.9) e (0.55, 0.6).</p>
@@ -2014,7 +2148,72 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte5/79_02_10.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte5/apostila_2020_53_81_00079b.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv82">Atividade 8.2</span></div>
+  <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
+	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede recorrente de Jordan, com 2 neurônios na camada escondida.</p>
+	  <ul class="slider">
+		   <li>
+			   <input type="radio" id="241" name="sl">
+			   <label for="241"></label>
+			   <img src="parte5/79_03_01.png" loading="lazy"/>
+			   <figcaption>Vamos utilizar os padrões de entrada <b>x</b> para prever 1 passo à frente: (1, 0.9) para prever 0.6; (0.9, 0.6) para prever 0.5; e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="242" name="sl">
+			   <label for="242"></label>
+			   <img src="parte5/79_03_02.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (1, 0.9) para a rede. O peso inicial do neurônio recorrente <b>y(t&minus;1)</b> começa com valor 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="243" name="sl">
+			   <label for="243"></label>
+			   <img src="parte5/79_03_03.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.9, 0.6) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="244" name="sl">
+			   <label for="244"></label>
+			   <img src="parte5/79_03_04.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.6, 0.5) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="245" name="sl">
+			   <label for="245"></label>
+			   <img src="parte5/79_03_05.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.5, 0.3) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="246" name="sl">
+			   <label for="246"></label>
+			   <img src="parte5/79_03_06.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.3, 0.2) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="247" name="sl">
+			   <label for="247"></label>
+			   <img src="parte5/79_03_07.png" loading="lazy"/>
+			   <figcaption>Apresentamos o padrão de entrada (0.2, 0.1) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="248" name="sl">
+			   <label for="248"></label>
+			   <img src="parte5/79_03_08.png" loading="lazy"/>
+			   <figcaption>No final da 1&ordf; iteração, temos o erro médio <b>E = 0,017</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="249" name="sl">
+			   <label for="249"></label>
+			   <img src="parte5/79_03_09.png" loading="lazy"/>
+			   <figcaption>Iniciamos a 2&ordf; iteração com a apresentação do padrão (1, 0.9) para a rede.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="250" name="sl">
+			   <label for="250"></label>
+			   <img src="parte5/79_03_10.png" loading="lazy"/>
+			   <figcaption>No final da 7&ordf; iteração, temos o erro médio <b>E = 0,003</b>.</figcaption>
+		   </li>
+		</ul>
+		<img src="parte5/79_03_10.png" class="fundo" style="visibility:hidden" />
+  </details></div>
   <img src="parte5/apostila_2020_53_81_00079c.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício de treinamento de uma rede recorrente de Jordan, com 2 neurônios na camada escondida.</p>
@@ -2082,6 +2281,8 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		</ul>
 		<img src="parte5/79_04_10.png" class="fundo" style="visibility:hidden" />
   </details></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv82">Atividade 8.2</span>
+  <p>Resolva o problema de classificação do Exercício 1 da página 27 usando uma rede de Elman ou de Jordan.</p></div>
   <img src="parte5/apostila_2020_53_81_00079d.png" loading="lazy"/>
   <p class="topop"><a href="#parte5n" class="topo">voltar ao topo</a></p>
   <img src="parte5/apostila_2020_53_81_00080.png" loading="lazy"/>
