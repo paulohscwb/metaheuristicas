@@ -236,7 +236,7 @@
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Algoritmo da Rede Neural Perceptron com bolso:
 <pre><code>0. Inicializar os pesos, o bias e a taxa de aprendizado: w = 0, <a alt="vetor de pesos do bolso">w<sup>bolso</sup> = 0</a>, &theta; = 0, &alpha; = 1 
-    1. Enquanto o critério de parada</a> não for satisfeito, execute os passos 2-7:
+    1. Enquanto o critério de parada não for satisfeito, execute os passos 2-7:
         2. Para cada par de dados de treinamento (x,d), execute os passos 3-5:
         3. Calcule y* = &theta; + &sum;<sub>i</sub>x<sub>i</sub>w<sub>i</sub>
         4. Se y* &gt; &delta;, então y = 1
