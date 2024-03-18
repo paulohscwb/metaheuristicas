@@ -15,7 +15,7 @@
 <p>A apostila está disponível no link: <a href="parte1/apostila_2020.pdf" target="_blank">apostila de Metaheurísticas</a></p>
 
 <h3>Redes Neurais Artificiais</h3>
-<details open>
+<details>
   <summary id="parte1">1. Perceptron</summary>
   <p>Material das páginas 1 até 16.</p>
    <img src="parte1/apostila_2020_1_19_0001.png" loading="lazy"/>
@@ -669,7 +669,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
   
-<details>
+<details open>
   <summary id="parte3n">3. Multi Layer Perceptron (MLP) e aplicações</summary>
   <p>Material das páginas 29 até 40.</p>
   <img src="parte2/apostila_2020_20_40_0029.png" loading="lazy"/>
