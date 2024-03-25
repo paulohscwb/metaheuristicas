@@ -265,7 +265,7 @@
    <p class="topop"><a href="#parte1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte2">2. Adaline e Multi Layer Perceptron (MLP)</summary>
   <p>Material das páginas 16 até 28.</p>
   <img src="parte1/apostila_2020_1_19_0016a.png" loading="lazy"/>
@@ -704,7 +704,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte3n" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte3">4. Support Vector Machines e Redes de Bases Radiais</summary>
   <p>Material das páginas 40 até 49.</p>
   <img src="parte3/apostila_2020_20_40_0040.png" loading="lazy"/>
