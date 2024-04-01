@@ -669,7 +669,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte2" class="topo">voltar ao topo</a></p>
 </details>
   
-<details open>
+<details>
   <summary id="parte3n">3. Multi Layer Perceptron (MLP) e aplicações</summary>
   <p>Material das páginas 29 até 40.</p>
   <img src="parte2/apostila_2020_20_40_0029.png" loading="lazy"/>
@@ -945,7 +945,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte4">5. Redes de Hebb e Mapas auto-organizáveis</summary>
   <p>Material das páginas 49 até 59.</p>
   <img src="parte3/apostila_2020_40_52_00049b.png" loading="lazy"/>
