@@ -1085,7 +1085,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
       centrada nele, V<sub>i</sub>.
       w<sub>ij</sub><sup>atual</sup> = w<sub>ij</sub><sup>anterior</sup> + &alpha;[x<sub>j</sub> &minus; w<sub>ij</sub><sup>anterior</sup>]
       onde i &isin; V<sub>i</sub>.
-5. <a alt="diminua a taxa de aprendizagem e o raio de vizinhança">Ajustar a taxa de aprendizado a e o raio de vizinhança.</a> 
+5. <a alt="diminua a taxa de aprendizagem e o raio de vizinhança">Ajustar a taxa de aprendizado &alpha; e o raio de vizinhança.</a> 
    <a alt="teste de parada: quando os pesos têm poucas modificações de uma iteração para outra">Se não existirem mais mudanças substanciais no mapa, pare; caso contrário, volte ao passo 1.</a>
 
 </code></pre></figcaption>
