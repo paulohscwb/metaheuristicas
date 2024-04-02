@@ -399,7 +399,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute os passos de 1 a 3:
     1. <a alt="calculamos as saídas z da camada escondida de cada padrão de entrada&#10;depois, com os valores z encontramos os valores da saída y">Calcule as entradas na camada escondida</a>, e a saída da rede:
        z<sub>j</sub>* = &sum;<sub>i</sub>v<sub>ij</sub>x<sub>i</sub> + &theta;a<sub>j</sub>  &rArr;  z<sub>j</sub> = 1/(1 + e<sup>-z<sub>j</sub>*</sup>), onde j = 1, ..., p, i = 1, ..., n
-       y = &sum;<sub>j</sub>w<sub>j</sub>z<sub>j</sub> + &theta;b  &rArr;  y = 1/(1 + e<sup>-y*</sup>), onde k = 1, 2, ..., m 
+       y* = &sum;<sub>j</sub>w<sub>j</sub>z<sub>j</sub> + &theta;b  &rArr;  y = 1/(1 + e<sup>-y*</sup>), onde k = 1, 2, ..., m 
     2. <a alt="as correções da camada de saída são feitas antes&#10;os valores encontrados são repassados para a camada escondida (backpropagation)">Calcule as correções das conexões da camada de saída:</a>
        &#9651;w<sub>j</sub> = &alpha;y(1 – y)(d – y)z<sub>j</sub>  &rArr;  w<sub>j</sub> = w<sub>j</sub> + &#9651;w<sub>j</sub> 
        &#9651;&theta;b = &alpha;y(1 – y)(d – y)  &rArr;  &theta;b = &theta;b + &#9651;&theta;b 
