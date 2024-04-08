@@ -704,7 +704,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
    <p class="topop"><a href="#parte3n" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte3">4. Support Vector Machines e Redes de Bases Radiais</summary>
   <p>Material das páginas 40 até 49.</p>
   <img src="parte3/apostila_2020_20_40_0040.png" loading="lazy"/>
@@ -1160,7 +1160,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
   
-<details>
+<details open>
   <summary id="parte4n">6. Mapas auto-organizáveis e PCV</summary>
   <p>Material das páginas 59 até 66.</p>
   <img src="parte4/apostila_2020_53_81_00059a.png" loading="lazy"/>
