@@ -1280,25 +1280,37 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="118" name="sl">
 			   <label for="118"></label>
 			   <img src="parte4/66_01_02.png" loading="lazy"/>
-			   <figcaption>Apresentamos o padrão <b>x<sub>2</sub></b> = (1, 0, 0, 0) para a rede, e o neurônio vencedor é o 3, que representa a classe 2. Como o padrão <b>x<sub>2</sub></b> pertence à classe 1, a atualização é feita como <b>&Delta;w<sub>3j</sub> = &minus; &alpha;(x<sub>j</sub> &minus; w<sub>3j</sub>)</b>.</figcaption>
+			   <figcaption>Apresentamos o padrão <b>x<sub>2</sub></b> = (1, 0, 0, 0) para a rede, e o neurônio vencedor é o 1, que representa a classe 1. Como o padrão <b>x<sub>2</sub></b> pertence à classe 1, a atualização é feita como <b>&Delta;w<sub>1j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>1j</sub>)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="118a" name="sl">
 			   <label for="118a"></label>
 			   <img src="parte4/66_01_02a.png" loading="lazy"/>
-			   <figcaption>Apresentamos o padrão <b>x<sub>3</sub></b> = (0, 1, 1, 0) para a rede, e o neurônio vencedor é o 2, que representa a classe 2. Como o padrão <b>x<sub>3</sub></b> pertence à classe 2, a atualização é feita como <b>&Delta;w<sub>3j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>3j</sub>)</b>.</figcaption>
+			   <figcaption>Apresentamos o padrão <b>x<sub>3</sub></b> = (0, 1, 1, 0) para a rede, e o neurônio vencedor é o 3, que representa a classe 2. Como o padrão <b>x<sub>3</sub></b> pertence à classe 2, a atualização é feita como <b>&Delta;w<sub>3j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>3j</sub>)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="119" name="sl">
 			   <label for="119"></label>
 			   <img src="parte4/66_01_03.png" loading="lazy"/>
-			   <figcaption>Apresentamos o padrão <b>x<sub>4</sub></b> = (1, 1, 1, 0) para a rede, e o neurônio vencedor é o 2, que representa a classe 2. Como o padrão <b>x<sub>4</sub></b> pertence à classe 2, a atualização é feita como <b>&Delta;w<sub>4j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>4j</sub>)</b>.</figcaption>
+			   <figcaption>Apresentamos o padrão <b>x<sub>4</sub></b> = (1, 1, 1, 0) para a rede, e o neurônio vencedor é o 1, que representa a classe 1. Como o padrão <b>x<sub>4</sub></b> pertence à classe 1, a atualização é feita como <b>&Delta;w<sub>4j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>4j</sub>)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="120" name="sl">
 			   <label for="120"></label>
 			   <img src="parte4/66_01_03a.png" loading="lazy"/>
 			   <figcaption>No fim da 1&ordf; iteração, temos a matriz de pesos apresentada. Reduzimos o valor de <b>&alpha;</b> e continuamos os cálculos até que a rede tenha uma convergência: poucas alterações de pesos de uma iteração para a outra.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="120ba" name="sl">
+			   <label for="120ba"></label>
+			   <img src="parte4/66_01_04.png" loading="lazy"/>
+			   <figcaption>Apresentando os padrões para a rede, temos os pesos reforçados de cada neurônio.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="120bb" name="sl">
+			   <label for="120bb"></label>
+			   <img src="parte4/66_01_05.png" loading="lazy"/>
+			   <figcaption>No fim da 2&ordf; iteração, temos a matriz de pesos apresentada. Reduzimos o valor de <b>&alpha;</b> e continuamos os cálculos até que a rede tenha uma convergência: poucas alterações de pesos de uma iteração para a outra.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte4/66_01_01.png" class="fundo" style="visibility:hidden" loading="lazy"/>
