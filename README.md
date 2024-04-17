@@ -1274,7 +1274,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="117" name="sl">
 			   <label for="117"></label>
 			   <img src="parte4/66_01_01.png" loading="lazy"/>
-			   <figcaption>Apresentamos o padrão <b>x<sub>1</sub></b> = (0, 0, 1, 1) para a rede, e o neurônio vencedor é o 2, que representa a classe 2. Como o padrão <b>x<sub>1</sub></b> também pertence à classe 2, a atualização é feita como <b>&Delta;w<sub>2j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>2j</sub>)</b>.</figcaption>
+			   <figcaption>Apresentamos o padrão <b>x<sub>1</sub></b> = (0, 0, 1, 1) para a rede, e o neurônio vencedor é o 2, que representa a classe 1. Como o padrão <b>x<sub>1</sub></b> pertence à classe 2, a atualização é feita como <b>&Delta;w<sub>2j</sub> = &minus; &alpha;(x<sub>j</sub> &minus; w<sub>2j</sub>)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="118" name="sl">
@@ -1292,7 +1292,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 			   <input type="radio" id="119" name="sl">
 			   <label for="119"></label>
 			   <img src="parte4/66_01_03.png" loading="lazy"/>
-			   <figcaption>Apresentamos o padrão <b>x<sub>4</sub></b> = (1, 1, 1, 0) para a rede, e o neurônio vencedor é o 1, que representa a classe 1. Como o padrão <b>x<sub>4</sub></b> pertence à classe 1, a atualização é feita como <b>&Delta;w<sub>4j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>4j</sub>)</b>.</figcaption>
+			   <figcaption>Apresentamos o padrão <b>x<sub>4</sub></b> = (1, 1, 1, 0) para a rede, e o neurônio vencedor é o 1, que representa a classe 1. Como o padrão <b>x<sub>4</sub></b> pertence à classe 1, a atualização é feita como <b>&Delta;w<sub>1j</sub> = + &alpha;(x<sub>j</sub> &minus; w<sub>1j</sub>)</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="120" name="sl">
