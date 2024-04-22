@@ -1160,7 +1160,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4" class="topo">voltar ao topo</a></p>
 </details>
   
-<details open>
+<details>
   <summary id="parte4n">6. Mapas auto-organizáveis e PCV</summary>
   <p>Material das páginas 59 até 66.</p>
   <img src="parte4/apostila_2020_53_81_00059a.png" loading="lazy"/>
@@ -2010,7 +2010,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
 </details>
   
-<details style="border-bottom: 1px solid #a2dec0;">
+<details open style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte5n">8. Redes Neurais Recorrentes</summary>
   <p>Material das páginas 75 até 80.</p>
   <img src="parte5/apostila_2020_53_81_00075e.png" loading="lazy"/>
