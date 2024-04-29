@@ -1320,7 +1320,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte4n" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte5">7. Redes Neurais Temporais</summary>
   <p>Material das páginas 66 até 75.</p>
   <img src="parte5/apostila_2020_53_81_00066.png" loading="lazy"/>
@@ -2302,7 +2302,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <h3>Outras Metaheurísticas</h3>
-<details>
+<details open>
   <summary id="parte6">9. Busca Tabu</summary>
   <p>Material das páginas 82 até 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png" loading="lazy"/>
