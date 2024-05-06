@@ -2010,7 +2010,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <p class="topop"><a href="#parte5" class="topo">voltar ao topo</a></p>
 </details>
   
-<details open style="border-bottom: 1px solid #a2dec0;">
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte5n">8. Redes Neurais Recorrentes</summary>
   <p>Material das páginas 75 até 80.</p>
   <img src="parte5/apostila_2020_53_81_00075e.png" loading="lazy"/>
@@ -2401,7 +2401,7 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte7">10. Nuvem de Partículas</summary>
   <p>Material das páginas 85 até 93.</p>
   <img src="parte7/apostila_2020_85_97_00085.png" loading="lazy"/>
