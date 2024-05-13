@@ -2302,7 +2302,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 </details>
 
 <h3>Outras Metaheurísticas</h3>
-<details open>
+<details>
   <summary id="parte6">9. Busca Tabu</summary>
   <p>Material das páginas 82 até 84.</p>
   <img src="parte6/apostila_2020_82_84_00082.png" loading="lazy"/>
@@ -2714,7 +2714,7 @@ Fim
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
   
-<details>
+<details open>
   <summary id="parte7n">11. Simulated Annealing, ILS e GRASP</summary>
   <p>Material das páginas 93 até 99.</p>
   <img src="parte7/apostila_2020_85_97_00093c.png" loading="lazy"/>
