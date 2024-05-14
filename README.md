@@ -2854,9 +2854,9 @@ Repita
 Repita
     <a alt="solução gulosa: por exemplo, usar os arcos de menores custos do PCV">X = solução_grasp (criar uma solução aleatória por inserção gulosa de elementos)</a>
     <a alt="modificações da solução X com trocas de arcos">X = busca_local(X) (aplicar uma busca de vizinhança para melhorar a solução X: trocas de arcos)</a>
-	<a alt="armazenar a melhor solução">Se f(X) &lt; Melhor_solução, então </a>
-		Melhor_solução = X (aceita a melhor solução)
-	Fim
+        <a alt="armazenar a melhor solução">Se f(X) &lt; Melhor_solução, então </a>
+            Melhor_solução = X (aceita a melhor solução)
+        Fim
 <a alt="critério de parada: número máximo de iterações ou valor mínimo encontrado">Enquanto o critério de parada não for satisfeito</a>
  
 </code></pre></figcaption>
