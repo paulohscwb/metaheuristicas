@@ -2401,7 +2401,7 @@ Fim
   <p class="topop"><a href="#parte6" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte7">10. Nuvem de Partículas</summary>
   <p>Material das páginas 85 até 93.</p>
   <img src="parte7/apostila_2020_85_97_00085.png" loading="lazy"/>
@@ -2864,7 +2864,7 @@ Repita
    <p class="topop"><a href="#parte7n" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte8">12. Colônia de Formigas e VNS</summary>
   <p>Material da página 99 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00099a.png" loading="lazy"/>
