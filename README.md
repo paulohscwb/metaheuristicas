@@ -2714,7 +2714,7 @@ Fim
   <p class="topop"><a href="#parte7" class="topo">voltar ao topo</a></p>
 </details>
   
-<details open>
+<details>
   <summary id="parte7n">11. Simulated Annealing, ILS e GRASP</summary>
   <p>Material das páginas 93 até 99.</p>
   <img src="parte7/apostila_2020_85_97_00093c.png" loading="lazy"/>
@@ -3074,7 +3074,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details open>
   <summary id="parte9">13. Algoritmos Genéticos</summary>
   <p>Material da página 106 até a página 116.</p>
   <img src="parte9/apostila_2020_106_119_00106.png" loading="lazy"/>
