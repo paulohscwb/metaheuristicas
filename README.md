@@ -2864,7 +2864,7 @@ Repita
    <p class="topop"><a href="#parte7n" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte8">12. Colônia de Formigas e VNS</summary>
   <p>Material da página 99 até a página 106.</p>
   <img src="parte8/apostila_2020_98_106_00099a.png" loading="lazy"/>
@@ -3354,7 +3354,7 @@ Repita
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
 </details>
 
-<details style="border-bottom: 1px solid #a2dec0;">
+<details open style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9">14. Evolução Diferencial e Busca Local</summary>
   <p>Material da página 117 até a página 127.</p>
   <img src="parte9/apostila_2020_106_119_00117.png" loading="lazy"/>
