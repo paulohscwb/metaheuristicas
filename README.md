@@ -3355,10 +3355,10 @@ Repita
 </details>
 
 <details open style="border-bottom: 1px solid #a2dec0;">
-  <summary id="parte9">14. Evolução Diferencial e Busca Local</summary>
+  <summary id="parte9n">14. Evolução Diferencial e Busca Local</summary>
   <p>Material da página 117 até a página 127.</p>
   <img src="parte9/apostila_2020_106_119_00117.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/JWNVsacThAY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
@@ -3389,9 +3389,9 @@ Retorne o melhor vetor da população
 </code></pre></figcaption>
    </details></div>
   <img src="parte9/apostila_2020_106_119_00118a.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00119.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00120.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Evolução Diferencial:
@@ -3545,9 +3545,9 @@ Retorne o melhor vetor da população
    <div class="combo">&#x1f4d1; <span class="atv" id="atv141">Atividade 14.1</span></div>
    <img src="parte9/apostila_2020_106_119_00120d.png" loading="lazy"/>
    <div class="combo">&#x1f4d1; <span class="atv" id="atv142">Atividade 14.2</span></div>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00121.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00122.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Problema da Designação:
@@ -3575,7 +3575,7 @@ Repita
 Retorne o melhor vetor solução x<sub>min</sub>.
 </code></pre></figcaption>
    </details></div>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00123.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Algoritmo comentado</summary>
    <figcaption>Problema do Caixeiro Viajante:
@@ -3605,9 +3605,9 @@ Repita
 Retorne o melhor vetor solução x<sub>min</sub>.
 </code></pre></figcaption>
    </details></div>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00124.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00125.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Rede Neural de Wang com o algoritmo Winner Takes All para encontrar uma solução para o problema da Designação Linear com o número de vértices <b>n = 5</b>.</p>
@@ -3778,11 +3778,11 @@ Retorne o melhor vetor solução x<sub>min</sub>.
 		</ul>
 		<img src="parte9/125_02_03.png" class="fundo" style="visibility:hidden" />
   </details></div>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00126.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
   <img src="parte9/apostila_2020_106_119_00127.png" loading="lazy"/>
-  <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
+  <p class="topop"><a href="#parte9n" class="topo">voltar ao topo</a></p>
 </details>
 
 <h4>página desenvolvida por:</h4> 
