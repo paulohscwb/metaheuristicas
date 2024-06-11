@@ -3074,7 +3074,7 @@ Repita
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open>
+<details>
   <summary id="parte9">13. Algoritmos Genéticos</summary>
   <p>Material da página 106 até a página 116.</p>
   <img src="parte9/apostila_2020_106_119_00106.png" loading="lazy"/>
