@@ -3354,7 +3354,7 @@ Repita
   <p class="topop"><a href="#parte9" class="topo">voltar ao topo</a></p>
 </details>
 
-<details open style="border-bottom: 1px solid #a2dec0;">
+<details style="border-bottom: 1px solid #a2dec0;">
   <summary id="parte9n">14. Evolução Diferencial e Busca Local</summary>
   <p>Material da página 117 até a página 127.</p>
   <img src="parte9/apostila_2020_106_119_00117.png" loading="lazy"/>
