@@ -767,7 +767,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		  <li>
 			   <input type="radio" id="071xs" name="sl">
 			   <label for="071xs"></label>
-			   <img src="parte3/44_01_03.gif" style="max-height:450px;max-width:450px;" loading="lazy"/>
+			   <img src="parte3/44_01_03.gif" style="max-height:550px;max-width:550px;" loading="lazy"/>
 			   <figcaption></figcaption>
 		   </li>
 		</ul>
