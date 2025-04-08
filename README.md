@@ -767,7 +767,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		  <li>
 			   <input type="radio" id="071xs" name="sl">
 			   <label for="071xs"></label>
-			   <div style="width:400px;"><img src="parte3/44_01_03.gif"  loading="lazy"/></div>
+			   <div style="width:65%;"><img src="parte3/44_01_03.gif" loading="lazy"/></div>
 			   <figcaption>A função decisão fica representada por <b>f(x) = &minus;x<sub>1</sub>x<sub>2</sub></b>. Todos os dados de entrada ficam classificados corretamente com a SVM apresentada.</figcaption>
 		   </li>
 		</ul>
