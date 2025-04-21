@@ -1239,7 +1239,7 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte4/apostila_2020_53_81_00061a.png" loading="lazy"/>
   <div class="combo">&#x1f4d1; <span class="atv" id="atv61">Atividade 6.1</span>
-  <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema ulysses16 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 16 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
+  <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema ulysses22 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 22 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
   <table>
   <tr><th>cidade</th><th>x</th><th>y</th></tr>
   <tr><td>1</td><td>38.24</td><td>20.42</td></tr>
@@ -1258,6 +1258,12 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   <tr><td>14</td><td>37.51</td><td>15.17</td></tr>
   <tr><td>15</td><td>35.49</td><td>14.32</td></tr>
   <tr><td>16</td><td>39.36</td><td>19.56</td></tr>
+  <tr><td>17</td><td>38.09</td><td>24.36</td></tr>
+  <tr><td>18</td><td>36.09</td><td>23.00</td></tr>
+  <tr><td>19</td><td>40.44</td><td>13.57</td></tr>
+  <tr><td>20</td><td>40.33</td><td>14.15</td></tr>
+  <tr><td>21</td><td>40.37</td><td>14.23</td></tr>
+  <tr><td>22</td><td>37.57</td><td>22.56</td></tr>
   </table>
   </div>
   <p class="topop"><a href="#parte4n" class="topo">voltar ao topo</a></p>
