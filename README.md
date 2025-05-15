@@ -2369,7 +2369,7 @@ Fim
 			   <input type="radio" id="264" name="sl">
 			   <label for="264"></label>
 			   <img src="parte6/83_01_04.png" loading="lazy"/>
-			   <figcaption>Com a solução <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: nenhum dos movimentos melhora a solução. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
+			   <figcaption>Com a solução <b>S<sub>3</sub></b>, aplicamos 3 movimentos da nova lista <b>M</b>: o melhor movimento é <b>m<sub>3</sub></b>, que será colocado na lista tabu por 3 iterações. O movimento <b>m<sub>2</sub></b> está na lista tabu, e não foi considerado nesta iteração. Continuamos os cálculos até alcançar o número máximo de iterações.</figcaption>
 		   </li>
 		</ul>
 		<img src="parte6/83_01_01.png" class="fundo" style="visibility:hidden" />
