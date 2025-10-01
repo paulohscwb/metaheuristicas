@@ -14,7 +14,7 @@
 <div><img align="right" src="imagens/qr.png"/><p>Esta página contém os algoritmos e exemplos das técnicas mostradas na disciplina Metaheurísticas e Aplicações. Além disso, são mostradas as aplicações destas técnicas em várias áreas da Pesquisa Operacional.</p>
 <p>A apostila está disponível no link:</p>
 <center><a href="parte1/apostila_2020.pdf" target="_blank">apostila de Metaheurísticas</a></center></div>
-
+<hr>
 <h3>Redes Neurais Artificiais</h3>
 <details>
   <summary id="parte1">1. Perceptron</summary>
