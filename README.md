@@ -944,10 +944,9 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
 		<img src="parte3/48_03_03.png" class="fundo" style="visibility:hidden" loading="lazy"/>
   </details></div>
   <img src="parte3/apostila_2020_40_52_00048d.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv41">Atividade 4.1</span></div>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv41">Atividades 4.1 e 4.2</span></div>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
   <img src="parte3/apostila_2020_40_52_00049.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv42">Atividade 4.2</span></div>
   <img src="parte3/apostila_2020_40_52_00049a.png" loading="lazy"/>
   <p class="topop"><a href="#parte3" class="topo">voltar ao topo</a></p>
 </details>
@@ -1240,31 +1239,23 @@ inicialize a taxa de aprendizagem &alpha;. Para cada padrão de entrada, execute
   </details></div>
   <img src="parte4/apostila_2020_53_81_00061a.png" loading="lazy"/>
   <div class="combo">&#x1f4d1; <span class="atv" id="atv61">Atividade 6.1</span>
-  <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema ulysses22 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 22 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
+  <p>Usando o mesmo raciocínio do Exercício 1, resolva o problema burma14 do TSPLIB com o mapa auto-organizável SOM. Utilize mais do que 14 neurônios nesta rede neural. As coordenadas das cidades estão na tabela a seguir:</p>
   <table>
   <tr><th>cidade</th><th>x</th><th>y</th></tr>
-  <tr><td>1</td><td>38.24</td><td>20.42</td></tr>
-  <tr><td>2</td><td>39.57</td><td>26.15</td></tr>
-  <tr><td>3</td><td>40.56</td><td>25.32</td></tr>
-  <tr><td>4</td><td>36.26</td><td>23.12</td></tr>
-  <tr><td>5</td><td>33.48</td><td>10.54</td></tr>
-  <tr><td>6</td><td>37.56</td><td>12.19</td></tr>
-  <tr><td>7</td><td>38.42</td><td>13.11</td></tr>
-  <tr><td>8</td><td>37.52</td><td>20.44</td></tr>
-  <tr><td>9</td><td>41.23</td><td>9.10</td></tr>
-  <tr><td>10</td><td>41.17</td><td>13.05</td></tr>
-  <tr><td>11</td><td>36.08</td><td>-5.21</td></tr>
-  <tr><td>12</td><td>38.47</td><td>15.13</td></tr>
-  <tr><td>13</td><td>38.15</td><td>15.35</td></tr>
-  <tr><td>14</td><td>37.51</td><td>15.17</td></tr>
-  <tr><td>15</td><td>35.49</td><td>14.32</td></tr>
-  <tr><td>16</td><td>39.36</td><td>19.56</td></tr>
-  <tr><td>17</td><td>38.09</td><td>24.36</td></tr>
-  <tr><td>18</td><td>36.09</td><td>23.00</td></tr>
-  <tr><td>19</td><td>40.44</td><td>13.57</td></tr>
-  <tr><td>20</td><td>40.33</td><td>14.15</td></tr>
-  <tr><td>21</td><td>40.37</td><td>14.23</td></tr>
-  <tr><td>22</td><td>37.57</td><td>22.56</td></tr>
+  <tr><td>1</td><td>16.47</td><td>96.1</td></tr>
+  <tr><td>2</td><td>16.47</td><td>94.44</td></tr>
+  <tr><td>3</td><td>20.09</td><td>92.54</td></tr>
+  <tr><td>4</td><td>22.39</td><td>93.37</td></tr>
+  <tr><td>5</td><td>25.23</td><td>97.24</td></tr>
+  <tr><td>6</td><td>22</td><td>96.05</td></tr>
+  <tr><td>7</td><td>20.47</td><td>97.02</td></tr>
+  <tr><td>8</td><td>17.2</td><td>96.29</td></tr>
+  <tr><td>9</td><td>16.3</td><td>97.38</td></tr>
+  <tr><td>10</td><td>14.05</td><td>98.12</td></tr>
+  <tr><td>11</td><td>16.53</td><td>97.38</td></tr>
+  <tr><td>12</td><td>21.52</td><td>95.59</td></tr>
+  <tr><td>13</td><td>19.41</td><td>97.13</td></tr>
+  <tr><td>14</td><td>20.09</td><td>94.55</td></tr>
   </table>
   </div>
   <p class="topop"><a href="#parte4n" class="topo">voltar ao topo</a></p>
@@ -2995,6 +2986,8 @@ O resultado é a rota S*.
   </details></div>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00104.png" loading="lazy"/>
+  <div class="combo">&#x1f4d1; <span class="atv" id="atv121">Atividade 12</span></div>
+  <img src="parte8/apostila_2020_98_106_00104c.png" loading="lazy"/>
   <div class="combo"><details class="sub"><summary>&#x1f4c3; Resolução</summary>
 	<p>Vamos acompanhar os cálculos deste exercício da aplicação da Colônia de Formigas para encontrar soluções para o problema da Mochila. Vamos utilizar os parâmetros indicados de <b>&alpha;</b> e <b>&beta;</b>. A fórmula da probabilidade fica mais simplificada, com apenas o índice <b>i</b>.</p>
 	  <ul class="slider">
@@ -3062,7 +3055,6 @@ O resultado é a rota S*.
 		<img src="parte8/104_01_01.png" class="fundo" style="visibility:hidden" />
   </details></div>
   <img src="parte8/apostila_2020_98_106_00104a.png" loading="lazy"/>
-  <div class="combo">&#x1f4d1; <span class="atv" id="atv121">Atividade 12.1</span></div>
   <img src="parte8/apostila_2020_98_106_00104b.png" loading="lazy"/>
   <p class="topop"><a href="#parte8" class="topo">voltar ao topo</a></p>
   <img src="parte8/apostila_2020_98_106_00105.png" loading="lazy"/>
